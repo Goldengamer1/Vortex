@@ -1,6 +1,7 @@
 package com.goldengamer.vortex;
 
 import com.goldengamer.vortex.handler.ConfigurationHandler;
+import com.goldengamer.vortex.init.ModBlocks;
 import com.goldengamer.vortex.init.ModItems;
 import com.goldengamer.vortex.proxy.IProxy;
 import com.goldengamer.vortex.reference.Reference;
@@ -36,8 +37,9 @@ public class Vortex
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
-        ModItems.init();
 
+        ModItems.init();
+        ModBlocks.init();
 
         LogHelper.info(("PreInit Complete!"));
     }
