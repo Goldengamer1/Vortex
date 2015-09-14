@@ -1,0 +1,17 @@
+[
+{
+  "modid": "vortex",
+  "name": "Vortexcraft",
+  "description": "",
+  "version": "",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Goldengamer10 (Gold)"
+  ],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
