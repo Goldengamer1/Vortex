@@ -1,35 +1,29 @@
-[22:01:56] [main/INFO]: Setting user: Player18
-[22:01:57] [Client thread/INFO]: LWJGL Version: 2.9.1
-[22:02:04] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Vortexcraft
-[22:02:05] [Sound Library Loader/INFO]: Sound engine started
-[22:02:06] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[22:02:06] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[22:02:06] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Vortexcraft
-[22:02:06] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[22:02:06] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[22:02:07] [Sound Library Loader/INFO]: Sound engine started
-[22:02:26] [Client thread/INFO]: Stopping!
-[22:04:01] [Server thread/INFO]: Starting minecraft server version 1.7.10
-[22:04:09] [Server thread/INFO]: Loading properties
-[22:04:09] [Server thread/INFO]: Default game type[22:04:10] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Vortexcraft
-[22:04:11] [Sound Library Loader/INFO]: Sound engine started
-[22:04:12] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[22:04:12] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[22:04:12] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Vortexcraft
-[22:04:13] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[22:04:13] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[22:04:13] [Sound Library Loader/INFO]: Sound engine started
-[22:04:23] [Client thread/INFO]: Connecting to localhos[22:04:24][22:04:27] [Client thread/INFO]: [CHAT] <Player44> .
-[22:04:32] [Client thread/INFO]: Stopping!
-5)
-[22:04:24] [Server thread/INFO]: Player44 joined the game
-[22:04:27] [Server thread/INFO]: <Player44> .
-[22:04:28] [Server thread/INFO]: Player44 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[22:04:28] [Server thread/INFO]: Player44 left the game
-[22:04:30] [Server thread/INFO]: Stopping the server
-[22:04:30] [Server thread/INFO]: Stopping server
-[22:04:30] [Server thread/INFO]: Saving players
-[22:04:30] [Server thread/INFO]: Saving worlds
-[22:04:30] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[22:04:31] [Server thread/INFO]: Saving chunks for level 'world'/Nether
-[22:04:31] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[23:54:43] [main/INFO]: Setting user: Player413
+[23:54:44] [Client thread/INFO]: LWJGL Version: 2.9.1
+[23:54:51] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Vortexcraft
+[23:54:52] [Sound Library Loader/INFO]: Sound engine started
+[23:54:53] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[23:54:53] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[23:54:53] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Vortexcraft
+[23:54:54] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[23:54:54] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[23:54:54] [Sound Library Loader/INFO]: Sound engine started
+[23:54:58] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[23:54:58] [Server thread/INFO]: Generating keypair
+[23:54:58] [Server thread/INFO]: Preparing start region for level 0
+[23:54:58] [Server thread/INFO]: Changing view distance to 12, from 10
+[23:54:59] [Server thread/INFO]: Player413[local:E:94555dcf] logged in with entity id 172 at (1472.7163390718572, 5.996574044100926, -658.9910883154786)
+[23:54:59] [Server thread/INFO]: Player413 joined the game
+[23:55:01] [Server thread/INFO]: Player413 has just earned the achievement [Taking Inventory]
+[23:55:01] [Client thread/INFO]: [CHAT] Player413 has just earned the achievement [Taking Inventory]
+[23:55:07] [Server thread/INFO]: Saving and pausing game...
+[23:55:07] [Server thread/INFO]: Saving chunks for level 'Dev World'/Overworld
+[23:55:07] [Server thread/INFO]: Saving chunks for level 'Dev World'/Nether
+[23:55:07] [Server thread/INFO]: Saving chunks for level 'Dev World'/The End
+[23:55:08] [Server thread/INFO]: Stopping server
+[23:55:08] [Server thread/INFO]: Saving players
+[23:55:08] [Server thread/INFO]: Saving worlds
+[23:55:08] [Server thread/INFO]: Saving chunks for level 'Dev World'/Overworld
+[23:55:08] [Server thread/INFO]: Saving chunks for level 'Dev World'/Nether
+[23:55:08] [Server thread/INFO]: Saving chunks for level 'Dev World'/The End
+[23:55:09] [Client thread/INFO]: Stopping!
