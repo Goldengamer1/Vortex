@@ -1,5 +1,6 @@
 package com.goldengamer.vortex;
 
+import com.goldengamer.vortex.configuration.ConfigurationHandler;
 import com.goldengamer.vortex.proxy.IProxy;
 import com.goldengamer.vortex.reference.Reference;
 import cpw.mods.fml.common.Mod;
@@ -19,22 +20,32 @@ public class Vortex {
     @Mod.Instance("vortex")
     public static Vortex instance;
 
-    @SidedProxy(clientSide = "com.goldengamer.vortex.proxy.ClientProxy", serverSide = "com.goldengamer.vortex.proxy.ServerProxy")
+    @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
     public static IProxy proxy;
+
+/**
+* EVENT HANDLERS
+*/
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){
-    //e.g items ,blocks
+/** e.g items ,blocks */
+
+        ConfigurationHandler.init(event.getSuggestedConfigurationFile());
 
     }
     @Mod.EventHandler
     public void init(FMLInitializationEvent event){
-    //e.g guis , tile entitys ,recpies
+/** e.g guis , tile entitys ,recpies */
+
+
 
     }
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event){
-    //thing that run after other mods
+/** thing that run after other mods */
+
+
 
     }
 
