@@ -4,6 +4,7 @@ import com.goldengamer.vortex.handler.ConfigurationHandler;
 import com.goldengamer.vortex.proxy.IProxy;
 import com.goldengamer.vortex.reference.Reference;
 import com.goldengamer.vortex.utility.LogHelper;
+import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -32,8 +33,8 @@ public class Vortex
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)        /** e.g items ,blocks */
     {
-
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+        FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 
         LogHelper.info(("PreInit Complete!"));
     }
