@@ -1,8 +1,9 @@
 package com.goldengamer.vortex;
 
-import com.goldengamer.vortex.configuration.ConfigurationHandler;
+import com.goldengamer.vortex.handler.ConfigurationHandler;
 import com.goldengamer.vortex.proxy.IProxy;
 import com.goldengamer.vortex.reference.Reference;
+import com.goldengamer.vortex.utility.LogHelper;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -13,9 +14,10 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
  * Created by gold on 14/09/2015.
  */
 
-@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.MOD_VERSION)
+@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.MOD_VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
 
-public class Vortex {
+public class Vortex
+{
 
     @Mod.Instance("vortex")
     public static Vortex instance;
@@ -28,25 +30,28 @@ public class Vortex {
 */
 
     @Mod.EventHandler
-    public void preInit(FMLPreInitializationEvent event){
-/** e.g items ,blocks */
+    public void preInit(FMLPreInitializationEvent event)        /** e.g items ,blocks */
+    {
 
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
 
+        LogHelper.info(("PreInit Complete!"));
     }
     @Mod.EventHandler
-    public void init(FMLInitializationEvent event){
-/** e.g guis , tile entitys ,recpies */
+    public void init(FMLInitializationEvent event)        /** e.g guis , tile entitys ,recpies */
+    {
 
 
 
+        LogHelper.info(("Init Complete!"));
     }
     @Mod.EventHandler
-    public void postInit(FMLPostInitializationEvent event){
-/** thing that run after other mods */
+    public void postInit(FMLPostInitializationEvent event)        /** thing that run after other mods */
+    {
 
 
 
+        LogHelper.info(("PostInit Complete!"));
     }
 
 
