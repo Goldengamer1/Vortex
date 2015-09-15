@@ -11,21 +11,12 @@ import net.minecraft.item.Item;
 public class CreativeTabVortex
 {
 
-    public static final CreativeTabs VORTEX_TAB = new CreativeTabs(Reference.MOD_ID)
+    public static final CreativeTabs VORTEX_TAB = new CreativeTabs(Reference.MOD_ID.toLowerCase())
     {
         @Override
-        public Item getTabIconItem()
-        {
-            //CreativeTab icon
-            return ModItems.testItem;
-        }
+        //CreativeTab icon
+        public Item getTabIconItem() { return ModItems.testItem; }
 
-        @Override
-        public String getTranslatedTabLabel()
-        {
-            //CreativeTab name
-            return Reference.MOD_NAME;
-        }
 
     };
 

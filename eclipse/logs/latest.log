@@ -1,41 +1,29 @@
-[15:30:22] [Server thread/INFO]: Starting minecraft server version 1.7.10
-[15:30:30] [Server thread/INFO]: Loading properties
-[15:30:30] [Server thread/INFO]: Default game type: SURVIVAL
-[15:30:30] [Server thread/INFO]: Generating keypair
-[15:30:30] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:30:30] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:30:30] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:30:30] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:30:30] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:30:30] [Server thread/INFO]: Preparing level "world"
-[15:30:30] [Server thread/INFO]: Preparing start region for level 0
-[15:30:31] [Server thread/INFO]: Done (1.368s)! F[15:30:32] [Client thread/INF[15:30:42] [Server thread/INFO]: Stopping the server
-[15:30:42] [Server thread/INFO]: Stopping server
-[15:30:42] [Server thread/INFO]: Saving players
-[15:30:42] [Server thread/INFO]: Saving worlds
-[15:30:42] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[15:30:42] [Server thread/INFO]: Saving chunks for level 'world'/Nether
-[15:30:42] [Server thread/INFO]: Saving chunks for level 'world'/The End
- thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Vortexcraft
-[15:30:42] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[15:30:42] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[15:30:43] [Sound Library Loader/INFO]: Sound engine started
-[15:30:46] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[15:30:46] [Server thread/INFO]: Generating keypair
-[15:30:46] [Server thread/INFO]: Preparing start region for level 0
-[15:30:47] [Server thread/INFO]: Changing view distance to 12, from 10
-[15:30:47] [Server thread/INFO]: Player866[local:E:2df1d391] logged in with entity id 172 at (1446.852517125288, 4.0, -665.3464319901693)
-[15:30:47] [Server thread/INFO]: Player866 joined the game
-[15:30:48] [Server thread/INFO]: Player866 has just earned the achievement [Taking Inventory]
-[15:30:48] [Client thread/INFO]: [CHAT] Player866 has just earned the achievement [Taking Inventory]
-[15:30:51] [Server thread/INFO]: Saving and pausing game...
-[15:30:51] [Server thread/INFO]: Saving chunks for level 'Dev World'/Overworld
-[15:30:51] [Server thread/INFO]: Saving chunks for level 'Dev World'/Nether
-[15:30:51] [Server thread/INFO]: Saving chunks for level 'Dev World'/The End
-[15:30:51] [Server thread/INFO]: Stopping server
-[15:30:51] [Server thread/INFO]: Saving players
-[15:30:51] [Server thread/INFO]: Saving worlds
-[15:30:51] [Server thread/INFO]: Saving chunks for level 'Dev World'/Overworld
-[15:30:51] [Server thread/INFO]: Saving chunks for level 'Dev World'/Nether
-[15:30:51] [Server thread/INFO]: Saving chunks for level 'Dev World'/The End
-[15:30:52] [Client thread/INFO]: Stopping!
+[15:40:25] [main/INFO]: Setting user: goldengamer10
+[15:40:26] [Client thread/INFO]: LWJGL Version: 2.9.1
+[15:40:33] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Vortexcraft
+[15:40:34] [Sound Library Loader/INFO]: Sound engine started
+[15:40:35] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[15:40:35] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[15:40:35] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Vortexcraft
+[15:40:36] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[15:40:36] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[15:40:37] [Sound Library Loader/INFO]: Sound engine started
+[15:40:40] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[15:40:40] [Server thread/INFO]: Generating keypair
+[15:40:41] [Server thread/INFO]: Preparing start region for level 0
+[15:40:41] [Server thread/INFO]: Changing view distance to 12, from 10
+[15:40:41] [Server thread/INFO]: goldengamer10[local:E:4874d498] logged in with entity id 172 at (1443.9351536426507, 4.0, -679.7674255178807)
+[15:40:41] [Server thread/INFO]: goldengamer10 joined the game
+[15:40:44] [Server thread/INFO]: goldengamer10 has just earned the achievement [Taking Inventory]
+[15:40:44] [Client thread/INFO]: [CHAT] goldengamer10 has just earned the achievement [Taking Inventory]
+[15:40:46] [Server thread/INFO]: Saving and pausing game...
+[15:40:46] [Server thread/INFO]: Saving chunks for level 'Dev World'/Overworld
+[15:40:46] [Server thread/INFO]: Saving chunks for level 'Dev World'/Nether
+[15:40:46] [Server thread/INFO]: Saving chunks for level 'Dev World'/The End
+[15:40:46] [Server thread/INFO]: Stopping server
+[15:40:46] [Server thread/INFO]: Saving players
+[15:40:46] [Server thread/INFO]: Saving worlds
+[15:40:46] [Server thread/INFO]: Saving chunks for level 'Dev World'/Overworld
+[15:40:46] [Server thread/INFO]: Saving chunks for level 'Dev World'/Nether
+[15:40:46] [Server thread/INFO]: Saving chunks for level 'Dev World'/The End
+[15:40:47] [Client thread/INFO]: Stopping!
