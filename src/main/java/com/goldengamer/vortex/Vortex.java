@@ -1,5 +1,6 @@
 package com.goldengamer.vortex;
 
+import com.goldengamer.vortex.client.handler.KeyInputEventHandler;
 import com.goldengamer.vortex.handler.ConfigurationHandler;
 import com.goldengamer.vortex.init.ModBlocks;
 import com.goldengamer.vortex.init.ModItems;
@@ -37,7 +38,10 @@ public class Vortex
     public void preInit(FMLPreInitializationEvent event)        /** e.g items ,blocks */
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+
+        proxy.registerKeyBindings();
 
         ModItems.init();
         ModBlocks.init();
@@ -47,7 +51,7 @@ public class Vortex
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)        /** e.g guis , tile entitys ,recpies */
     {
-
+        FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
 
         Recipes.init();
         LogHelper.info(("Init Complete!"));

@@ -1,24 +1,13 @@
-[20:47:41] [Server thread/INFO]: Starting minecraft server version 1.7.10
-[20:47:49] [Server thread/INFO]: Loading properties
-[20:47:4[20:47:51] [main/INFO]: Setting user: goldengamer10
-[20:47:51] [Client thread/INFO]: LWJGL Version: 2.9.1
-[20:47:53] [Twitch authenticator/ERROR]: Given twitch access token is invalid
-[20:47:59] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Vortexcraft
-[20:48:00] [Sound Library Loader/INFO]: Sound engine started
-[20:48:01] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[20:48:01] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[20:48:01] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Vortexcraft
-[20:48:01] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[20:48:01] [Client thread/INFO]: Created: 25[20:48:23] [Server thread/INFO]: goldengamer10[/127.0.0.1:54315] logged in with entity id 183 at (52.083944594902526, 76.27882176077257, 30.03205755182546)[20:48:52] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[20:51:15] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[20:51:24] [Client thread/INFO]: Stopping!
-engamer10: Set own game mode to Creative Mode]
-[20:51:23] [Server thread/INFO]: goldengamer10 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[20:51:23] [Server thread/INFO]: goldengamer10 left the game
-[20:51:30] [Server thread/INFO]: Stopping the server
-[20:51:30] [Server thread/INFO]: Stopping server
-[20:51:30] [Server thread/INFO]: Saving players
-[20:51:30] [Server thread/INFO]: Saving worlds
-[20:51:30] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[20:51:30] [Server thread/INFO]: Saving chunks for level 'world'/Nether
-[20:51:30] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[21:49:57] [main/INFO]: Logging in with username & password
+[21:50:01] [main/INFO]: Setting user: goldengamer10
+[21:50:02] [Client thread/INFO]: LWJGL Version: 2.9.1
+[21:50:04] [Twitch authenticator/ERROR]: Given twitch access token is invalid
+[21:50:09] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Vortexcraft
+[21:50:10] [Sound Library Loader/INFO]: Sound engine started
+[21:50:11] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[21:50:11] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[21:50:11] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Vortexcraft
+[21:50:11] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[21:50:11] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[21:50:12] [Sound Library Loader/INFO]: Sound engine started
+[21:50:21] [Client thread/INFO]: Stopping!

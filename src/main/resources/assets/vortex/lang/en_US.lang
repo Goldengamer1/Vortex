@@ -1,8 +1,13 @@
+#CreativeTab localization
+itemGroup.vortex= Vortexcraft
+
 #Item localization
 item.vortex:testItem.name=Test Item
 
 #Block localization
 tile.vortex:blockTest.name= Test Block
 
-#CreativeTab localization
-itemGroup.vortex= Vortexcraft
+#Key localization
+keys.vortex.category=Vortexcraft
+keys.vortex.charge=Charge
+keys.vortex.release=Release

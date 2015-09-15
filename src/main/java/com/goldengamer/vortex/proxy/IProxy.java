@@ -6,4 +6,6 @@ package com.goldengamer.vortex.proxy;
 public interface IProxy
 {
 
+    public abstract void registerKeyBindings();
+
 }
