@@ -1,5 +1,6 @@
 package com.goldengamer.vortex.block;
 
+import com.goldengamer.vortex.creativetab.CreativeTabVortex;
 import com.goldengamer.vortex.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -15,6 +16,7 @@ public class BlockVortex extends Block
     public BlockVortex(Material material)
     {
         super(material);
+        this.setCreativeTab(CreativeTabVortex.VORTEX_TAB);
     }
 
     public BlockVortex()

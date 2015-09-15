@@ -1,5 +1,6 @@
 package com.goldengamer.vortex.item;
 
+import com.goldengamer.vortex.creativetab.CreativeTabVortex;
 import com.goldengamer.vortex.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -15,6 +16,7 @@ public class ItemVortex extends Item
    public ItemVortex()
    {
        super();
+       this.setCreativeTab(CreativeTabVortex.VORTEX_TAB);
    }
 
     @Override
