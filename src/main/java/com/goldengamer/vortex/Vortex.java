@@ -3,6 +3,7 @@ package com.goldengamer.vortex;
 import com.goldengamer.vortex.handler.ConfigurationHandler;
 import com.goldengamer.vortex.init.ModBlocks;
 import com.goldengamer.vortex.init.ModItems;
+import com.goldengamer.vortex.init.Recipes;
 import com.goldengamer.vortex.proxy.IProxy;
 import com.goldengamer.vortex.reference.Reference;
 import com.goldengamer.vortex.utility.LogHelper;
@@ -48,7 +49,7 @@ public class Vortex
     {
 
 
-
+        Recipes.init();
         LogHelper.info(("Init Complete!"));
     }
     @Mod.EventHandler
