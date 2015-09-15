@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4abbc845-3602-4a52-bb3e-143d89999f44" name="Default" comment="">
+    <list default="true" id="4abbc845-3602-4a52-bb3e-143d89999f44" name="Default" comment="V0.07.5&#10;cleaned up creative tab">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/utility/NBTHelper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Vortex/com/goldengamer/vortex/Vortex.class" afterPath="$PROJECT_DIR$/out/production/Vortex/com/goldengamer/vortex/Vortex.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/creativetab/CreativeTabVortex.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/creativetab/CreativeTabVortex.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/reference/Reference.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/reference/Reference.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vortex.iws" afterPath="$PROJECT_DIR$/Vortex.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/vortex/lang/en_US.lang" afterPath="$PROJECT_DIR$/src/main/resources/assets/vortex/lang/en_US.lang" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-3.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-3.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-junk-earlystartup.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-junk-earlystartup.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-server-latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-server-latest.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/latest.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/server.properties" afterPath="$PROJECT_DIR$/eclipse/server.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/config/splash.properties" afterPath="$PROJECT_DIR$/eclipse/config/splash.properties" />
     </list>
     <ignored path="Vortex.iws" />
@@ -71,7 +73,30 @@
     <favorites_list name="Vortex" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="NBTHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/utility/NBTHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Reference.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/reference/Reference.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.43441227">
+              <caret line="15" column="1" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -112,9 +137,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/TestItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/block/BlockVortex.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/ItemVortex.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/reference/Reference.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/creativetab/CreativeTabVortex.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/vortex/lang/en_US.lang" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/reference/Reference.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/utility/NBTHelper.java" />
       </list>
     </option>
   </component>
@@ -567,7 +593,7 @@
       <recent name="com.goldengamer.vortex.handler" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Minecraft Client">
+  <component name="RunManager" selected="Application.Minecraft Server">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -807,7 +833,13 @@
       <option name="project" value="LOCAL" />
       <updated>1442327518498</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="V0.07.5&#10;cleaned up creative tab">
+      <created>1442332089048</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1442332089048</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -821,7 +853,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -834,7 +866,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33801296" sideWeight="0.48880598" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.49402985" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14323749" sideWeight="0.85910654" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14323749" sideWeight="0.85910654" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -867,7 +899,8 @@
     <MESSAGE value="V0.05&#10;Added a Itemwapper" />
     <MESSAGE value="V0.05&#10;Added a BlockWappers" />
     <MESSAGE value="V0.07&#10;Added a CreativeTab" />
-    <option name="LAST_COMMIT_MESSAGE" value="V0.07&#10;Added a CreativeTab" />
+    <MESSAGE value="V0.07.5&#10;cleaned up creative tab" />
+    <option name="LAST_COMMIT_MESSAGE" value="V0.07.5&#10;cleaned up creative tab" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1129,14 +1162,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/reference/Reference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40545145">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/creativetab/CreativeTabVortex.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3475298">
@@ -1144,6 +1169,24 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/utility/NBTHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/reference/Reference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43441227">
+          <caret line="15" column="1" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
