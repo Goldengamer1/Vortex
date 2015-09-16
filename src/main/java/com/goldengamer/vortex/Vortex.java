@@ -5,7 +5,8 @@ import com.goldengamer.vortex.handler.ConfigurationHandler;
 import com.goldengamer.vortex.init.ModBlocks;
 import com.goldengamer.vortex.init.ModItems;
 import com.goldengamer.vortex.init.Recipes;
-import com.goldengamer.vortex.proxy.IProxy;
+import com.goldengamer.vortex.network.PacketDispatcher;
+import com.goldengamer.vortex.proxy.CommonProxy;
 import com.goldengamer.vortex.reference.Reference;
 import com.goldengamer.vortex.utility.LogHelper;
 import cpw.mods.fml.common.FMLCommonHandler;
@@ -28,7 +29,7 @@ public class Vortex
     public static Vortex instance;
 
     @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
-    public static IProxy proxy;
+    public static CommonProxy proxy;
 
 /**
 * EVENT HANDLERS
@@ -40,6 +41,8 @@ public class Vortex
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
 
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+
+        PacketDispatcher.registerPackets();
 
         proxy.registerKeyBindings();
 

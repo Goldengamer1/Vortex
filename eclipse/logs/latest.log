@@ -1,13 +1,23 @@
-[21:49:57] [main/INFO]: Logging in with username & password
-[21:50:01] [main/INFO]: Setting user: goldengamer10
-[21:50:02] [Client thread/INFO]: LWJGL Version: 2.9.1
-[21:50:04] [Twitch authenticator/ERROR]: Given twitch access token is invalid
-[21:50:09] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Vortexcraft
-[21:50:10] [Sound Library Loader/INFO]: Sound engine started
-[21:50:11] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[21:50:11] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[21:50:11] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Vortexcraft
-[21:50:11] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[21:50:11] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[21:50:12] [Sound Library Loader/INFO]: Sound engine started
-[21:50:21] [Client thread/INFO]: Stopping!
+[22:09:46] [main/INFO]: Logging in with username & password
+[22:09:50] [main/INFO]: Setting user: goldengamer10
+[22:09:51] [Client thread/INFO]: LWJGL Version: 2.9.1
+[22:09:53] [Twitch authenticator/ERROR]: Given twitch access token is inval[22:09:59] [Server thread/INFO]: Loading properties
+[22:09:59] [Server thread/INFO]: Default game type: SURVIVAL
+[22:09:59] [Server thread/INFO]: Generating keypair
+[22:09:59] [S[22:09:59] [Sound Library Loader/INFO]: Sound engine started
+[22:10:00] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[22:10:00] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[22:10:00] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Vortexcraft
+[22:10:01] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[22:10:01] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[22:10:02] [Sound Library Loader/INFO]: Sound engine started
+[22:10:42] [Client thread/INFO]: Stopping!
+aring start region for level 0
+[22:10:00] [Server thread/INFO]: Done (0.961s)! For help, type "help" or "?"
+[22:10:38] [Server thread/INFO]: Stopping the server
+[22:10:38] [Server thread/INFO]: Stopping server
+[22:10:38] [Server thread/INFO]: Saving players
+[22:10:38] [Server thread/INFO]: Saving worlds
+[22:10:38] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[22:10:38] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[22:10:38] [Server thread/INFO]: Saving chunks for level 'world'/The End
