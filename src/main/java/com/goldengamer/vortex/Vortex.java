@@ -2,6 +2,7 @@ package com.goldengamer.vortex;
 
 import com.goldengamer.vortex.client.handler.KeyInputEventHandler;
 import com.goldengamer.vortex.handler.ConfigurationHandler;
+import com.goldengamer.vortex.handler.FuelHandler;
 import com.goldengamer.vortex.init.ModBlocks;
 import com.goldengamer.vortex.init.ModItems;
 import com.goldengamer.vortex.init.Recipes;
@@ -15,6 +16,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
 
 /**
  * Created by gold on 14/09/2015.
@@ -57,6 +59,8 @@ public class Vortex
         FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
 
         Recipes.init();
+
+        GameRegistry.registerFuelHandler(new FuelHandler());
         LogHelper.info(("Init Complete!"));
     }
     @Mod.EventHandler
