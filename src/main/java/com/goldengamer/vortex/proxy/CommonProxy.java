@@ -14,8 +14,4 @@ public class CommonProxy
         //NOOP (noting)
     }
 
-    public EntityPlayer getPlayerEntity(MessageContext ctx)
-    {
-        return  ctx.getServerHandler().playerEntity;
-    }
 }

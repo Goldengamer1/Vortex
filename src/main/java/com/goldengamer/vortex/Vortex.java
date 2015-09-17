@@ -5,7 +5,7 @@ import com.goldengamer.vortex.handler.ConfigurationHandler;
 import com.goldengamer.vortex.init.ModBlocks;
 import com.goldengamer.vortex.init.ModItems;
 import com.goldengamer.vortex.init.Recipes;
-import com.goldengamer.vortex.network.PacketDispatcher;
+import com.goldengamer.vortex.network.PacketHandler;
 import com.goldengamer.vortex.proxy.CommonProxy;
 import com.goldengamer.vortex.reference.Reference;
 import com.goldengamer.vortex.utility.LogHelper;
@@ -42,7 +42,7 @@ public class Vortex
 
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 
-        PacketDispatcher.registerPackets();
+        PacketHandler.init();
 
         proxy.registerKeyBindings();
 
