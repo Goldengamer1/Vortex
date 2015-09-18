@@ -4,6 +4,11 @@ itemGroup.vortex= Vortexcraft
 #Item localization
 item.vortex:testItem.name=Test Item
 item.vortex:ironHammer.name=Iron Hammer
+item.vortex:hardToFindiumPickaxe.name=HardToFindium Pickaxe
+item.vortex:hardToFindiumAxe.name=HardToFindium Axe
+item.vortex:hardToFindiumShovel.name=HardToFindium Shovel
+item.vortex:hardToFindiumSword.name=HardToFindium Sword
+
 
 #Block localization
 tile.vortex:blockTest.name= Test Block
