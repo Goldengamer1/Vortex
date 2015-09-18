@@ -3,6 +3,7 @@ package com.goldengamer.vortex.init;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.oredict.OreDictionary;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 import net.minecraftforge.oredict.ShapelessOreRecipe;
 
@@ -25,6 +26,6 @@ public class Recipes
         //Shaped OreDic- Recipes
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.testItem, 4), " s ", "sss", " s ", 's', "stickWood"));
         //Shapless OreDic- Recipes
-        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.blockTest), new ItemStack(ModItems.testItem), new ItemStack(ModItems.testItem)));
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.blockTest), new ItemStack(ModItems.ironHammer, 1 , OreDictionary.WILDCARD_VALUE), new ItemStack(ModItems.testItem)));
     }
 }

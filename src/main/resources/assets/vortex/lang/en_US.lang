@@ -3,6 +3,7 @@ itemGroup.vortex= Vortexcraft
 
 #Item localization
 item.vortex:testItem.name=Test Item
+item.vortex:ironHammer.name=Iron Hammer
 
 #Block localization
 tile.vortex:blockTest.name= Test Block

@@ -1,59 +1,27 @@
-[23:57:59] [main/INFO]: Logging in with username & password
-[23:58:03] [main/INFO]: Setting user: goldengamer10
-[23:58:04] [Client thread/INFO]: LWJGL Version: 2.9.1
-[23:58:06] [Twitch authenticator/ERROR]: Given twitch access token is invalid
-[23:58:12] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Vortexcraft
-[23:58:13] [Sound Library Loader/INFO]: Sound engine started
-[23:58:14] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[23:58:14] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[23:58:14] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Vortexcraft
-[23:58:15] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[23:58:15] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[23:58:16] [Sound Library Loader/INFO]: Sound engine started
-[23:58:26] [Client thread/INFO]: Connecting to localhost, 25565
-[23:59:16] [Client thread/INFO]: Stopping!
-oading properties
-[23:58:23] [Server thread/INFO]: Default game type: SURVIVAL
-[23:58:23] [Server thread/INFO]: Generating keypair
-[23:58:23] [Server thread/INFO]: Starting Minecraft server on *:25565
-[23:58:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[23:58:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[23:58:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[23:58:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[23:58:24] [Server thread/INFO]: Preparing level "world"
-[23:58:24] [Server thread/INFO]: Preparing start region for level 0
-[23:58:25] [Server thread/INFO]: Done (1.038s)! For help, type "help" or "?"
-[23:58:26] [Server thread/INFO]: goldengamer10[/127.0.0.1:50375] logged in with entity id 230 at (69.09741085635599, 66.41487188293567, 0.23739997866609508)
-[23:58:26] [Server thread/INFO]: goldengamer10 joined the game
-[23:59:13] [Server thread/INFO]: goldengamer10 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[23:59:13] [Server thread/INFO]: goldengamer10 left the game
-[23:59:15] [Server thread/INFO]: Stopping the server
-[23:59:15] [Server thread/INFO]: Stopping server
-[23:59:15] [Server thread/INFO]: Saving players
-[23:59:15] [Server thread/INFO]: Saving worlds
-[23:59:15] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[23:59:15] [Server thread/INFO]: Saving chunks for level 'world'/Nether
-[23:59:15] [Server thread/INFO]: Saving chunks for level 'world'/The End
-[00:01:50] [main/INFO]: Logging in with username & password
-[00:01:54] [main/INFO]: Setting user: goldengamer10
-[00:01:55] [Client thr[00:02:00] [Server thread/INFO]: Loading properties
-[00:02:00] [Server thread/INFO]: Default game type: SURVIVA[00:02:03] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Vortexcraft
-[00:02:04] [Sound Library Loader/INFO]: Sound engine started
-[00:02:05] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[00:02:05] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[00:02:05] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Vortexcraft
-[00:02:05] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[00:02:05] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[00:02:06] [Sound Library Loader/INFO]: Sound engine started
-[00:02:17] [Client thread/INFO]: Connecting to[00:02:17] [Server [00:03:38] [Client thread/INFO]: Stopping!
-] logged in with entity id 208 at (61.44905977023787, 65.0, 3.4212790469354726)
-[00:02:17] [Server thread/INFO]: goldengamer10 joined the game
-[00:03:37] [Server thread/INFO]: goldengamer10 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[00:03:37] [Server thread/INFO]: goldengamer10 left the game
-[00:03:40] [Server thread/INFO]: Stopping the server
-[00:03:40] [Server thread/INFO]: Stopping server
-[00:03:40] [Server thread/INFO]: Saving players
-[00:03:40] [Server thread/INFO]: Saving worlds
-[00:03:40] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[00:03:40] [Server thread/INFO]: Saving chunks for level 'world'/Nether
-[00:03:40] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[18:05:45] [main/INFO]: Logging in with username & password
+[18:05:49] [main/INFO]: Setting user: goldengamer10
+[18:05:50] [Client thread/INFO]: LWJGL Version: 2.9.1
+[18:05:55] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[18:06:02] [Server thread/INFO]: Loading properties
+[18:06:02] [Server thread/INFO]: Default game type: SURVIVAL
+[18:06:02] [Server thread/INFO]: Generating keypair
+[18:06:02] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:06:02] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:06:02] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:06:02] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:06:02] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:06:02] [Server thread/INFO]: Preparing level "w[18:06:05] [Client thread/INFO]: Connecting to localhost, 25565
+[18:06:45] [Client thread/INFO]: Stopping!
+Preparing spawn area: 87%
+[18:06:04] [Server thread/INFO]: Done (1.415s)! For help, type "help" or "?"
+[18:06:06] [Server thread/INFO]: goldengamer10[/127.0.0.1:57032] logged in with entity id 162 at (59.57411135864888, 64.0, 3.2255175462507575)
+[18:06:06] [Server thread/INFO]: goldengamer10 joined the game
+[18:06:45] [Server thread/INFO]: goldengamer10 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[18:06:45] [Server thread/INFO]: goldengamer10 left the game
+[18:06:47] [Server thread/INFO]: Stopping the server
+[18:06:47] [Server thread/INFO]: Stopping server
+[18:06:47] [Server thread/INFO]: Saving players
+[18:06:47] [Server thread/INFO]: Saving worlds
+[18:06:47] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[18:06:47] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[18:06:47] [Server thread/INFO]: Saving chunks for level 'world'/The End

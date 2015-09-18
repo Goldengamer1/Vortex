@@ -2,6 +2,7 @@ package com.goldengamer.vortex;
 
 import com.goldengamer.vortex.client.handler.KeyInputEventHandler;
 import com.goldengamer.vortex.handler.ConfigurationHandler;
+import com.goldengamer.vortex.handler.CraftingHandler;
 import com.goldengamer.vortex.handler.FuelHandler;
 import com.goldengamer.vortex.init.ModBlocks;
 import com.goldengamer.vortex.init.ModItems;
@@ -43,6 +44,7 @@ public class Vortex
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
 
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+        FMLCommonHandler.instance().bus().register(new CraftingHandler());
 
         PacketHandler.init();
 
