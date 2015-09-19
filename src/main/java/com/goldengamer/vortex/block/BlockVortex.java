@@ -17,6 +17,8 @@ public class BlockVortex extends Block
     {
         super(material);
         this.setCreativeTab(CreativeTabVortex.VORTEX_TAB);
+        this.setHardness(2.0F);
+        this.setResistance(10.0F);
     }
 
     public BlockVortex()
