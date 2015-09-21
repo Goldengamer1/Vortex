@@ -1,4 +1,4 @@
-package com.goldengamer.vortex.item.extended;
+package com.goldengamer.vortex.item.base;
 
 import com.goldengamer.vortex.creativetab.CreativeTabVortex;
 import com.goldengamer.vortex.reference.Reference;

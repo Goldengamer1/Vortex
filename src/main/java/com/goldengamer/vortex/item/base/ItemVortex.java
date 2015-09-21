@@ -1,4 +1,4 @@
-package com.goldengamer.vortex.item.extended;
+package com.goldengamer.vortex.item.base;
 
 import com.goldengamer.vortex.creativetab.CreativeTabVortex;
 import com.goldengamer.vortex.reference.Reference;
@@ -6,21 +6,18 @@ import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemAxe;
 import net.minecraft.item.ItemStack;
 
 /**
- * Created by golde on 18/09/2015.
+ * Created by golde on 14/09/2015.
  */
-public class ItemAxeVortex extends ItemAxe
+public class ItemVortex extends Item
 {
-    public ItemAxeVortex(Item.ToolMaterial toolMaterial)
-    {
-        super(toolMaterial);
-        this.setCreativeTab(CreativeTabVortex.VORTEX_TAB);
-        //this.setNoRepair();
-        this.maxStackSize = 1;
-    }
+   public ItemVortex()
+   {
+       super();
+       this.setCreativeTab(CreativeTabVortex.VORTEX_TAB);
+   }
 
     @Override
     public String getUnlocalizedName()
@@ -45,5 +42,4 @@ public class ItemAxeVortex extends ItemAxe
     {
         return unlocalizedName.substring(unlocalizedName.indexOf(".")+ 1);
     }
-
 }

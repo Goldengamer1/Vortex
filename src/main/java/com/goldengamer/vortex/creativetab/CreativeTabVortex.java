@@ -15,7 +15,7 @@ public class CreativeTabVortex
     {
         @Override
         //CreativeTab icon
-        public Item getTabIconItem() { return ModItems.testItem; }
+        public Item getTabIconItem() { return ModItems.TEST_ITEM; }
 
 
     };

@@ -12,14 +12,14 @@ import cpw.mods.fml.common.registry.GameRegistry;
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
 public class ModBlocks {
 
-    public static final BlockTest blockTest = new BlockTest();
-    public static final BlockBd blockBd = new BlockBd();
+    public static final BlockTest BLOCK_TEST = new BlockTest();
+    public static final BlockBd BLOCK_BD = new BlockBd();
 
 
 
     public static void init()
     {
-        GameRegistry.registerBlock(blockTest, "BlockTest");
-        GameRegistry.registerBlock(blockBd, "BlockBd");
+        GameRegistry.registerBlock(BLOCK_TEST, "BlockTest");
+        GameRegistry.registerBlock(BLOCK_BD, "BlockBd");
     }
 }

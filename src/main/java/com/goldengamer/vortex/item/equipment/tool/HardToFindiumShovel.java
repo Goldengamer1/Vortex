@@ -1,6 +1,6 @@
 package com.goldengamer.vortex.item.equipment.tool;
 
-import com.goldengamer.vortex.item.extended.ItemShovelVortex;
+import com.goldengamer.vortex.item.base.ItemShovelVortex;
 import com.goldengamer.vortex.reference.Material;
 
 /**
@@ -11,6 +11,6 @@ public class HardToFindiumShovel extends ItemShovelVortex
     public HardToFindiumShovel()
     {
         super(Material.Tools.HardToFindIum);
-        this.setUnlocalizedName("hardToFindiumShovel");
+        this.setUnlocalizedName("HARDTOFINDIUM_SHOVEL");
     }
 }

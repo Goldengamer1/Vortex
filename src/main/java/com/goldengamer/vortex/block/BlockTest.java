@@ -9,7 +9,7 @@ public class BlockTest extends BlockVortex
     public BlockTest()
     {
         super();
-        this.setBlockName("blockTest");
+        this.setBlockName("BLOCK_TEST");
     }
 
 }

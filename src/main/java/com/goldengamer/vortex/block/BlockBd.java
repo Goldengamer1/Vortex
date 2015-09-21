@@ -12,7 +12,7 @@ public class BlockBd extends BlockTileEntityVortex
     public BlockBd()
     {
         super();
-        this.setBlockName("blockBd");
+        this.setBlockName("BLOCK_BD");
         //this.setBlockBounds();
     }
 

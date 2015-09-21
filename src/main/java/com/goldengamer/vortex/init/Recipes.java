@@ -21,11 +21,11 @@ public class Recipes
         //GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.blockTest), new ItemStack(ModItems.testItem), new ItemStack(ModItems.testItem));
 
         //Smelting Recipes
-        GameRegistry.addSmelting(ModItems.testItem, new ItemStack(ModBlocks.blockTest), 50);
+        GameRegistry.addSmelting(ModItems.TEST_ITEM, new ItemStack(ModBlocks.BLOCK_TEST), 50);
 
         //Shaped OreDic- Recipes
-        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.testItem, 4), " s ", "sss", " s ", 's', "stickWood"));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.TEST_ITEM, 4), " s ", "sss", " s ", 's', "stickWood"));
         //Shapless OreDic- Recipes
-        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.blockTest), new ItemStack(ModItems.ironHammer, 1 , OreDictionary.WILDCARD_VALUE), new ItemStack(ModItems.testItem)));
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.BLOCK_TEST), new ItemStack(ModItems.IRON_HAMMER, 1 , OreDictionary.WILDCARD_VALUE), new ItemStack(ModItems.TEST_ITEM)));
     }
 }

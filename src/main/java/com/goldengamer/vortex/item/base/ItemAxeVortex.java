@@ -1,4 +1,4 @@
-package com.goldengamer.vortex.item.extended;
+package com.goldengamer.vortex.item.base;
 
 import com.goldengamer.vortex.creativetab.CreativeTabVortex;
 import com.goldengamer.vortex.reference.Reference;
@@ -6,15 +6,15 @@ import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemPickaxe;
+import net.minecraft.item.ItemAxe;
 import net.minecraft.item.ItemStack;
 
 /**
  * Created by golde on 18/09/2015.
  */
-public class ItemPickaxeVortex extends ItemPickaxe
+public class ItemAxeVortex extends ItemAxe
 {
-    public ItemPickaxeVortex(Item.ToolMaterial toolMaterial)
+    public ItemAxeVortex(Item.ToolMaterial toolMaterial)
     {
         super(toolMaterial);
         this.setCreativeTab(CreativeTabVortex.VORTEX_TAB);
@@ -45,4 +45,5 @@ public class ItemPickaxeVortex extends ItemPickaxe
     {
         return unlocalizedName.substring(unlocalizedName.indexOf(".")+ 1);
     }
+
 }

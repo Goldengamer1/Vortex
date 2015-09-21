@@ -1,6 +1,6 @@
 package com.goldengamer.vortex.item.equipment.tool;
 
-import com.goldengamer.vortex.item.extended.ItemPickaxeVortex;
+import com.goldengamer.vortex.item.base.ItemPickaxeVortex;
 import com.goldengamer.vortex.reference.Material;
 
 
@@ -12,6 +12,6 @@ public class HardToFindiumPickaxe extends ItemPickaxeVortex
     public HardToFindiumPickaxe()
     {
         super(Material.Tools.HardToFindIum);
-        this.setUnlocalizedName("hardToFindiumPickaxe");
+        this.setUnlocalizedName("HARDTOFINDIUM_PICKAXE");
     }
 }

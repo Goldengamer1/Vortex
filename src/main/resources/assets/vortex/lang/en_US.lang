@@ -2,16 +2,16 @@
 itemGroup.vortex= Vortexcraft
 
 #Item localization
-item.vortex:testItem.name=Test Item
-item.vortex:ironHammer.name=Iron Hammer
-item.vortex:hardToFindiumPickaxe.name=HardToFindium Pickaxe
-item.vortex:hardToFindiumAxe.name=HardToFindium Axe
-item.vortex:hardToFindiumShovel.name=HardToFindium Shovel
-item.vortex:hardToFindiumSword.name=HardToFindium Sword
+item.vortex:TEST_ITEM.name=Test Item
+item.vortex:IRON_HAMMER.name=Iron Hammer
+item.vortex:HARDTOFINDIUM_PICKAXE.name=HardToFindium Pickaxe
+item.vortex:HARDTOFINDIUM_AXE.name=HardToFindium Axe
+item.vortex:HARDTOFINDIUM_SHOVEL.name=HardToFindium Shovel
+item.vortex:HARDTOFINDIUM_SWORD.name=HardToFindium Sword
 
 #Block localization
-tile.vortex:blockTest.name= Test Block
-tile.vortex:blockBd.name= Bd Test Block! (a.k.a 3d renderer test)
+tile.vortex:BLOCK_TEST.name= Test Block
+tile.vortex:BLOCK_BD.name= Bd Test Block! (a.k.a 3d renderer test)
 
 #Key localization
 keys.vortex.category=Vortexcraft

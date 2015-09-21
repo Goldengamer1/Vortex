@@ -1,4 +1,4 @@
-package com.goldengamer.vortex.item;
+package com.goldengamer.vortex.item.base;
 
 import com.goldengamer.vortex.creativetab.CreativeTabVortex;
 import com.goldengamer.vortex.reference.Reference;
@@ -7,17 +7,20 @@ import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemSword;
 
 /**
- * Created by golde on 14/09/2015.
+ * Created by golde on 18/09/2015.
  */
-public class ItemVortex extends Item
+public class ItemSwordVortex extends ItemSword
 {
-   public ItemVortex()
-   {
-       super();
-       this.setCreativeTab(CreativeTabVortex.VORTEX_TAB);
-   }
+    public ItemSwordVortex(Item.ToolMaterial toolMaterial)
+    {
+        super(toolMaterial);
+        this.setCreativeTab(CreativeTabVortex.VORTEX_TAB);
+        //this.setNoRepair();
+        this.maxStackSize = 1;
+    }
 
     @Override
     public String getUnlocalizedName()

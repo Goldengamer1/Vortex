@@ -1,6 +1,6 @@
 package com.goldengamer.vortex.item.equipment.tool;
 
-import com.goldengamer.vortex.item.extended.ItemAxeVortex;
+import com.goldengamer.vortex.item.base.ItemAxeVortex;
 import com.goldengamer.vortex.reference.Material;
 
 /**
@@ -11,6 +11,6 @@ public class HardToFindiumAxe extends ItemAxeVortex
     public HardToFindiumAxe()
     {
         super(Material.Tools.HardToFindIum);
-        this.setUnlocalizedName("hardToFindiumAxe");
+        this.setUnlocalizedName("HARDTOFINDIUM_AXE");
     }
 }

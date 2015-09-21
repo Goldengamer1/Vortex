@@ -38,7 +38,7 @@ public class TileEntityBdRenderer extends TileEntitySpecialRenderer
         GL11.glPushMatrix();
         GL11.glTranslatef((float) x + 0.5F, (float) y + 1.5F, (float) z + 0.5F);
         //This is the texture of your block
-        ResourceLocation textures = (new ResourceLocation("vortex:textures/models/blockBd.png"));
+        ResourceLocation textures = (new ResourceLocation("vortex:textures/models/BLOCK_BD.png"));
         this.bindTexture(textures);
 
         GL11.glPushMatrix();
