@@ -11,4 +11,8 @@ public class CommonProxy
         //NOOP (noting)
     }
 
+    public void registerRenderThings()
+    {
+        //NOOP (noting)
+    }
 }

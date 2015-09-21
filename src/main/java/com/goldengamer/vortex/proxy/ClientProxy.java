@@ -1,6 +1,8 @@
 package com.goldengamer.vortex.proxy;
 
+import com.goldengamer.vortex.client.renderer.tileentity.TileEntityBdRenderer;
 import com.goldengamer.vortex.client.settings.Keybindings;
+import com.goldengamer.vortex.tileentity.TileEntityBd;
 import cpw.mods.fml.client.registry.ClientRegistry;
 import net.minecraft.client.settings.KeyBinding;
 
@@ -14,6 +16,11 @@ public class ClientProxy extends CommonProxy
     public void registerKeyBindings()
     {
         ClientRegistry.registerKeyBinding(Keybindings.charge);
+    }
+
+    public void registerRenderThings()
+    {
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityBd.class, new TileEntityBdRenderer());
     }
 
 }

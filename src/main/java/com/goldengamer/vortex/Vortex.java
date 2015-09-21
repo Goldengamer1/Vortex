@@ -7,6 +7,7 @@ import com.goldengamer.vortex.handler.FuelHandler;
 import com.goldengamer.vortex.init.ModBlocks;
 import com.goldengamer.vortex.init.ModItems;
 import com.goldengamer.vortex.init.Recipes;
+import com.goldengamer.vortex.init.TileEntities;
 import com.goldengamer.vortex.network.PacketHandler;
 import com.goldengamer.vortex.proxy.CommonProxy;
 import com.goldengamer.vortex.reference.Reference;
@@ -61,6 +62,8 @@ public class Vortex
         FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
 
         Recipes.init();
+        proxy.registerRenderThings();
+        TileEntities.init();
 
         GameRegistry.registerFuelHandler(new FuelHandler());
         LogHelper.info(("Init Complete!"));

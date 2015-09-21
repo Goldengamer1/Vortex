@@ -11,6 +11,7 @@ item.vortex:hardToFindiumSword.name=HardToFindium Sword
 
 #Block localization
 tile.vortex:blockTest.name= Test Block
+tile.vortex:blockBd.name= Bd Test Block! (a.k.a 3d renderer test)
 
 #Key localization
 keys.vortex.category=Vortexcraft

@@ -4,7 +4,7 @@ import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.model.ModelRenderer;
 import net.minecraft.entity.Entity;
 
-public class ModelBlock3DTest extends ModelBase
+public class ModelBlockBd extends ModelBase
 {
   //fields
     ModelRenderer Shape1;
@@ -25,7 +25,7 @@ public class ModelBlock3DTest extends ModelBase
     ModelRenderer Shape16;
     ModelRenderer Shape17;
   
-  public ModelBlock3DTest()
+  public ModelBlockBd()
   {
     textureWidth = 64;
     textureHeight = 32;
@@ -157,27 +157,6 @@ public class ModelBlock3DTest extends ModelBase
     Shape17.render(f5);
   }
 
-  public void renderModel(float f5)
-  {
-    Shape1.render(f5);
-    Shape2.render(f5);
-    Shape3.render(f5);
-    Shape4.render(f5);
-    Shape5.render(f5);
-    Shape6.render(f5);
-    Shape7.render(f5);
-    Shape8.render(f5);
-    Shape9.render(f5);
-    Shape10.render(f5);
-    Shape11.render(f5);
-    Shape12.render(f5);
-    Shape13.render(f5);
-    Shape14.render(f5);
-    Shape15.render(f5);
-    Shape16.render(f5);
-    Shape17.render(f5);
-  }
-  
   private void setRotation(ModelRenderer model, float x, float y, float z)
   {
     model.rotateAngleX = x;

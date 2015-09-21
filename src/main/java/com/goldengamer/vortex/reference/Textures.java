@@ -19,7 +19,7 @@ public class Textures
     public static final class Model
     {
         private static final String MODEL_TEXTURE_LOCATION = "textures/models/";
-      //  public static final ResourceLocation BLOCK_3D_TEST = ResourceLocationHelper.getResourceLocation(MODEL_TEXTURE_LOCATION + "block3DTest");
+       // public static final ResourceLocation BLOCK_Bd = ResourceLocationHelper.getResourceLocation(MODEL_TEXTURE_LOCATION + "blockBd");
     }
 
     public static final class Gui
