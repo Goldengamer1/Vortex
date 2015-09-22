@@ -1,6 +1,7 @@
 package com.goldengamer.vortex.client.renderer.tileentity;
 
 import com.goldengamer.vortex.client.renderer.model.ModelBlockBd;
+import com.goldengamer.vortex.reference.Textures;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.OpenGlHelper;
 import net.minecraft.client.renderer.Tessellator;
@@ -37,9 +38,9 @@ public class TileEntityBdRenderer extends TileEntitySpecialRenderer
     {
         GL11.glPushMatrix();
         GL11.glTranslatef((float) x + 0.5F, (float) y + 1.5F, (float) z + 0.5F);
+
         //This is the texture of your block
-        ResourceLocation textures = (new ResourceLocation("vortex:textures/models/BLOCK_BD.png"));
-        this.bindTexture(textures);
+        this.bindTexture(Textures.Model.BLOCK_BD);
 
         GL11.glPushMatrix();
         GL11.glRotatef(180F, 0.0F, 0.0F, 1.0F);

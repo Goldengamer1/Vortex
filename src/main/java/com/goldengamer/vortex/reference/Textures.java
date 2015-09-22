@@ -12,19 +12,19 @@ public class Textures
 
     public static final class Armor
     {
-        private static final String ARMOR_SHEET_LOCATION = "textures/armor/";
+        private static final String ARMOR_SHEET_LOCATION = "vortex:textures/armor/";
 
     }
 
     public static final class Model
     {
-        private static final String MODEL_TEXTURE_LOCATION = "textures/models/";
-       // public static final ResourceLocation BLOCK_Bd = ResourceLocationHelper.getResourceLocation(MODEL_TEXTURE_LOCATION + "blockBd");
+        private static final String MODEL_TEXTURE_LOCATION = "vortex:textures/models/";
+        public static final ResourceLocation BLOCK_BD = (new ResourceLocation(MODEL_TEXTURE_LOCATION + "BLOCK_BD.png"));
     }
 
     public static final class Gui
     {
-        protected static final String GUI_TEXTURE_LOCATION = "textures/gui/";
+        protected static final String GUI_TEXTURE_LOCATION = "vortex:textures/gui/";
 
     }
 
@@ -36,7 +36,7 @@ public class Textures
 
     public static final class Effect
     {
-        private static final String EFFECTS_LOCATION = "textures/effects/";
+        private static final String EFFECTS_LOCATION = "vortex:textures/effects/";
 
     }
 }
