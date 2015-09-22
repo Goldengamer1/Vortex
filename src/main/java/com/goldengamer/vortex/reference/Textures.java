@@ -20,6 +20,7 @@ public class Textures
     {
         private static final String MODEL_TEXTURE_LOCATION = "vortex:textures/models/";
         public static final ResourceLocation BLOCK_BD = (new ResourceLocation(MODEL_TEXTURE_LOCATION + "BLOCK_BD.png"));
+        public static final ResourceLocation HARDTOFINDIUM_SWORD = (new ResourceLocation(MODEL_TEXTURE_LOCATION + "HARDTOFINDIUM_SWORD.png"));
     }
 
     public static final class Gui
