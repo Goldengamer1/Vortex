@@ -10,6 +10,7 @@ import net.minecraft.inventory.ISidedInventory;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.crafting.FurnaceRecipes;
 import net.minecraft.tileentity.TileEntity;
 
 /**
@@ -49,7 +50,7 @@ public class TileEntitySurvivalistFurnace extends TileEntity implements ISidedIn
 
     @Override
     public int getInventoryStackLimit() {
-        return 0;
+        return 64;
     }
 
     @Override
@@ -96,6 +97,11 @@ public class TileEntitySurvivalistFurnace extends TileEntity implements ISidedIn
             }
         }
         return 0;
+    }
+
+    public boolean isBurning()
+    {
+        return this.burnTime > 0;
     }
 
     public void updateEntity()
@@ -151,6 +157,47 @@ public class TileEntitySurvivalistFurnace extends TileEntity implements ISidedIn
             this.markDirty();
         }
     }
+
+    public boolean canSmelt()
+    {
+        if (this.slots[0] == null)
+        {
+            return false;
+        }else {
+            ItemStack itemStack = FurnaceRecipes.smelting().getSmeltingResult(this.slots[0]);
+
+            if (itemStack == null) return false;
+            if (this.slots[2] == null) return true;
+            if (!this.slots[2].isItemEqual(itemStack)) return false;
+
+            int result = this.slots[2].stackSize + itemStack.stackSize;
+
+            return (result <= getInventoryStackLimit() && result <= itemStack.getMaxStackSize());
+        }
+    }
+
+    public void smeltItem()
+    {
+        if (this.canSmelt())
+        {
+            ItemStack itemStack = FurnaceRecipes.smelting().getSmeltingResult(this.slots[0]);
+
+        if (this.slots[2] == null)
+        {
+            this.slots[2] = itemStack.copy();
+        }else  if (this.slots[2].isItemEqual(itemStack))
+        {
+            this.slots[2].stackSize += itemStack.stackSize;
+        }
+        this.slots[0].stackSize--;
+
+        if (this.slots[0].stackSize <= 0)
+        {
+            this.slots[0] = null;
+            }
+        }
+    }
+
 
     public int getSizeInventory()
     {

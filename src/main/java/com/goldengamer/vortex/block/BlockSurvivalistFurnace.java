@@ -33,6 +33,8 @@ public class BlockSurvivalistFurnace extends BlockContainer {
     @SideOnly(Side.CLIENT)
     private IIcon iconTop;
 
+    private static boolean keepInventory;
+
     public BlockSurvivalistFurnace(boolean isActive) {
         super(Material.iron);
 
@@ -163,5 +165,29 @@ public class BlockSurvivalistFurnace extends BlockContainer {
     protected String getUnwrappedUnlocalizedName(String unlocalizedName)
     {
         return unlocalizedName.substring(unlocalizedName.indexOf(".") + 1);
+    }
+
+    public static void updateSurvivalistFurnaceBlockState(boolean active, World worldObj, int xCoord, int yCoord, int zCoord)
+    {
+        int i = worldObj.getBlockMetadata(xCoord, yCoord, zCoord);
+
+        TileEntity tileentity = worldObj.getTileEntity(xCoord, yCoord, zCoord);
+        keepInventory = true;
+
+        if (active){
+            worldObj.setBlock(xCoord, yCoord, zCoord, ModBlocks.BLOCK_SURVIVALIST_FURNACE_ACTIVE);
+        }else{
+            worldObj.setBlock(xCoord, yCoord, zCoord, ModBlocks.BLOCK_SURVIVALIST_FURNACE_IDLE);
+        }
+
+        keepInventory = false;
+
+        worldObj.setBlockMetadataWithNotify(xCoord, yCoord, zCoord, i, 2);
+
+        if (tileentity != null)
+        {
+            tileentity.validate();
+            worldObj.setTileEntity(xCoord, yCoord, zCoord, tileentity);
+        }
     }
 }
