@@ -1,5 +1,6 @@
 package com.goldengamer.vortex.block;
 
+import com.goldengamer.vortex.block.base.BlockTileEntityVortex;
 import com.goldengamer.vortex.tileentity.TileEntityBd;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;

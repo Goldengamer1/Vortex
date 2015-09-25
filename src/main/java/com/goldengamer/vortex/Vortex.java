@@ -4,6 +4,7 @@ import com.goldengamer.vortex.client.handler.KeyInputEventHandler;
 import com.goldengamer.vortex.handler.ConfigurationHandler;
 import com.goldengamer.vortex.handler.CraftingHandler;
 import com.goldengamer.vortex.handler.FuelHandler;
+import com.goldengamer.vortex.handler.GuiHandler;
 import com.goldengamer.vortex.init.ModBlocks;
 import com.goldengamer.vortex.init.ModItems;
 import com.goldengamer.vortex.init.Recipes;
@@ -18,6 +19,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.network.NetworkRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 /**
@@ -29,7 +31,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
 public class Vortex
 {
 
-    @Mod.Instance("vortex")
+    @Mod.Instance(Reference.MOD_ID)
     public static Vortex instance;
 
     @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
@@ -59,6 +61,10 @@ public class Vortex
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)        /** e.g guis , tile entitys ,recpies */
     {
+        //TODO Comment the lines
+        // Register the GUI Handler
+        NetworkRegistry.INSTANCE.registerGuiHandler(instance, new GuiHandler());
+
         FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
 
         Recipes.init();
