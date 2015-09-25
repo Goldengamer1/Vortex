@@ -267,4 +267,19 @@ public class TileEntitySurvivalistFurnace extends TileEntity implements ISidedIn
     public boolean canExtractItem(int i, ItemStack itemStack, int j) {
         return j != 0 || i != 1 || itemStack.getItem() == Items.bucket;
     }
+
+    public int getBurnTimeRemainingScaled(int i)
+    {
+        if (this.currentItemBurnTime == 0)
+        {
+            this.currentItemBurnTime = this.furnaceSpeed;
+        }
+        return this.burnTime * i / this.currentItemBurnTime;
+    }
+
+    public int getCookProgressScaled(int i)
+    {
+        return this.cookTime * i / this.furnaceSpeed;
+    }
+
 }

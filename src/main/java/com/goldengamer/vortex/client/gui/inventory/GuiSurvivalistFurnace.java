@@ -1,11 +1,14 @@
 package com.goldengamer.vortex.client.gui.inventory;
 
 import com.goldengamer.vortex.inventory.ContainerSurvivalistFurnace;
+import com.goldengamer.vortex.reference.Textures;
 import com.goldengamer.vortex.tileentity.TileEntitySurvivalistFurnace;
+import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.resources.I18n;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.Container;
+import org.lwjgl.opengl.GL11;
 
 /**
  * Created by golde on 24/09/2015.
@@ -17,7 +20,7 @@ public class GuiSurvivalistFurnace extends GuiContainer
 
     public GuiSurvivalistFurnace(InventoryPlayer inventoryPlayer, TileEntitySurvivalistFurnace entity)
     {
-        super(ContainerSurvivalistFurnace(inventoryPlayer, entity));
+        super(new ContainerSurvivalistFurnace(inventoryPlayer, entity));
 
         this.survivalistFurnace = entity;
 
@@ -31,12 +34,15 @@ public class GuiSurvivalistFurnace extends GuiContainer
         String name = this.survivalistFurnace.hasCustomInventoryName() ? this.survivalistFurnace.getInventoryName() : I18n.format(this.survivalistFurnace.getInventoryName(), new Object[0]);
 
         this.fontRendererObj.drawString(name, this.xSize / 2 - this.fontRendererObj.getStringWidth(name) / 2, 6, 4210752);
-        this.fontRendererObj.drawString(I18n.format("container.inventory", new Object[0]), 128, this.ySize - 96 + 2, 4210752);
+        this.fontRendererObj.drawString(I18n.format("container.inventory", new Object[0]), 118, this.ySize - 96 + 2, 4210752);
     }
 
     @Override
     protected void drawGuiContainerBackgroundLayer(float var1, int var2, int var3)
     {
-        //NOOP
+        GL11.glColor4f(1F, 1F, 1F, 1F);
+
+        Minecraft.getMinecraft().getTextureManager().bindTexture(Textures.Gui.SURVIVALIST_FURNACE);
+        drawTexturedModalRect(guiLeft, guiTop, 0, 0, xSize, ySize);
     }
 }
