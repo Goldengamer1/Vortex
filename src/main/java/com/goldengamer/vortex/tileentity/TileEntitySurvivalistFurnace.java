@@ -54,8 +54,8 @@ public class TileEntitySurvivalistFurnace extends TileEntity implements ISidedIn
     }
 
     @Override
-    public boolean isUseableByPlayer(EntityPlayer p_70300_1_) {
-        return false;
+    public boolean isUseableByPlayer(EntityPlayer entityPlayer) {
+        return this.worldObj.getTileEntity(this.xCoord, this.yCoord, this.zCoord) != this ? false : entityPlayer.getDistanceSq((double)this.xCoord + 0.5D, (double)this.yCoord +0.5D, (double)this.zCoord + 0.5D) <= 64.0D;
     }
 
     public void openInventory() {}
@@ -206,22 +206,51 @@ public class TileEntitySurvivalistFurnace extends TileEntity implements ISidedIn
 
     @Override
     public ItemStack getStackInSlot(int var1) {
-        return null;
+        return this.slots[var1];
     }
 
     @Override
     public ItemStack decrStackSize(int var1, int var2) {
+        if(this.slots[var1] != null)
+        {
+            ItemStack itemStack;
+
+            if (this.slots[var1].stackSize <= var2)
+            {
+                itemStack = this.slots[var1];
+                this.slots[var1] = null;
+                return itemStack;
+            }else{
+                itemStack = this.slots[var1].splitStack(var2);
+
+                if (this.slots[var1].stackSize == 0)
+                {
+                    this.slots[var1] = null;
+                }
+            }
+        }
         return null;
     }
 
     @Override
     public ItemStack getStackInSlotOnClosing(int var1) {
+
+        if (this.slots[var1] != null)
+        {
+            ItemStack itemStack = this.slots[var1];
+            this.slots[var1] = null;
+            return itemStack;
+        }
         return null;
     }
 
     @Override
     public void setInventorySlotContents(int var1, ItemStack itemStack) {
-
+        this.slots[var1] = itemStack;
+        if (itemStack != null && itemStack.stackSize > this.getInventoryStackLimit())
+        {
+            itemStack.stackSize = this.getInventoryStackLimit();
+        }
     }
 
     @Override
