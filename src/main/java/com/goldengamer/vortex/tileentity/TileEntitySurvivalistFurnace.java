@@ -1,5 +1,6 @@
 package com.goldengamer.vortex.tileentity;
 
+import com.goldengamer.vortex.block.BlockSurvivalistFurnace;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.entity.player.EntityPlayer;
@@ -24,7 +25,7 @@ public class TileEntitySurvivalistFurnace extends TileEntity implements ISidedIn
 
     private ItemStack[] slots = new ItemStack[3];
 
-    public int furnaceSpeed;
+    public int furnaceSpeed = 150;
     public int burnTime;
     public int currentItemBurnTime;
     public int cookTime;
@@ -122,11 +123,32 @@ public class TileEntitySurvivalistFurnace extends TileEntity implements ISidedIn
 
                         if (this.slots[1].stackSize == 0)
                         {
-                            this.slots[1] == this.slots[1].getItem().getContainerItem(this.slots[1]);
+                            this.slots[1] = this.slots[1].getItem().getContainerItem(this.slots[1]);
                         }
                     }
                 }
             }
+            if (this.isBurning() && this.canSmelt())
+            {
+                this.cookTime++;
+                if (this.cookTime == this.furnaceSpeed)
+                {
+                    this.cookTime = 0;
+                    this.smeltItem();
+                    flag1 = true;
+                }
+                    }else{
+                    this.cookTime = 0;
+                }
+
+                if (flag != this.isBurning())
+                {
+                    flag1 = true;
+                    BlockSurvivalistFurnace.updateSurvivalistFurnaceBlockState(this.burnTime > 0, this.worldObj, this.xCoord, this.yCoord, this.zCoord);
+            }
+        }
+        if (flag1){
+            this.markDirty();
         }
     }
 
