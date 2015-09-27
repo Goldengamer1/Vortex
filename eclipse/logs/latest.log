@@ -1,49 +1,29 @@
-[02:20:07] [main/INFO]: Logging in with username & password
-[02:20:11] [main/INFO]: Setting user: goldengamer10
-[02:20:11] [Client thread/INFO]: LWJGL Version: 2.9.1
-[02:20:13] [Twitch authenticator/ERROR]: Given twitch access token is invalid
-[02:20:19] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Vortexcraft
-[02:20:20] [Sound Library Loader/INFO]: Sound engine started
-[02:20:21] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[02:20:21] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[02:20:21] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Vortexcraft
-[02:20:21] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[02:20:21] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[02:20:22] [Sound Library Loader/INFO]: Sound engine started
-[02:20:25] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[02:20:25] [Server thread/INFO]: Generating keypair
-[02:20:25] [Server thread/INFO]: Preparing start region for level 0
-[02:20:26] [Server thread/INFO]: Changing view distance to 12, from 10
-[02:20:26] [Server thread/INFO]: goldengamer10[local:E:851ccef4] logged in with entity id 181 at (-2282.6962627198805, 4.0, 893.2683214794855)
-[02:20:26] [Server thread/INFO]: goldengamer10 joined the game
-[02:20:31] [Server thread/INFO]: Saving and pausing game...
-[02:20:31] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[02:20:31] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[02:20:31] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[02:20:35] [Server thread/INFO]: Saving and pausing game...
-[02:20:35] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[02:20:35] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[02:20:35] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[02:20:36] [Server thread/INFO]: Stopping server
-[02:20:36] [Server thread/INFO]: Saving players
-[02:20:36] [Server thread/INFO]: Saving worlds
-[02:20:36] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[02:20:36] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[02:20:36] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[02:20:38] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[02:20:38] [Server thread/INFO]: Generating keypair
-[02:20:38] [Server thread/INFO]: Preparing start region for level 0
-[02:20:38] [Server thread/INFO]: Changing view distance to 12, from 10
-[02:20:39] [Server thread/INFO]: goldengamer10[local:E:adbe5193] logged in with entity id 30015 at (-2282.6962627198805, 4.0, 893.2683214794855)
-[02:20:39] [Server thread/INFO]: goldengamer10 joined the game
-[02:20:55] [Server thread/INFO]: Saving and pausing game...
-[02:20:55] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[02:20:55] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[02:20:55] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[02:20:56] [Server thread/INFO]: Stopping server
-[02:20:56] [Server thread/INFO]: Saving players
-[02:20:56] [Server thread/INFO]: Saving worlds
-[02:20:56] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[02:20:56] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[02:20:56] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[02:20:57] [Client thread/INFO]: Stopping!
+[03:05:33] [main/INFO]: Logging in with username & password
+[03:05:37] [main/INFO]: Setting user: goldengamer10
+[03:05:38] [Client thread/INFO]: LWJGL Version: 2.9.1
+[03:05:40] [Twitch authenticator/ERROR]: Given twitch access token is invalid
+[03:05:45] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Vortexcraft
+[03:05:46] [Sound Library Loader/INFO]: Sound engine started
+[03:05:47] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[03:05:47] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[03:05:47] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Vortexcraft
+[03:05:48] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[03:05:48] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[03:05:49] [Sound Library Loader/INFO]: Sound engine started
+[03:05:52] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[03:05:52] [Server thread/INFO]: Generating keypair
+[03:05:52] [Server thread/INFO]: Preparing start region for level 0
+[03:05:53] [Server thread/INFO]: Changing view distance to 12, from 10
+[03:05:54] [Server thread/INFO]: goldengamer10[local:E:41d1bf11] logged in with entity id 167 at (-800.5, 4.0, 1858.5)
+[03:05:54] [Server thread/INFO]: goldengamer10 joined the game
+[03:05:57] [Server thread/INFO]: Saving and pausing game...
+[03:05:57] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[03:05:57] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[03:05:57] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[03:05:58] [Server thread/INFO]: Stopping server
+[03:05:58] [Server thread/INFO]: Saving players
+[03:05:58] [Server thread/INFO]: Saving worlds
+[03:05:58] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[03:05:58] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[03:05:58] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[03:06:12] [Client thread/INFO]: Stopping!

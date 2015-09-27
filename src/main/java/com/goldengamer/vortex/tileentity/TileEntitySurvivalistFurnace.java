@@ -1,6 +1,7 @@
 package com.goldengamer.vortex.tileentity;
 
 import com.goldengamer.vortex.block.BlockSurvivalistFurnace;
+import com.goldengamer.vortex.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.entity.player.EntityPlayer;
@@ -110,7 +111,11 @@ public class TileEntitySurvivalistFurnace extends TileEntity implements ISidedIn
 
         if (this.isBurning())
         {
-            this.burnTime--;
+            //this if stops the fuel from being used once it has nothing to smelt
+            if (this.canSmelt())
+            {
+                this.burnTime--;
+            }
         }
         if (!this.worldObj.isRemote)
         {
@@ -303,9 +308,9 @@ public class TileEntitySurvivalistFurnace extends TileEntity implements ISidedIn
         this.cookTime = (int)nbt.getShort("CookTime");
         this.currentItemBurnTime = (int)nbt.getShort("CurrentItemBurnTime");
 
-        if (nbt.hasKey("CustomName"))
+        if (nbt.hasKey(Reference.MOD_ID + "Goldengamer"))
         {
-            this.localizedName = nbt.getString("CustomName");
+            this.localizedName = nbt.getString(Reference.MOD_ID + "Goldengamer");
         }
     }
 
@@ -319,7 +324,7 @@ public class TileEntitySurvivalistFurnace extends TileEntity implements ISidedIn
 
         NBTTagList list = new NBTTagList();
 
-        for (int i = 0; i < this.slots.length; i++);
+        for (int i = 0; i < this.slots.length; i++)
         {
             if (this.slots[i] != null)
             {
@@ -334,7 +339,7 @@ public class TileEntitySurvivalistFurnace extends TileEntity implements ISidedIn
 
         if (this.hasCustomInventoryName())
         {
-            nbt.setString("CustomName", this.localizedName);
+            nbt.setString(Reference.MOD_ID + "Goldengamer", this.localizedName);
         }
     }
 }
