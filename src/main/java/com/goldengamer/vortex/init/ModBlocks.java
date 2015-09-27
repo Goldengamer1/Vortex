@@ -18,8 +18,8 @@ public class ModBlocks {
     public static final BlockBd BLOCK_BD = new BlockBd();
 
     //Machines
-    public static final BlockSurvivalistFurnace BLOCK_SURVIVALIST_FURNACE_IDLE = new BlockSurvivalistFurnace(true);
-    public static final BlockSurvivalistFurnace BLOCK_SURVIVALIST_FURNACE_ACTIVE = new BlockSurvivalistFurnace(false);
+    public static final BlockSurvivalistFurnace BLOCK_SURVIVALIST_FURNACE_IDLE = new BlockSurvivalistFurnace(false);
+    public static final BlockSurvivalistFurnace BLOCK_SURVIVALIST_FURNACE_ACTIVE = new BlockSurvivalistFurnace(true);
 
     public static void init()
     {

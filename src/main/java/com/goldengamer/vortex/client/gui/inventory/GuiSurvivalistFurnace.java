@@ -3,6 +3,7 @@ package com.goldengamer.vortex.client.gui.inventory;
 import com.goldengamer.vortex.inventory.ContainerSurvivalistFurnace;
 import com.goldengamer.vortex.reference.Textures;
 import com.goldengamer.vortex.tileentity.TileEntitySurvivalistFurnace;
+import com.goldengamer.vortex.utility.LogHelper;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.resources.I18n;
@@ -31,7 +32,7 @@ public class GuiSurvivalistFurnace extends GuiContainer
 
     public void drawGuiContainerForegroundLayer(int par1, int par2)
     {
-        String name = this.survivalistFurnace.hasCustomInventoryName() ? this.survivalistFurnace.getInventoryName() : I18n.format(this.survivalistFurnace.getInventoryName(), new Object[0]);
+        String name = "Survivalist Furnace";
 
         this.fontRendererObj.drawString(name, this.xSize / 2 - this.fontRendererObj.getStringWidth(name) / 2, 6, 4210752);
         this.fontRendererObj.drawString(I18n.format("container.inventory", new Object[0]), 118, this.ySize - 96 + 2, 4210752);
@@ -44,5 +45,15 @@ public class GuiSurvivalistFurnace extends GuiContainer
 
         Minecraft.getMinecraft().getTextureManager().bindTexture(Textures.Gui.SURVIVALIST_FURNACE);
         drawTexturedModalRect(guiLeft, guiTop, 0, 0, xSize, ySize);
+
+        if (this.survivalistFurnace.isBurning())
+        {
+            int k = this.survivalistFurnace.getBurnTimeRemainingScaled(40);
+            int j = 40 - k;
+            drawTexturedModalRect(guiLeft + 29, guiTop + 65, 176, 0, 40 - j, 10);
+        }
+
+        int k = this.survivalistFurnace.getCookProgressScaled(24);
+        drawTexturedModalRect(guiLeft + 79, guiTop + 34, 176, 10, k + 1, 16);
     }
 }

@@ -138,12 +138,7 @@ public class BlockSurvivalistFurnace extends BlockContainer {
     public void registerBlockIcons(IIconRegister iconRegister)
     {
         this.blockIcon = iconRegister.registerIcon(Reference.LOWERCASE_MOD_ID + ":" + "BLOCK_SURVIVALIST_FURNACE_SIDE");
-        if (this.isActive)
-        {
-            this.iconFront = iconRegister.registerIcon(Reference.LOWERCASE_MOD_ID + ":" + "BLOCK_SURVIVALIST_FURNACE_FRONT_ON");
-        } else {
-            this.iconFront = iconRegister.registerIcon(Reference.LOWERCASE_MOD_ID + ":" + "BLOCK_SURVIVALIST_FURNACE_FRONT_OFF");
-        }
+        this.iconFront = iconRegister.registerIcon(Reference.LOWERCASE_MOD_ID + ":" + (this.isActive ? "BLOCK_SURVIVALIST_FURNACE_FRONT_ON" : "BLOCK_SURVIVALIST_FURNACE_FRONT_OFF"));
         this.iconTop = iconRegister.registerIcon(Reference.LOWERCASE_MOD_ID + ":" + "BLOCK_SURVIVALIST_FURNACE_TOP");
     }
 
