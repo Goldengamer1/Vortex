@@ -10,9 +10,10 @@ item.vortex:HARDTOFINDIUM_SHOVEL.name=HardToFindium Shovel
 item.vortex:HARDTOFINDIUM_SWORD.name=HardToFindium Sword
 
 #Block localization
-tile.vortex:BLOCK_TEST.name= Test Block
-tile.vortex:BLOCK_BD.name= Bd Test Block! (a.k.a 3d renderer test)
-tile.vortex:BLOCK_SURVIVALIST_FURNACE.name= Survivalist Furnace
+tile.vortex:BLOCK_TEST.name=Test Block
+tile.vortex:BLOCK_BD.name=Bd Test Block! (a.k.a 3d renderer test)
+tile.vortex:BLOCK_SURVIVALIST_FURNACE.name=Survivalist Furnace
+tile.vortex:BLOCK_SURVIVALIST_FURNACE_ACTIVE.name=Survivalist Furnace(ACTIVE)
 
 #Key localization
 keys.vortex.category=Vortexcraft

@@ -13,13 +13,17 @@ import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.IIcon;
 import net.minecraft.util.MathHelper;
 import net.minecraft.world.World;
+
+import java.util.Random;
 
 /**
  * Created by golde on 23/09/2015.
@@ -34,16 +38,15 @@ public class BlockSurvivalistFurnace extends BlockContainer {
     private IIcon iconTop;
 
     private static boolean keepInventory;
+    private Random rand = new Random();
 
     public BlockSurvivalistFurnace(boolean isActive) {
         super(Material.iron);
-
-        this.setCreativeTab(CreativeTabVortex.VORTEX_TAB);
-        this.setBlockName("BLOCK_SURVIVALIST_FURNACE");
+        this.setHardness(3.0F);
         this.isActive = isActive;
     }
 
-    public Item getItemDropped(World world, int x , int y , int z)
+    public Item getItemDropped(int i, Random random , int j)
     {
         return Item.getItemFromBlock(ModBlocks.BLOCK_SURVIVALIST_FURNACE_IDLE);
     }
@@ -103,7 +106,41 @@ public class BlockSurvivalistFurnace extends BlockContainer {
         return new TileEntitySurvivalistFurnace();
     }
 
-    //TODO randomDisplayTick
+    @SideOnly(Side.CLIENT)
+    public void randomDisplayTick(World world, int x, int y ,int z, Random random)
+    {
+        if(this.isActive)
+        {
+            int l = world.getBlockMetadata(x, y, z);
+            float f = (float)x + 0.5F;
+            float f1 = (float)y + 0.0F + random.nextFloat() * 6.0F / 16.0F;
+            float f2 = (float)z + 0.5F;
+            float f3 = 0.52F;
+            float f4 = random.nextFloat() * 0.6F - 0.3F;
+
+            if (l == 4)
+            {
+                world.spawnParticle("smoke", (double)(f - f3), (double)f1, (double)(f2 + f4), 0.0D, 0.0D, 0.0D);
+                world.spawnParticle("flame", (double)(f - f3), (double)f1, (double)(f2 + f4), 0.0D, 0.0D, 0.0D);
+            }
+            else if (l == 5)
+            {
+                world.spawnParticle("smoke", (double)(f + f3), (double)f1, (double)(f2 + f4), 0.0D, 0.0D, 0.0D);
+                world.spawnParticle("flame", (double)(f + f3), (double)f1, (double)(f2 + f4), 0.0D, 0.0D, 0.0D);
+            }
+            else if (l == 2)
+            {
+                world.spawnParticle("smoke", (double)(f + f4), (double)f1, (double)(f2 - f3), 0.0D, 0.0D, 0.0D);
+                world.spawnParticle("flame", (double)(f + f4), (double)f1, (double)(f2 - f3), 0.0D, 0.0D, 0.0D);
+            }
+            else if (l == 3)
+            {
+                world.spawnParticle("smoke", (double)(f + f4), (double)f1, (double)(f2 + f3), 0.0D, 0.0D, 0.0D);
+                world.spawnParticle("flame", (double)(f + f4), (double)f1, (double)(f2 + f3), 0.0D, 0.0D, 0.0D);
+            }
+        }
+    }
+
     public void onBlockPlacedBy(World world, int x, int y, int z , EntityLivingBase entityplayer, ItemStack itemstack)
     {
         int l = MathHelper.floor_double((double)(entityplayer.rotationYaw * 4.0F / 360.0F) + 0.5D) & 3;
@@ -145,7 +182,8 @@ public class BlockSurvivalistFurnace extends BlockContainer {
     @SideOnly(Side.CLIENT)
     public IIcon getIcon(int side, int metadata)
     {
-        return side == 1 ? this.iconTop : (side == 0 ? this.iconTop : (side != metadata ? this.blockIcon : this.iconFront));
+       // return side == 1 ? this.iconTop : (side == 0 ? this.iconTop : (side != metadata ? this.blockIcon : this.iconFront));
+        return metadata == 0 && side == 3 ? this.iconFront : side == 1 ? this.iconTop : (side == 0 ? this.iconTop: (side == metadata ? this.iconFront : this.blockIcon));
     }
 //////////////////////////////
 ////////TEXTURES END//////////
@@ -184,5 +222,54 @@ public class BlockSurvivalistFurnace extends BlockContainer {
             tileentity.validate();
             worldObj.setTileEntity(xCoord, yCoord, zCoord, tileentity);
         }
+    }
+
+    public void breakBlock(World world, int x, int y, int z, Block oldblock, int oldMetadata)
+    {
+        if (!keepInventory)
+        {
+            TileEntitySurvivalistFurnace tileentity = (TileEntitySurvivalistFurnace) world.getTileEntity(x , y, z);
+
+            if (tileentity != null)
+            {
+                for (int i = 0; i < tileentity.getSizeInventory(); i++)
+                {
+                    ItemStack itemStack = tileentity.getStackInSlot(i);
+
+                    if (itemStack != null)
+                    {
+                        float f = this.rand.nextFloat() * 0.8F + 0.1F;
+                        float f1 = this.rand.nextFloat() * 0.8F + 0.1F;
+                        float f2 = this.rand.nextFloat() * 0.8F + 0.1F;
+
+                        while (itemStack.stackSize > 0)
+                        {
+                            int j = this.rand.nextInt(21) + 10;
+
+                            if (j > itemStack.stackSize)
+                            {
+                                j = itemStack.stackSize;
+                            }
+                            itemStack.stackSize -= j;
+
+                            EntityItem item = new EntityItem(world, (double)((float)x + f), (double)((float)y + f1), ((double)(float)z + f2), new ItemStack(itemStack.getItem(), j, itemStack.getItemDamage()));
+
+                            if (itemStack.hasTagCompound())
+                            {
+                                item.getEntityItem().setTagCompound((NBTTagCompound)itemStack.getTagCompound().copy());
+                            }
+                            world.spawnEntityInWorld(item);
+                        }
+                    }
+                }
+                world.func_147453_f(x, y, z, oldblock);
+            }
+        }
+        super.breakBlock(world, x, y, z, oldblock, oldMetadata);
+    }
+
+    public Item getItem(World world, int x, int y, int z)
+    {
+        return Item.getItemFromBlock(ModBlocks.BLOCK_SURVIVALIST_FURNACE_IDLE);
     }
 }

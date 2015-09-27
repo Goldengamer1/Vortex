@@ -231,6 +231,8 @@ public class TileEntitySurvivalistFurnace extends TileEntity implements ISidedIn
                 {
                     this.slots[var1] = null;
                 }
+
+                return itemStack;
             }
         }
         return null;
