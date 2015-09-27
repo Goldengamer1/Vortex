@@ -2,6 +2,7 @@ package com.goldengamer.vortex.block;
 
 import com.goldengamer.vortex.Vortex;
 import com.goldengamer.vortex.creativetab.CreativeTabVortex;
+import com.goldengamer.vortex.handler.ConfigurationHandler;
 import com.goldengamer.vortex.init.ModBlocks;
 import com.goldengamer.vortex.reference.Reference;
 import com.goldengamer.vortex.tileentity.TileEntitySurvivalistFurnace;
@@ -109,7 +110,7 @@ public class BlockSurvivalistFurnace extends BlockContainer {
     @SideOnly(Side.CLIENT)
     public void randomDisplayTick(World world, int x, int y ,int z, Random random)
     {
-        if(this.isActive)
+        if(this.isActive && ConfigurationHandler.SurvivalistFurnaceParticals)
         {
             int l = world.getBlockMetadata(x, y, z);
             float f = (float)x + 0.5F;
@@ -138,6 +139,7 @@ public class BlockSurvivalistFurnace extends BlockContainer {
                 world.spawnParticle("smoke", (double)(f + f4), (double)f1, (double)(f2 + f3), 0.0D, 0.0D, 0.0D);
                 world.spawnParticle("flame", (double)(f + f4), (double)f1, (double)(f2 + f3), 0.0D, 0.0D, 0.0D);
             }
+
         }
     }
 
