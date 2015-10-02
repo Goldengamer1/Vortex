@@ -12,6 +12,7 @@ import com.goldengamer.vortex.init.TileEntities;
 import com.goldengamer.vortex.network.PacketHandler;
 import com.goldengamer.vortex.proxy.CommonProxy;
 import com.goldengamer.vortex.reference.Reference;
+import com.goldengamer.vortex.utility.Events;
 import com.goldengamer.vortex.utility.LogHelper;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
@@ -21,6 +22,7 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraftforge.common.MinecraftForge;
 
 /**
  * Created by gold on 14/09/2015.
@@ -66,6 +68,7 @@ public class Vortex
         NetworkRegistry.INSTANCE.registerGuiHandler(instance, new GuiHandler());
 
         FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
+        MinecraftForge.EVENT_BUS.register(new Events());
 
         Recipes.init();
         proxy.registerRenderThings();

@@ -15,6 +15,8 @@ import net.minecraft.world.World;
  */
 public class HardToFindiumSword extends ItemSwordVortex
 {
+    public boolean isSeleceted = false;
+
     public HardToFindiumSword()
     {
         super(Material.Tools.HardToFindIum);
@@ -29,9 +31,13 @@ public class HardToFindiumSword extends ItemSwordVortex
         {
             EntityPlayer player = (EntityPlayer) entity;
             ItemStack equipped = player.getCurrentEquippedItem();
+            //TODO FIX IF ITEM IS DROPPED HUD GOSES AWAY
             if (equipped == stack)
             {
                 player.addPotionEffect(new PotionEffect(Potion.damageBoost.getId(), 100, 6));
+                isSeleceted = true;
+            }else{
+                isSeleceted = false;
             }
         }
     }
