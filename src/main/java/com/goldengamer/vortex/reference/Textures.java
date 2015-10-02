@@ -26,7 +26,11 @@ public class Textures
     public static final class Gui
     {
         protected static final String GUI_TEXTURE_LOCATION = "vortex:textures/gui/container/";
+        protected static final String HUD_TEXTURE_LOCATION = "vortex:textures/gui/";
         public static final ResourceLocation SURVIVALIST_FURNACE = (new ResourceLocation(GUI_TEXTURE_LOCATION + "survivalistFurnace.png"));
+
+        //HUD
+        public static final ResourceLocation ABILITYBAR = (new ResourceLocation(HUD_TEXTURE_LOCATION + "abilityBar.png"));
 
     }
 
