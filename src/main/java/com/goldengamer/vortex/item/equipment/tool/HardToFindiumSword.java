@@ -9,6 +9,8 @@ package com.goldengamer.vortex.item.equipment.tool;
         import net.minecraft.entity.player.EntityPlayer;
         import net.minecraft.item.ItemStack;
         import net.minecraft.nbt.NBTTagCompound;
+        import net.minecraft.potion.Potion;
+        import net.minecraft.potion.PotionEffect;
         import net.minecraft.util.StatCollector;
         import net.minecraft.world.World;
 
@@ -26,21 +28,6 @@ public class HardToFindiumSword extends ItemSwordVortex implements IHudOverlay
         this.setUnlocalizedName("HARDTOFINDIUM_SWORD");
     }
 
-
-    //dose stuff if item is in hand
-    //@Override
-    //public void onUpdate(ItemStack stack, World world, Entity entity, int par4, boolean par5)
-    //{
-    //    super.onUpdate(stack, world, entity, par4, par5);
-    //    {
-    //        EntityPlayer player = (EntityPlayer) entity;
-    //        ItemStack equipped = player.getCurrentEquippedItem();
-    //        if (equipped == stack)
-    //        {
-    //            player.addPotionEffect(new PotionEffect(Potion.damageBoost.getId(), 100, 6));
-    //        }
-    //    }
-    //}
     @Override
     public ItemStack onItemRightClick(ItemStack item, World world, EntityPlayer player)
     {
@@ -66,11 +53,22 @@ public class HardToFindiumSword extends ItemSwordVortex implements IHudOverlay
             item.setTagCompound(new NBTTagCompound());
         }
 
-        //TODO work on , if the not owner has the item he gets debuffed
-       // if (entity.getCommandSenderName() == item.getTagCompound().getString("ownerName"))
-       // {
-       //     LogHelper.info("hi");
-        //}
+        //TODO This may or may not cause lag , find out maybe
+        if (!(item.getTagCompound() == null)) {
+            if (!item.getTagCompound().getString("ownerName").equals("")) {
+                if (!item.getTagCompound().getString("ownerName").equals(entity.getCommandSenderName())) {
+                    ((EntityPlayer) entity).addPotionEffect(new PotionEffect(Potion.moveSlowdown.getId(), 100, 11));
+                    ((EntityPlayer) entity).addPotionEffect(new PotionEffect(Potion.blindness.getId(), 100, 1));
+                    ((EntityPlayer) entity).addPotionEffect(new PotionEffect(Potion.confusion.getId(), 100, 11));
+                    ((EntityPlayer) entity).addPotionEffect(new PotionEffect(Potion.hunger.getId(), 100, 11));
+                    ((EntityPlayer) entity).addPotionEffect(new PotionEffect(Potion.poison.getId(), 100, 11));
+                    ((EntityPlayer) entity).addPotionEffect(new PotionEffect(Potion.weakness.getId(), 100, 11));
+                    ((EntityPlayer) entity).addPotionEffect(new PotionEffect(Potion.wither.getId(), 100, 5));
+                    ((EntityPlayer) entity).addPotionEffect(new PotionEffect(Potion.digSlowdown.getId(), 100, 11));
+                }
+            }
+        }
+
     }
 
     @Override

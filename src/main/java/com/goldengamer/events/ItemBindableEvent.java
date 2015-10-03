@@ -19,7 +19,7 @@ public class ItemBindableEvent extends Event
     public String key;
     public ItemStack itemStack;
 
-    public  ItemBindableEvent(EntityPlayer player, String key, ItemStack itemStack)
+    public ItemBindableEvent(EntityPlayer player, String key, ItemStack itemStack)
     {
         super();
         this.player = player;
