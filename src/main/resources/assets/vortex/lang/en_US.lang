@@ -19,3 +19,6 @@ tile.vortex:BLOCK_SURVIVALIST_FURNACE_ACTIVE.name=Survivalist Furnace(ACTIVE)
 keys.vortex.category=Vortexcraft
 keys.vortex.charge=Charge
 keys.vortex.release=Release
+
+#Tooltip localization
+tooltip.vortex:owner=Bound To:

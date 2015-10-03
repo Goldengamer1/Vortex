@@ -1,8 +1,7 @@
-package com.goldengamer.vortex.utility;
+package com.goldengamer.events;
 
-import com.goldengamer.vortex.init.ModItems;
-import com.goldengamer.vortex.reference.Reference;
 import com.goldengamer.vortex.reference.Textures;
+import com.goldengamer.vortex.utility.interfaces.IHudOverlay;
 import cpw.mods.fml.client.FMLClientHandler;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.relauncher.Side;
@@ -10,15 +9,13 @@ import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
-import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.event.RenderGameOverlayEvent;
 
 /**
  * Created by golde on 02/10/2015.
  */
-public class Events
+public class HUDEvents
 {
-
 
     @SubscribeEvent
     @SideOnly(Side.CLIENT)
