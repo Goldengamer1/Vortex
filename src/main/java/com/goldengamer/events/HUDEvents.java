@@ -3,6 +3,7 @@ package com.goldengamer.events;
 import com.goldengamer.vortex.reference.Textures;
 import com.goldengamer.vortex.utility.interfaces.IHudOverlay;
 import cpw.mods.fml.client.FMLClientHandler;
+import cpw.mods.fml.common.eventhandler.Event;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -14,7 +15,7 @@ import net.minecraftforge.client.event.RenderGameOverlayEvent;
 /**
  * Created by golde on 02/10/2015.
  */
-public class HUDEvents
+public class HUDEvents extends Event
 {
 
     @SubscribeEvent
@@ -26,8 +27,7 @@ public class HUDEvents
         ItemStack currentItemStack = entityPlayer.inventory.getCurrentItem();
 
         //this checks if the item is a instanceof IHudOverlay
-        if (currentItemStack != null && currentItemStack.getItem() instanceof IHudOverlay) {
-
+        if (currentItemStack != null && currentItemStack.getItem() instanceof IHudOverlay && !currentItemStack.getTagCompound().getString("ownerName").equals("")) {
             if (!event.isCancelable() && event.type == RenderGameOverlayEvent.ElementType.EXPERIENCE) {
                 Minecraft mc = Minecraft.getMinecraft();
 

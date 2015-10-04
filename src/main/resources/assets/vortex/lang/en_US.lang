@@ -22,3 +22,5 @@ keys.vortex.release=Release
 
 #Tooltip localization
 tooltip.vortex:owner=Bound To:
+tooltip.vortex:desc1=RIGHT CLICK ME!
+tooltip.vortex:desc2=TO UNLOCK MY FULL POWER!
