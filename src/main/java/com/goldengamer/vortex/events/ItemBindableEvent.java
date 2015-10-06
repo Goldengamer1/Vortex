@@ -1,4 +1,4 @@
-package com.goldengamer.events;
+package com.goldengamer.vortex.events;
 
 import cpw.mods.fml.common.eventhandler.Cancelable;
 import cpw.mods.fml.common.eventhandler.Event;

@@ -1,14 +1,20 @@
 package com.goldengamer.vortex.utility;
 
-import com.goldengamer.events.ItemBindableEvent;
+import com.goldengamer.vortex.events.ItemBindableEvent;
+import com.google.common.io.Files;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.CompressedStreamTools;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.world.World;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.util.FakePlayer;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.util.HashMap;
 import java.util.regex.Pattern;
 
 /**

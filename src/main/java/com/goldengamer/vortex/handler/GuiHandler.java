@@ -4,8 +4,8 @@ import com.goldengamer.vortex.client.gui.inventory.GuiSurvivalistFurnace;
 import com.goldengamer.vortex.inventory.ContainerSurvivalistFurnace;
 import com.goldengamer.vortex.tileentity.TileEntitySurvivalistFurnace;
 import cpw.mods.fml.common.network.IGuiHandler;
+import net.minecraft.client.multiplayer.WorldClient;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
 
 /**
@@ -38,8 +38,8 @@ public class GuiHandler implements IGuiHandler
             return new GuiSurvivalistFurnace(player.inventory, tileEntitySurvivalistFurnace);
         }
         //else if (ID == 1)
-       // {
-       // }
+        //{
+        //}
 
         return null;
     }

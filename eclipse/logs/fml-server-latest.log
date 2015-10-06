@@ -262,7 +262,7 @@
 [01:47:09] [Server thread/TRACE] [FML/]: Recursing into package assets.vortex.textures.models
 [01:47:09] [Server thread/TRACE] [FML/]: Recursing into package com
 [01:47:09] [Server thread/TRACE] [FML/]: Recursing into package com.goldengamer
-[01:47:09] [Server thread/TRACE] [FML/]: Recursing into package com.goldengamer.events
+[01:47:09] [Server thread/TRACE] [FML/]: Recursing into package com.goldengamer.vortex.events
 [01:47:09] [Server thread/TRACE] [FML/]: Recursing into package com.goldengamer.vortex
 [01:47:09] [Server thread/TRACE] [FML/]: Recursing into package com.goldengamer.vortex.block
 [01:47:09] [Server thread/TRACE] [FML/]: Recursing into package com.goldengamer.vortex.block.base

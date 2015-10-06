@@ -5,5 +5,6 @@ package com.goldengamer.vortex.reference;
  */
 public enum GUIs
 {
-    SURVIVALIST_FURNACE
+    SURVIVALIST_FURNACE,
+    IMPLANT_GUI
 }

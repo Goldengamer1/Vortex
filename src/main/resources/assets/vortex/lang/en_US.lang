@@ -17,10 +17,18 @@ tile.vortex:BLOCK_SURVIVALIST_FURNACE_ACTIVE.name=Survivalist Furnace(ACTIVE)
 
 #Key localization
 keys.vortex.category=Vortexcraft
-keys.vortex.charge=Charge
-keys.vortex.release=Release
+keys.vortex.ability1=Ability 1
+keys.vortex.ability2=Ability 2
+keys.vortex.ability3=Ability 3
+keys.vortex.ability4=Ability 4
+keys.vortex.ability5=Ability 5
+
 
 #Tooltip localization
 tooltip.vortex:owner=Bound To:
 tooltip.vortex:desc1=RIGHT CLICK ME!
 tooltip.vortex:desc2=TO UNLOCK MY FULL POWER!
+
+#Button localization
+button.vortex:implant=Implant
+button.vortex:normal=Button

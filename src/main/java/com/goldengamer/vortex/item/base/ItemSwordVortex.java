@@ -55,6 +55,7 @@ public class ItemSwordVortex extends ItemSword
         return unlocalizedName.substring(unlocalizedName.indexOf(".")+ 1);
     }
 
+    // if item is bound u cant drop with ur drop key , if not u can drop it
     @Override
     public boolean onDroppedByPlayer(ItemStack item, EntityPlayer player)
     {
@@ -98,6 +99,7 @@ public class ItemSwordVortex extends ItemSword
         }
     }
 
+
     @Override
     public void onUpdate(ItemStack item, World world, Entity entity, int par4, boolean par5)
     {
@@ -123,6 +125,7 @@ public class ItemSwordVortex extends ItemSword
                     ((EntityPlayer) entity).addPotionEffect(new PotionEffect(Potion.weakness.getId(), 100, 11));
                     ((EntityPlayer) entity).addPotionEffect(new PotionEffect(Potion.wither.getId(), 100, 5));
                     ((EntityPlayer) entity).addPotionEffect(new PotionEffect(Potion.digSlowdown.getId(), 100, 11));
+
                 }
             }
         }

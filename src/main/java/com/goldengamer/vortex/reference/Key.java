@@ -5,5 +5,10 @@ package com.goldengamer.vortex.reference;
  */
 public enum Key
 {
-    UNKNOWN, CHARGE;
+    UNKNOWN,
+    ABILITY1,
+    ABILITY2,
+    ABILITY3,
+    ABILITY4,
+    ABILITY5;
 }

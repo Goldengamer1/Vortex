@@ -1,4 +1,4 @@
-package com.goldengamer.events;
+package com.goldengamer.vortex.events;
 
 import com.goldengamer.vortex.reference.Textures;
 import com.goldengamer.vortex.utility.interfaces.IHudOverlay;
