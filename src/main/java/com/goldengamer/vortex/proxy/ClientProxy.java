@@ -1,12 +1,16 @@
 package com.goldengamer.vortex.proxy;
 
+import com.goldengamer.vortex.client.gui.GuiImplantInv;
+import com.goldengamer.vortex.client.gui.inventory.GuiSurvivalistFurnace;
 import com.goldengamer.vortex.client.renderer.item.ItemRendererHardtofindiumSword;
 import com.goldengamer.vortex.client.renderer.tileentity.TileEntityBdRenderer;
 import com.goldengamer.vortex.client.settings.Keybindings;
 import com.goldengamer.vortex.init.ModItems;
 import com.goldengamer.vortex.tileentity.TileEntityBd;
+import com.goldengamer.vortex.tileentity.TileEntitySurvivalistFurnace;
 import cpw.mods.fml.client.FMLClientHandler;
 import cpw.mods.fml.client.registry.ClientRegistry;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.world.World;
 import net.minecraftforge.client.MinecraftForgeClient;
 
@@ -34,6 +38,20 @@ public class ClientProxy extends CommonProxy
         MinecraftForgeClient.registerItemRenderer(ModItems.HARD_TO_FINDIUM_SWORD, new ItemRendererHardtofindiumSword());
     }
 
+    @Override
+    public Object getClientGuiElement(int ID, EntityPlayer player, World world, int x, int y, int z)
+    {
+        switch (ID)
+        {
+            case 0:
+                return new GuiSurvivalistFurnace(player.inventory, (TileEntitySurvivalistFurnace) world.getTileEntity(x, y, z));
+            case 1:
+                return new GuiImplantInv(player);
+        }
+        return null;
+    }
+
+    @Override
     public World getClientWorld() {
         return FMLClientHandler.instance().getClient().theWorld;
     }

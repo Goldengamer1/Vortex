@@ -4,7 +4,6 @@ import com.goldengamer.vortex.client.handler.KeyInputEventHandler;
 import com.goldengamer.vortex.handler.ConfigurationHandler;
 import com.goldengamer.vortex.handler.CraftingHandler;
 import com.goldengamer.vortex.handler.FuelHandler;
-import com.goldengamer.vortex.handler.GuiHandler;
 import com.goldengamer.vortex.init.*;
 import com.goldengamer.vortex.network.PacketHandler;
 import com.goldengamer.vortex.proxy.CommonProxy;
@@ -60,7 +59,7 @@ public class Vortex
     {
         //TODO Comment the lines
         // Register the GUI Handler
-        NetworkRegistry.INSTANCE.registerGuiHandler(instance, new GuiHandler());
+        NetworkRegistry.INSTANCE.registerGuiHandler(instance, proxy);
 
         FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
 

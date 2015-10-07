@@ -1,4 +1,4 @@
-package com.goldengamer.vortex.inventory;
+package com.goldengamer.vortex.container;
 
 import com.goldengamer.vortex.tileentity.TileEntitySurvivalistFurnace;
 import cpw.mods.fml.relauncher.Side;

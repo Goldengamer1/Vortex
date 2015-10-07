@@ -29,7 +29,7 @@ public class TileEntitySurvivalistFurnace extends TileEntity implements ISidedIn
 
     private ItemStack[] slots = new ItemStack[3];
 
-    public int furnaceSpeed = 150;
+    public int furnaceSpeed = 160;
     public int burnTime;
     public int currentItemBurnTime;
     public int cookTime;

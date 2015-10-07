@@ -5,5 +5,9 @@ package com.goldengamer.vortex.reference;
  */
 public enum ImplantType
 {
-    CLASS_IMPLANT
+    CLASS_IMPLANT,
+    VANILLA_HELM,
+    VANILLA_CHEST,
+    VANILLA_LEGS,
+    VANILLA_BOOTS
 }

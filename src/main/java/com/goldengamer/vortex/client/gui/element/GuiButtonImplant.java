@@ -1,4 +1,4 @@
-package com.goldengamer.vortex.inventory.element;
+package com.goldengamer.vortex.client.gui.element;
 
 import com.goldengamer.vortex.reference.Textures;
 import net.minecraft.client.Minecraft;
@@ -10,9 +10,11 @@ import org.lwjgl.opengl.GL11;
 /**
  * Created by golde on 06/10/2015.
  */
-public class GuiImplantButton extends GuiButton
+
+//This Class renders the Button after activated by the GuiEvent class
+public class GuiButtonImplant extends GuiButton
 {
-    public GuiImplantButton(int buttonId, int x, int y, int width, int height, String buttonText)
+    public GuiButtonImplant(int buttonId, int x, int y, int width, int height, String buttonText)
     {
         super(buttonId, x, y, width, height, buttonText);
     }
@@ -22,6 +24,8 @@ public class GuiImplantButton extends GuiButton
         if (this.visible)
         {
             FontRenderer fontRenderer = mc.fontRenderer;
+
+            //Binds texture for the button
             mc.getTextureManager().bindTexture(Textures.Gui.IMPLANT_GUI);
             GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
             this.field_146123_n = xx >= this.xPosition && yy >= this.yPosition && xx < this.xPosition + this.width && yy < this.yPosition + this.height;
@@ -30,6 +34,7 @@ public class GuiImplantButton extends GuiButton
             OpenGlHelper.glBlendFunc(770, 771, 1, 0);
             GL11.glBlendFunc(GL11.GL_SRC_ALPHA, GL11.GL_ONE_MINUS_SRC_ALPHA);
 
+            // if the button is being hovered over it will turn from gray to gold and Text will show
             if (k == 1)
             {
                 this.drawTexturedModalRect(this.xPosition, this.yPosition, 177, 0, 10, 10);

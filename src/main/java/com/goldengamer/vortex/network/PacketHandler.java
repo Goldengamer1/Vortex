@@ -10,10 +10,13 @@ import cpw.mods.fml.relauncher.Side;
  */
 public class PacketHandler
 {
-    public static final SimpleNetworkWrapper INSTANCE = NetworkRegistry.INSTANCE.newSimpleChannel(Reference.LOWERCASE_MOD_ID);
+    public static final SimpleNetworkWrapper INSTANCE = NetworkRegistry.INSTANCE.newSimpleChannel(Reference.MOD_ID.toLowerCase());
 
     public static void init()
     {
-        //INSTANCE.registerMessage(MessageRightClick.Handler.class, MessageRightClick.class, 0, Side.SERVER);
+        INSTANCE.registerMessage(MessageOpenImplantGui.HandlerServer.class, MessageOpenImplantGui.class, 0, Side.SERVER);
+        INSTANCE.registerMessage(MessageOpenImplantGui.HandlerClient.class, MessageOpenImplantGui.class, 1, Side.CLIENT);
+        INSTANCE.registerMessage(MessageImplantSlotsSync.class, MessageImplantSlotsSync.class, 2, Side.SERVER);
+
     }
 }

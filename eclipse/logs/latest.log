@@ -1,25 +1,63 @@
-[02:13:51] [main/INFO]: Logging in with username & password
-[02:13:56] [main/INFO]: Setting user: goldengamer10
-[02:13:57] [Client thread/INFO]: LWJGL Version: 2.9.1
-[02:13:59] [Twitch authenticator/ERROR]: Given twitch access token is invalid
-[02:14:05] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Vortexcraft
-[02:14:06] [Sound Library Loader/INFO]: Sound engine started
-[02:14:07] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[02:14:07] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[02:14:07] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Vortexcraft
-[02:14:08] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[02:14:08] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[02:14:08] [Sound Library Loader/INFO]: Sound engine started
-[02:14:13] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[02:14:13] [Server thread/INFO]: Generating keypair
-[02:14:13] [Server thread/INFO]: Preparing start region for level 0
-[02:14:13] [Server thread/INFO]: Changing view distance to 12, from 10
-[02:14:14] [Server thread/INFO]: goldengamer10[local:E:75bbc0be] logged in with entity id 176 at (-326.5, 4.0, -187.5)
-[02:14:14] [Server thread/INFO]: goldengamer10 joined the game
-[02:15:05] [Client thread/INFO]: Stopping!
-[02:15:05] [Server thread/INFO]: Stopping server
-[02:15:05] [Server thread/INFO]: Saving players
-[02:15:05] [Server thread/INFO]: Saving worlds
-[02:15:05] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[02:15:05] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[02:15:05] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:37:08] [main/INFO]: Logging in with username & password
+[01:37:13] [main/INFO]: Setting user: goldengamer10
+[01:37:15] [Client thread/INFO]: LWJGL Version: 2.9.1
+[01:37:17] [Twitch authenticator/ERROR]: Given twitch access token is invalid
+[01:37:23] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Vortexcraft
+[01:37:24] [Sound Library Loader/INFO]: Sound engine started
+[01:37:25] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[01:37:25] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[01:37:26] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Vortexcraft
+[01:37:26] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[01:37:26] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[01:37:27] [Sound Library Loader/INFO]: Sound engine started
+[01:37:30] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[01:37:30] [Server thread/INFO]: Generating keypair
+[01:37:31] [Server thread/INFO]: Preparing start region for level 0
+[01:37:31] [Server thread/INFO]: Changing view distance to 12, from 10
+[01:37:32] [Server thread/INFO]: goldengamer10[local:E:f0591cb2] logged in with entity id 218 at (-268.72537756441824, 4.0, 1162.449748036458)
+[01:37:32] [Server thread/INFO]: goldengamer10 joined the game
+[01:37:40] [Server thread/INFO]: Stopping server
+[01:37:40] [Server thread/INFO]: Saving players
+[01:37:40] [Server thread/INFO]: Saving worlds
+[01:37:40] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:37:40] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:37:40] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:37:41] [Client thread/FATAL]: Reported exception thrown!
+net.minecraft.util.ReportedException: Updating screen events
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1745) ~[Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1039) ~[Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:962) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_60]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
+	at GradleStart.main(Unknown Source) [start/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_60]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:?]
+Caused by: java.lang.IndexOutOfBoundsException: Index: 41, Size: 41
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653) ~[?:1.8.0_60]
+	at java.util.ArrayList.get(ArrayList.java:429) ~[?:1.8.0_60]
+	at net.minecraft.inventory.Container.mergeItemStack(Container.java:620) ~[Container.class:?]
+	at com.goldengamer.vortex.container.ContainerImplantInv.transferStackInSlot(ContainerImplantInv.java:96) ~[ContainerImplantInv.class:?]
+	at net.minecraft.inventory.Container.slotClick(Container.java:279) ~[Container.class:?]
+	at net.minecraft.client.multiplayer.PlayerControllerMP.windowClick(PlayerControllerMP.java:478) ~[PlayerControllerMP.class:?]
+	at codechicken.nei.guihook.GuiContainerManager.handleSlotClick(GuiContainerManager.java:504) ~[GuiContainerManager.class:?]
+	at net.minecraft.client.gui.inventory.GuiContainer.handleMouseClick(GuiContainer.java:673) ~[GuiContainer.class:?]
+	at net.minecraft.client.gui.inventory.GuiContainer.public_func_146984_a(GuiContainer.java) ~[GuiContainer.class:?]
+	at codechicken.nei.guihook.DefaultSlotClickHandler.callHandleMouseClick(DefaultSlotClickHandler.java) ~[DefaultSlotClickHandler.class:?]
+	at codechicken.nei.guihook.DefaultSlotClickHandler.handleSlotClick(DefaultSlotClickHandler.java:17) ~[DefaultSlotClickHandler.class:?]
+	at codechicken.nei.guihook.GuiContainerManager.handleMouseClick(GuiContainerManager.java:453) ~[GuiContainerManager.class:?]
+	at net.minecraft.client.gui.inventory.GuiContainer.managerHandleMouseClick(GuiContainer.java) ~[GuiContainer.class:?]
+	at net.minecraft.client.gui.inventory.GuiContainer.mouseClicked(GuiContainer.java:418) ~[GuiContainer.class:?]
+	at net.minecraft.client.gui.GuiScreen.handleMouseInput(GuiScreen.java:344) ~[GuiScreen.class:?]
+	at net.minecraft.client.gui.inventory.GuiContainer.handleMouseInput(GuiContainer.java) ~[GuiContainer.class:?]
+	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:313) ~[GuiScreen.class:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1731) ~[Minecraft.class:?]
+	... 16 more
