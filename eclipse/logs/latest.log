@@ -1,29 +1,67 @@
-[02:51:18] [main/INFO]: Logging in with username & password
-[02:51:23] [main/INFO]: Setting user: goldengamer10
-[02:51:24] [Client thread/INFO]: LWJGL Version: 2.9.1
-[02:51:26] [Twitch authenticator/ERROR]: Given twitch access token is invalid
-[02:51:32] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Vortexcraft
-[02:51:33] [Sound Library Loader/INFO]: Sound engine started
-[02:51:34] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[02:51:34] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[02:51:35] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Vortexcraft
-[02:51:35] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[02:51:35] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[02:51:36] [Sound Library Loader/INFO]: Sound engine started
-[02:51:41] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[02:51:41] [Server thread/INFO]: Generating keypair
-[02:51:41] [Server thread/INFO]: Preparing start region for level 0
-[02:51:41] [Server thread/INFO]: Changing view distance to 12, from 10
-[02:51:42] [Server thread/INFO]: goldengamer10[local:E:37ac6306] logged in with entity id 218 at (-268.72537756441824, 4.0, 1162.449748036458)
-[02:51:42] [Server thread/INFO]: goldengamer10 joined the game
-[02:52:04] [Server thread/INFO]: Saving and pausing game...
-[02:52:04] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[02:52:04] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[02:52:04] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[02:52:05] [Server thread/INFO]: Stopping server
-[02:52:05] [Server thread/INFO]: Saving players
-[02:52:05] [Server thread/INFO]: Saving worlds
-[02:52:05] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[02:52:05] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[02:52:05] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[02:52:06] [Client thread/INFO]: Stopping!
+[21:38:30] [main/INFO]: Logging in with username & password
+[21:38:35] [main/INFO]: Setting user: goldengamer10
+[21:38:37] [Client thread/INFO]: LWJGL Version: 2.9.1
+[21:38:38] [Twitch authenticator/ERROR]: Given twitch access token is invalid
+[21:38:45] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Vortexcraft
+[21:38:46] [Sound Library Loader/INFO]: Sound engine started
+[21:38:47] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[21:38:47] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[21:38:47] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Vortexcraft
+[21:38:48] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[21:38:48] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[21:38:49] [Sound Library Loader/INFO]: Sound engine started
+[21:38:54] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[21:38:54] [Server thread/INFO]: Generating keypair
+[21:38:54] [Server thread/INFO]: Preparing start region for level 0
+[21:38:55] [Server thread/INFO]: Changing view distance to 12, from 10
+[21:38:55] [Server thread/INFO]: goldengamer10[local:E:53cd50bb] logged in with entity id 165 at (-138.64946248456698, 4.0, 1395.1138041346285)
+[21:38:55] [Server thread/INFO]: goldengamer10 joined the game
+[21:38:56] [Server thread/INFO]: Saving and pausing game...
+[21:38:56] [Server thread/INFO]: Saving chunks for level 'Dev world 1'/Overworld
+[21:38:56] [Server thread/INFO]: Saving chunks for level 'Dev world 1'/Nether
+[21:38:56] [Server thread/INFO]: Saving chunks for level 'Dev world 1'/The End
+[21:39:17] [Server thread/INFO]: [goldengamer10: Given [Test Item] * 64 to goldengamer10]
+[21:39:17] [Client thread/INFO]: [CHAT] Given [Test Item] * 64 to goldengamer10
+[21:39:34] [Client thread/WARN]: Failed to load texture: vortex:textures/models/HARDTOFINDIUM_SWORD.png
+java.io.FileNotFoundException: vortex:textures/models/HARDTOFINDIUM_SWORD.png
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.texture.SimpleTexture.loadTexture(SimpleTexture.java:35) ~[SimpleTexture.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.bindTexture(TextureManager.java:45) [TextureManager.class:?]
+	at com.goldengamer.vortex.client.renderer.item.ItemRendererHardtofindiumSword.renderItem(ItemRendererHardtofindiumSword.java:56) [ItemRendererHardtofindiumSword.class:?]
+	at net.minecraftforge.client.ForgeHooksClient.renderEquippedItem(ForgeHooksClient.java:232) [ForgeHooksClient.class:?]
+	at net.minecraft.client.renderer.ItemRenderer.renderItem(ItemRenderer.java:86) [ItemRenderer.class:?]
+	at net.minecraft.client.renderer.ItemRenderer.renderItemInFirstPerson(ItemRenderer.java:511) [ItemRenderer.class:?]
+	at net.minecraft.client.renderer.EntityRenderer.renderHand(EntityRenderer.java:797) [EntityRenderer.class:?]
+	at net.minecraft.client.renderer.EntityRenderer.renderWorld(EntityRenderer.java:1437) [EntityRenderer.class:?]
+	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1087) [EntityRenderer.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1067) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:962) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_60]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
+	at GradleStart.main(Unknown Source) [start/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_60]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:?]
+[21:39:41] [Server thread/INFO]: [goldengamer10: Given [Test Item] * 1 to goldengamer10]
+[21:39:42] [Client thread/INFO]: [CHAT] Given [Test Item] * 1 to goldengamer10
+[21:39:50] [Server thread/INFO]: Saving and pausing game...
+[21:39:50] [Server thread/INFO]: Saving chunks for level 'Dev world 1'/Overworld
+[21:39:50] [Server thread/INFO]: Saving chunks for level 'Dev world 1'/Nether
+[21:39:50] [Server thread/INFO]: Saving chunks for level 'Dev world 1'/The End
+[21:39:50] [Server thread/INFO]: Stopping server
+[21:39:50] [Server thread/INFO]: Saving players
+[21:39:50] [Server thread/INFO]: Saving worlds
+[21:39:50] [Server thread/INFO]: Saving chunks for level 'Dev world 1'/Overworld
+[21:39:50] [Server thread/INFO]: Saving chunks for level 'Dev world 1'/Nether
+[21:39:50] [Server thread/INFO]: Saving chunks for level 'Dev world 1'/The End
+[21:39:51] [Client thread/INFO]: Stopping!

@@ -1,7 +1,12 @@
 package com.goldengamer.vortex.client.gui;
 
+import com.goldengamer.vortex.Vortex;
+import com.goldengamer.vortex.client.settings.Keybindings;
 import com.goldengamer.vortex.container.ContainerImplantInv;
 import com.goldengamer.vortex.reference.Textures;
+import net.minecraft.client.gui.GuiButton;
+import net.minecraft.client.gui.achievement.GuiAchievements;
+import net.minecraft.client.gui.achievement.GuiStats;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.renderer.OpenGlHelper;
 import net.minecraft.client.renderer.RenderHelper;
@@ -43,7 +48,7 @@ public class GuiImplantInv extends GuiContainer
         this.drawTexturedModalRect(k, l, 0, 0, this.xSize, this.ySize);
         GL11.glEnable(3042);
 
-        drawPlayerModel(k + 51, l + 75, 30, (float)(k + 51) - this.xSizeFloat, (float)(l + 75 - 50) - this.ySizeFloat, this.mc.thePlayer);
+        drawPlayerModel(k + 51, l + 75, 30, (float) (k + 51) - this.xSizeFloat, (float) (l + 75 - 50) - this.ySizeFloat, this.mc.thePlayer);
     }
 
     //
@@ -84,5 +89,30 @@ public class GuiImplantInv extends GuiContainer
         OpenGlHelper.setActiveTexture(OpenGlHelper.lightmapTexUnit);
         GL11.glDisable(GL11.GL_TEXTURE_2D);
         OpenGlHelper.setActiveTexture(OpenGlHelper.defaultTexUnit);
+    }
+
+
+    @Override
+    protected void actionPerformed(GuiButton button)
+    {
+        if (button.id == 0)
+        {
+            this.mc.displayGuiScreen(new GuiAchievements(this, this.mc.thePlayer.getStatFileWriter()));
+        }
+
+        if (button.id == 1)
+        {
+            this.mc.displayGuiScreen(new GuiStats(this, this.mc.thePlayer.getStatFileWriter()));
+        }
+
+    }
+
+    @Override
+    protected void keyTyped(char par1, int par2) {
+        if (par2 == Keybindings.guiButton.getKeyCode())
+        {
+            this.mc.thePlayer.closeScreen();
+        } else
+            super.keyTyped(par1, par2);
     }
 }

@@ -12,6 +12,8 @@ import net.minecraft.inventory.Container;
 import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.crafting.FurnaceRecipes;
+import net.minecraft.tileentity.TileEntityFurnace;
 import sun.rmi.runtime.Log;
 
 /**
@@ -24,6 +26,13 @@ public class ContainerImplantInv extends Container
     public boolean isLocalWorld;
     private final EntityPlayer thePlayer;
 
+    public int nonInventorySlots;
+    public int playerInventorySlots;
+    public int playerHotbarSlots;
+
+    int[] implantSlot={-1};
+    int[] vanillaArmor={-1,-1,-1,-1};
+
     public ContainerImplantInv(InventoryPlayer inventory, boolean par2, EntityPlayer player) {
 
         this.isLocalWorld = par2;
@@ -34,43 +43,23 @@ public class ContainerImplantInv extends Container
             implant.stackList = PlayerHelper.getPlayerImplants(player).stackList;
         }
 //TODO fix shift clicking
-        int o;
-        //int j;
-        //ARMOR SLOTS
-        for (o = 0; o < 4; ++o)
-        {
-            final int k = o;
-            this.addSlotToContainer(new Slot(inventory, inventory.getSizeInventory() - 1 - o, 8, 8 + o * 18)
-            {
-                @Override
-                public int getSlotStackLimit() { return 1; }
-                @Override
-                public boolean isItemValid(ItemStack par1ItemStack)
-                {
-                    if (par1ItemStack == null) return false;
-                    return par1ItemStack.getItem().isValidArmor(par1ItemStack, k, thePlayer);
-                }
-            });
-        }
+        int i;
+        int j;
 
         //IMPLANT SLOTS
-        addSlot(new SlotRestricted(implant, 0, 80, 8, thePlayer, ImplantType.CLASS_IMPLANT));
+        implantSlot[0]=addSlot(new SlotRestricted(this.implant, 0, 8, 8, thePlayer, ImplantType.CLASS_IMPLANT));
+        nonInventorySlots+=(implantSlot[0]>=0?1:0);
 
         //PLAYER INVENTORY
-        for(int i = 0; i < 3; i++)
-        {
-            for (int j = 0; j < 9; j++)
-            {
-                this.addSlotToContainer(new Slot(inventory, j + i * 9 + 9, 8 + j * 18, 84 + i * 18));
-            }
-        }
-
-        for (int i = 0; i < 9; i++)
-        {
-            this.addSlotToContainer(new Slot(inventory, i, 8 + i * 18, 142));
-        }
-
-
+        playerInventorySlots=0;
+        playerHotbarSlots=0;
+        for (i = 0; i < 3; ++i)
+            for (j = 0; j < 9; ++j)
+                if(this.addSlot(new Slot(inventory, j + i * 9 + 9, 8 + j * 18, 84 + i * 18))>=0)
+                    playerInventorySlots++;
+        for (i = 0; i < 9; ++i)
+            if(this.addSlot(new Slot(inventory, i, 8 + i * 18, 142))>=0)
+                playerHotbarSlots++;
     }
 
     @Override
@@ -97,4 +86,60 @@ public class ContainerImplantInv extends Container
         }
     }
 
+    /**
+     * Called when a player shift-clicks on a slot. You must override this or you will crash when someone does that.
+     */
+    public ItemStack transferStackInSlot(EntityPlayer par1EntityPlayer, int par2)
+    {
+        ItemStack itemstack = null;
+        Slot slot = (Slot)this.inventorySlots.get(par2);
+
+        if ((slot != null) && (slot.getHasStack()))
+        {
+            ItemStack itemstack1 = slot.getStack();
+            itemstack = itemstack1.copy();
+
+            if (par2 < nonInventorySlots)
+            {
+                if (!mergeItemStack(itemstack1, nonInventorySlots, nonInventorySlots+playerInventorySlots+playerHotbarSlots, false))
+                    return null;
+                slot.onSlotChange(itemstack1, itemstack);
+            }
+            else if(itemstack.getItem() instanceof IImplant && ((IImplant)itemstack.getItem()).getImplantType(itemstack)!=null)
+            {
+                IImplant implantItem = (IImplant)itemstack.getItem();
+                if( implantItem.getImplantType(itemstack)==ImplantType.CLASS_IMPLANT && implantItem.canEquip(itemstack, this.thePlayer) && !((Slot)this.inventorySlots.get(implantSlot[0])).getHasStack() )
+                {
+                    if (!mergeItemStack(itemstack1, implantSlot[0], implantSlot[0] + 1, false))
+                        return null;
+                }
+            }
+            else if((par2 >= nonInventorySlots) && (par2 < nonInventorySlots+playerInventorySlots))
+            {
+                if (!mergeItemStack(itemstack1, nonInventorySlots+playerInventorySlots, nonInventorySlots+playerInventorySlots+playerHotbarSlots, false))
+                    return null;
+            }
+            else if ((par2 >= nonInventorySlots+playerInventorySlots) && (par2 < nonInventorySlots+playerInventorySlots+playerHotbarSlots))
+            {
+                if (!mergeItemStack(itemstack1, nonInventorySlots, nonInventorySlots+playerInventorySlots, false))
+                    return null;
+            }
+            if (itemstack1.stackSize == 0) {
+                slot.putStack((ItemStack)null);
+            } else {
+                slot.onSlotChanged();
+            }
+            if (itemstack1.stackSize == itemstack.stackSize) {
+                return null;
+            }
+            slot.onPickupFromSlot(par1EntityPlayer, itemstack1);
+        }
+        return itemstack;
+    }
+
+    //private void unequipImplant(ItemStack stack)
+    //{
+    //    if ((stack.getItem() instanceof IImplant))
+    //        ((IImplant)stack.getItem()).onUnequipped(stack, this.thePlayer);
+    //}
 }

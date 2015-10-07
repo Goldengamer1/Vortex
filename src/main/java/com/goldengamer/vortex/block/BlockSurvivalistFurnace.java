@@ -94,7 +94,6 @@ public class BlockSurvivalistFurnace extends BlockContainer {
     {
         if(!world.isRemote)
         {
-            //TODO CHANGE THIS TO A GUI HANDLER THAT USES THE GUIs.name
             FMLNetworkHandler.openGui(player, Vortex.instance, 0, world, x, y, z);
         }
         return true;

@@ -10,5 +10,6 @@ public enum Key
     ABILITY2,
     ABILITY3,
     ABILITY4,
-    ABILITY5;
+    ABILITY5,
+    GUIBUTTON
 }

@@ -10,10 +10,14 @@ import org.lwjgl.input.Keyboard;
 public class Keybindings
 {
    // public static KeyBinding charge = new KeyBinding(Names.Keys.CHARGE, Keyboard.KEY_C, Names.Keys.CATEGORY);
+    //ABILITYS
     public static KeyBinding ability1 = new KeyBinding(Names.Keys.ABILITY1, Keyboard.KEY_Z, Names.Keys.CATEGORY);
     public static KeyBinding ability2 = new KeyBinding(Names.Keys.ABILITY2, Keyboard.KEY_X, Names.Keys.CATEGORY);
     public static KeyBinding ability3 = new KeyBinding(Names.Keys.ABILITY3, Keyboard.KEY_C, Names.Keys.CATEGORY);
     public static KeyBinding ability4 = new KeyBinding(Names.Keys.ABILITY4, Keyboard.KEY_V, Names.Keys.CATEGORY);
     public static KeyBinding ability5 = new KeyBinding(Names.Keys.ABILITY5, Keyboard.KEY_B, Names.Keys.CATEGORY);
+
+    //GUI
+    public static KeyBinding guiButton = new KeyBinding(Names.Keys.GUIBUTTON, Keyboard.KEY_GRAVE, Names.Keys.CATEGORY);
 
 }
