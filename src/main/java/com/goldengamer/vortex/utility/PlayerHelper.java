@@ -99,6 +99,7 @@ public class PlayerHelper
     public static void setPlayerImplants(EntityPlayer player,InventoryImplants inventory)
     {
         playerImplants.put(player.getCommandSenderName(), inventory);
+        //LogHelper.info("set implants");
     }
 
     public static void loadPlayerImplants(EntityPlayer player, File file1, File file2)

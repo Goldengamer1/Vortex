@@ -31,7 +31,7 @@ public class CommonProxy implements IGuiHandler
             case 0:
                 return new ContainerSurvivalistFurnace(player.inventory, (TileEntitySurvivalistFurnace) world.getTileEntity(x, y, z));
             case 1:
-                return new ContainerImplantInv(player.inventory);
+                return new ContainerImplantInv(player.inventory, !world.isRemote, player);
         }
         return null;
     }

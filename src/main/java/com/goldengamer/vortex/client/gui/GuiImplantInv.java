@@ -22,7 +22,7 @@ public class GuiImplantInv extends GuiContainer
 
     public GuiImplantInv(EntityPlayer player)
     {
-            super(new ContainerImplantInv(player.inventory));
+            super(new ContainerImplantInv(player.inventory, !player.worldObj.isRemote, player));
     }
 
     @Override

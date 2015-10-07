@@ -14,7 +14,10 @@ public class ConfigurationHandler
 {
 
     public static Configuration configuration;
+
+    // config properties
     public static boolean SurvivalistFurnaceParticals = false;
+    private static boolean splitSurvivalCreative = false;
 
     public static void init(File configFile)
     {
@@ -29,6 +32,7 @@ public class ConfigurationHandler
     private static void loadConfiguration()
     {
         SurvivalistFurnaceParticals = configuration.getBoolean("survivalistFurnaceParticals", Configuration.CATEGORY_GENERAL, true, "Survivalist Furnace Particals ON/OFF");
+        splitSurvivalCreative = configuration.getBoolean("splitSurvivalCreative", Configuration.CATEGORY_GENERAL, false, "split Survival Creative Implants ON/OFF");
 
         if(configuration.hasChanged())
         {
@@ -46,4 +50,7 @@ public class ConfigurationHandler
         }
     }
 
+    public static boolean isSplitSurvivalCreative() {
+        return splitSurvivalCreative;
+    }
 }

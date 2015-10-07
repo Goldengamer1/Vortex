@@ -1,5 +1,6 @@
 package com.goldengamer.vortex.init;
 
+import com.goldengamer.vortex.events.EventHandlerEntity;
 import com.goldengamer.vortex.events.HUDEvents;
 import com.goldengamer.vortex.events.GuiEvents;
 import net.minecraftforge.common.MinecraftForge;
@@ -14,5 +15,6 @@ public class Events
     {
         MinecraftForge.EVENT_BUS.register(new HUDEvents());
         MinecraftForge.EVENT_BUS.register(new GuiEvents());
+        MinecraftForge.EVENT_BUS.register(new EventHandlerEntity());
     }
 }
