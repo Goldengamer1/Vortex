@@ -66,12 +66,13 @@ public class EventHandlerEntity
             }
 
         }
-//TODO CHANGE TO NOT DROP MAYBE
         @SubscribeEvent
         public void playerDeath(PlayerDropsEvent event) {
-            if (event.entity instanceof EntityPlayer && !event.entity.worldObj.isRemote && !event.entity.worldObj.getGameRules().getGameRuleBooleanValue("keepInventory")) {
-                PlayerHelper.getPlayerImplants(event.entityPlayer).dropItemsAt(event.drops, event.entityPlayer);
-            }
+            //IF i want implant to drop on death enable the if
+
+            //if (event.entity instanceof EntityPlayer && !event.entity.worldObj.isRemote && !event.entity.worldObj.getGameRules().getGameRuleBooleanValue("keepInventory")) {
+            //    PlayerHelper.getPlayerImplants(event.entityPlayer).dropItemsAt(event.drops, event.entityPlayer);
+            //}
 
         }
 

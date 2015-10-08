@@ -3,18 +3,13 @@ package com.goldengamer.vortex.container;
 import com.goldengamer.vortex.container.base.InventoryImplants;
 import com.goldengamer.vortex.container.base.SlotRestricted;
 import com.goldengamer.vortex.reference.ImplantType;
-import com.goldengamer.vortex.utility.LogHelper;
 import com.goldengamer.vortex.utility.PlayerHelper;
 import com.goldengamer.vortex.utility.interfaces.IImplant;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.Container;
 import net.minecraft.inventory.Slot;
-import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.crafting.FurnaceRecipes;
-import net.minecraft.tileentity.TileEntityFurnace;
-import sun.rmi.runtime.Log;
 
 /**
  * Created by golde on 06/10/2015.
@@ -31,7 +26,6 @@ public class ContainerImplantInv extends Container
     public int playerHotbarSlots;
 
     int[] implantSlot={-1};
-    int[] vanillaArmor={-1,-1,-1,-1};
 
     public ContainerImplantInv(InventoryPlayer inventory, boolean par2, EntityPlayer player) {
 
@@ -42,7 +36,6 @@ public class ContainerImplantInv extends Container
         if (!player.worldObj.isRemote) {
             implant.stackList = PlayerHelper.getPlayerImplants(player).stackList;
         }
-//TODO fix shift clicking
         int i;
         int j;
 
@@ -107,11 +100,19 @@ public class ContainerImplantInv extends Container
             }
             else if(itemstack.getItem() instanceof IImplant && ((IImplant)itemstack.getItem()).getImplantType(itemstack)!=null)
             {
-                IImplant implantItem = (IImplant)itemstack.getItem();
-                if( implantItem.getImplantType(itemstack)==ImplantType.CLASS_IMPLANT && implantItem.canEquip(itemstack, this.thePlayer) && !((Slot)this.inventorySlots.get(implantSlot[0])).getHasStack() )
+                if (!(itemstack.getTagCompound() == null))
                 {
-                    if (!mergeItemStack(itemstack1, implantSlot[0], implantSlot[0] + 1, false))
-                        return null;
+                    if (!itemstack.getTagCompound().getString("ownerName").equals(""))
+                    {
+                        if (itemstack.getTagCompound().getString("ownerName").equals(thePlayer.getCommandSenderName()))
+                        {
+                            IImplant implantItem = (IImplant) itemstack.getItem();
+                            if (implantItem.getImplantType(itemstack) == ImplantType.CLASS_IMPLANT && implantItem.canEquip(itemstack, this.thePlayer) && !((Slot) this.inventorySlots.get(implantSlot[0])).getHasStack()) {
+                                if (!mergeItemStack(itemstack1, implantSlot[0], implantSlot[0] + 1, false))
+                                    return null;
+                            }
+                        }
+                    }
                 }
             }
             else if((par2 >= nonInventorySlots) && (par2 < nonInventorySlots+playerInventorySlots))

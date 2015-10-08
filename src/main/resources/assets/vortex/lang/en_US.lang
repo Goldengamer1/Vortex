@@ -9,6 +9,8 @@ item.vortex:HARDTOFINDIUM_AXE.name=HardToFindium Axe
 item.vortex:HARDTOFINDIUM_SHOVEL.name=HardToFindium Shovel
 item.vortex:HARDTOFINDIUM_SWORD.name=HardToFindium Sword
 
+item.vortex:WARRIOR_IMPLANT.name=Warriors Implant
+
 #Block localization
 tile.vortex:BLOCK_TEST.name=Test Block
 tile.vortex:BLOCK_BD.name=Bd Test Block! (a.k.a 3d renderer test)

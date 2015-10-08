@@ -2,6 +2,7 @@ package com.goldengamer.vortex.item.base;
 
 import com.goldengamer.vortex.creativetab.CreativeTabVortex;
 import com.goldengamer.vortex.reference.Reference;
+import com.goldengamer.vortex.utility.interfaces.IBindable;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -21,7 +22,7 @@ import java.util.List;
 /**
  * Created by golde on 18/09/2015.
  */
-public class ItemSwordVortex extends ItemSword
+public class ItemSwordVortex extends ItemSword implements IBindable
 {
     public ItemSwordVortex(Item.ToolMaterial toolMaterial)
     {

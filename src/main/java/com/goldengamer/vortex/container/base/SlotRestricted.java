@@ -36,7 +36,13 @@ public class SlotRestricted extends Slot
             case VANILLA_BOOTS:
                 return stack.getItem().isValidArmor(stack, this.type.ordinal(), player);
             case CLASS_IMPLANT:
-                return stack!=null && stack.getItem() !=null && stack.getItem() instanceof IImplant && ((IImplant)stack.getItem()).getImplantType(stack)==this.type && ((IImplant)stack.getItem()).canEquip(stack, ((InventoryImplants)this.inventory).player.get());
+                if (!(stack.getTagCompound() == null)) {
+                    if (!stack.getTagCompound().getString("ownerName").equals("")) {
+                        if (stack.getTagCompound().getString("ownerName").equals(player.getCommandSenderName())) {
+                            return stack != null && stack.getItem() != null && stack.getItem() instanceof IImplant && ((IImplant) stack.getItem()).getImplantType(stack) == this.type && ((IImplant) stack.getItem()).canEquip(stack, ((InventoryImplants) this.inventory).player.get());
+                        }
+                    }
+                }
             default:
                     return false;
         }
