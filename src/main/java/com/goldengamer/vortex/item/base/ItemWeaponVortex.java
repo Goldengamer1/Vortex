@@ -22,13 +22,12 @@ import java.util.List;
 /**
  * Created by golde on 18/09/2015.
  */
-public class ItemSwordVortex extends ItemSword implements IBindable
+public class ItemWeaponVortex extends Item implements IBindable
 {
-    public ItemSwordVortex(Item.ToolMaterial toolMaterial)
+    public ItemWeaponVortex()
     {
-        super(toolMaterial);
+        super();
         this.setCreativeTab(CreativeTabVortex.VORTEX_TAB);
-        //this.setNoRepair();
         this.maxStackSize = 1;
     }
 

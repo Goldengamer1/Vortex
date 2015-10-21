@@ -1,5 +1,6 @@
 package com.goldengamer.vortex.init;
 
+import com.goldengamer.vortex.block.BlockAbilityChanger;
 import com.goldengamer.vortex.block.BlockBd;
 import com.goldengamer.vortex.block.BlockSurvivalistFurnace;
 import com.goldengamer.vortex.block.BlockTest;
@@ -22,6 +23,9 @@ public class ModBlocks {
     public static final BlockSurvivalistFurnace BLOCK_SURVIVALIST_FURNACE_IDLE = (BlockSurvivalistFurnace) new BlockSurvivalistFurnace(false).setBlockName("BLOCK_SURVIVALIST_FURNACE").setCreativeTab(CreativeTabVortex.VORTEX_TAB);;
     public static final BlockSurvivalistFurnace BLOCK_SURVIVALIST_FURNACE_ACTIVE = (BlockSurvivalistFurnace) new BlockSurvivalistFurnace(true).setBlockName("BLOCK_SURVIVALIST_FURNACE_ACTIVE").setLightLevel(0.625F);
 
+    //Special Blocks
+    public static final BlockAbilityChanger BLOCK_ABILITY_CHANGER = new BlockAbilityChanger();
+
     public static void init()
     {
         //Blocks
@@ -31,6 +35,9 @@ public class ModBlocks {
         //Machines
         GameRegistry.registerBlock(BLOCK_SURVIVALIST_FURNACE_IDLE, "BlockServivalistFurnaceIdle");
         GameRegistry.registerBlock(BLOCK_SURVIVALIST_FURNACE_ACTIVE, "BlockServivalistFurnaceActive");
+
+        //Special Blocks
+        GameRegistry.registerBlock(BLOCK_ABILITY_CHANGER,"BlockAbilityChanger");
 
     }
 }

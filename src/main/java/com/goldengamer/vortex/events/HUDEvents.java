@@ -12,6 +12,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.client.event.RenderGameOverlayEvent;
 
+
 /**
  * Created by golde on 02/10/2015.
  */
@@ -40,4 +41,5 @@ public class HUDEvents extends Event
             }
         }
     }
+
 }

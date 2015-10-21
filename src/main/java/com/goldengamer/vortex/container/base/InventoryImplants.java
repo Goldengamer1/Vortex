@@ -5,7 +5,7 @@ import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 
 import com.goldengamer.vortex.Vortex;
-import com.goldengamer.vortex.network.MessageImplantSlotsSync;
+import com.goldengamer.vortex.network.bidirectional.MessageImplantSlotsSync;
 import com.goldengamer.vortex.network.PacketHandler;
 import com.goldengamer.vortex.reference.ImplantType;
 import com.goldengamer.vortex.utility.interfaces.IImplant;

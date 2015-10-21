@@ -1,18 +1,18 @@
 package com.goldengamer.vortex.item.equipment.tool;
 
-        import com.goldengamer.vortex.item.base.ItemSwordVortex;
+        import com.goldengamer.vortex.item.base.ItemWeaponVortex;
         import com.goldengamer.vortex.reference.Material;
         import com.goldengamer.vortex.utility.interfaces.IHudOverlay;
 
 /**
  * Created by golde on 18/09/2015.
  */
-public class HardToFindiumSword extends ItemSwordVortex implements IHudOverlay
+public class HardToFindiumWeapon extends ItemWeaponVortex implements IHudOverlay
 {
 
-    public HardToFindiumSword()
+    public HardToFindiumWeapon()
     {
-        super(Material.Tools.HardToFindIum);
+        super();
         this.setUnlocalizedName("HARDTOFINDIUM_SWORD");
     }
 

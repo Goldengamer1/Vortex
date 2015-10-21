@@ -100,6 +100,7 @@ public class ContainerImplantInv extends Container
             }
             else if(itemstack.getItem() instanceof IImplant && ((IImplant)itemstack.getItem()).getImplantType(itemstack)!=null)
             {
+                //checks to see if the item is bound
                 if (!(itemstack.getTagCompound() == null))
                 {
                     if (!itemstack.getTagCompound().getString("ownerName").equals(""))

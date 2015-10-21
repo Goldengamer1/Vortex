@@ -2,6 +2,7 @@ package com.goldengamer.vortex.item.equipment.implant;
 
 import com.goldengamer.vortex.item.base.ItemImplantVortex;
 import com.goldengamer.vortex.reference.ImplantType;
+import com.goldengamer.vortex.utility.LogHelper;
 import com.goldengamer.vortex.utility.interfaces.IImplant;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.item.ItemStack;
@@ -11,6 +12,8 @@ import net.minecraft.item.ItemStack;
  */
 public class WarriorImplant extends ItemImplantVortex
 {
+    public boolean WarriorEquipped = false;
+
     public WarriorImplant()
     {
         super();
@@ -24,16 +27,17 @@ public class WarriorImplant extends ItemImplantVortex
 
     @Override
     public void onWornTick(ItemStack itemstack, EntityLivingBase player) {
-
     }
 
     @Override
     public void onEquipped(ItemStack itemstack, EntityLivingBase player) {
-
+        WarriorEquipped = true;
+        //LogHelper.info(WarriorEquipped);
     }
 
     @Override
     public void onUnequipped(ItemStack itemstack, EntityLivingBase player) {
-
+        WarriorEquipped = false;
+        //LogHelper.info(WarriorEquipped);
     }
 }

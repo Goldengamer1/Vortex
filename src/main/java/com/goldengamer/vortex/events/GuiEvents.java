@@ -1,8 +1,7 @@
 package com.goldengamer.vortex.events;
 
-import com.goldengamer.vortex.Vortex;
 import com.goldengamer.vortex.client.gui.element.GuiButtonImplant;
-import com.goldengamer.vortex.network.MessageOpenImplantGui;
+import com.goldengamer.vortex.network.bidirectional.MessageOpenImplantGui;
 import com.goldengamer.vortex.network.PacketHandler;
 import net.minecraft.client.gui.inventory.GuiInventory;
 import net.minecraft.client.resources.I18n;

@@ -13,15 +13,19 @@ import cpw.mods.fml.relauncher.Side;
 public class EventNetworkHandler
 {
     @SubscribeEvent
-    public void playerLoggedInEvent (PlayerEvent.PlayerLoggedInEvent event)    {
+    public void playerLoggedInEvent (PlayerEvent.PlayerLoggedInEvent event)
+    {
         Side side = FMLCommonHandler.instance().getEffectiveSide();
-        if (side == Side.SERVER)        {
+        if (side == Side.SERVER)
+        {
             syncImplants(event.player);
         }
     }
 
-    public static void syncImplants(EntityPlayer player) {
-        for (int a = 0; a < 4; a++) {
+    public static void syncImplants(EntityPlayer player)
+    {
+        for (int a = 0; a < 4; a++)
+        {
             PlayerHelper.getPlayerImplants(player).syncSlotToClients(a);
         }
     }

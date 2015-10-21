@@ -1,4 +1,4 @@
-package com.goldengamer.vortex.network;
+package com.goldengamer.vortex.network.bidirectional;
 
 import com.goldengamer.vortex.Vortex;
 import com.goldengamer.vortex.utility.PlayerHelper;

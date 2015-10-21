@@ -1,15 +1,19 @@
 package com.goldengamer.vortex.proxy;
 
 import com.goldengamer.vortex.client.gui.GuiImplantInv;
+import com.goldengamer.vortex.client.gui.inventory.GuiAbilityChanger;
 import com.goldengamer.vortex.client.gui.inventory.GuiSurvivalistFurnace;
 import com.goldengamer.vortex.client.renderer.item.ItemRendererHardtofindiumSword;
 import com.goldengamer.vortex.client.renderer.tileentity.TileEntityBdRenderer;
 import com.goldengamer.vortex.client.settings.Keybindings;
 import com.goldengamer.vortex.init.ModItems;
+import com.goldengamer.vortex.tileentity.TileEntityAbilityChanger;
 import com.goldengamer.vortex.tileentity.TileEntityBd;
 import com.goldengamer.vortex.tileentity.TileEntitySurvivalistFurnace;
 import cpw.mods.fml.client.FMLClientHandler;
 import cpw.mods.fml.client.registry.ClientRegistry;
+import cpw.mods.fml.common.network.simpleimpl.MessageContext;
+import net.minecraft.client.Minecraft;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.world.World;
 import net.minecraftforge.client.MinecraftForgeClient;
@@ -47,6 +51,8 @@ public class ClientProxy extends CommonProxy
                 return new GuiSurvivalistFurnace(player.inventory, (TileEntitySurvivalistFurnace) world.getTileEntity(x, y, z));
             case 1:
                 return new GuiImplantInv(player);
+            case 2:
+                //return new GuiAbilityChanger(player.inventory, (TileEntityAbilityChanger) world.getTileEntity(x, y, z));
         }
         return null;
     }
@@ -54,5 +60,10 @@ public class ClientProxy extends CommonProxy
     @Override
     public World getClientWorld() {
         return FMLClientHandler.instance().getClient().theWorld;
+    }
+
+    @Override
+    public EntityPlayer getPlayerEntity(MessageContext ctx) {
+        return (ctx.side.isClient() ? Minecraft.getMinecraft().thePlayer : super.getPlayerEntity(ctx));
     }
 }

@@ -2,8 +2,10 @@ package com.goldengamer.vortex.proxy;
 
 import com.goldengamer.vortex.container.ContainerImplantInv;
 import com.goldengamer.vortex.container.ContainerSurvivalistFurnace;
+import com.goldengamer.vortex.tileentity.TileEntityAbilityChanger;
 import com.goldengamer.vortex.tileentity.TileEntitySurvivalistFurnace;
 import cpw.mods.fml.common.network.IGuiHandler;
+import cpw.mods.fml.common.network.simpleimpl.MessageContext;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.world.World;
 
@@ -32,6 +34,8 @@ public class CommonProxy implements IGuiHandler
                 return new ContainerSurvivalistFurnace(player.inventory, (TileEntitySurvivalistFurnace) world.getTileEntity(x, y, z));
             case 1:
                 return new ContainerImplantInv(player.inventory, !world.isRemote, player);
+            case 2:
+               // return new ContainerAbilityChanger(player.inventory, (TileEntityAbilityChanger) world.getTileEntity(x, y, z));
         }
         return null;
     }
@@ -44,5 +48,10 @@ public class CommonProxy implements IGuiHandler
 
     public World getClientWorld() {
         return null;
+    }
+
+     // Returns a side-appropriate EntityPlayer for use during message handling
+    public EntityPlayer getPlayerEntity(MessageContext ctx) {
+        return ctx.getServerHandler().playerEntity;
     }
 }

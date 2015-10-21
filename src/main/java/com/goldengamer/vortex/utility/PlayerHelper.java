@@ -80,7 +80,6 @@ public class PlayerHelper
     //
 
     private static HashMap<String, InventoryImplants> playerImplants = new HashMap<String, InventoryImplants>();
-
     public static void clearPlayerImplants(EntityPlayer player)
     {
         playerImplants.remove(player.getCommandSenderName());

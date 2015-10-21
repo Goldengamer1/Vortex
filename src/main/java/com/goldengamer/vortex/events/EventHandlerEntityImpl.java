@@ -20,7 +20,7 @@ import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 /**
  * Created by golde on 07/10/2015.
  */
-public class EventHandlerEntity
+public class EventHandlerEntityImpl
 {
     // player directory
     private File playerDirectory;
