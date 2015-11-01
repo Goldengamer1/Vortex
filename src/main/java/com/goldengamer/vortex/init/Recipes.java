@@ -18,7 +18,7 @@ public class Recipes
         //Shaped Recipes
         //GameRegistry.addRecipe(new ItemStack(ModItems.testItem), " s ", "sss", " s ", 's', new ItemStack(Items.stick));
         GameRegistry.addRecipe(new ItemStack(ModItems.SPIKED_BASE), "   ", "zzz", "xxx", 'z', new ItemStack(Items.iron_ingot), 'x', new ItemStack(ModItems.IRON_SPIKE));
-        GameRegistry.addRecipe(new ItemStack(ModItems.SPIKED_SHOES), "v v", "z z", "x x", 'z', new ItemStack(Items.iron_ingot), 'x', new ItemStack(ModItems.SPIKED_BASE), 'v', new ItemStack(Items.slime_ball));
+        GameRegistry.addRecipe(new ItemStack(ModItems.SPIKED_CLAWS), "v v", "z z", "x x", 'z', new ItemStack(Items.iron_ingot), 'x', new ItemStack(ModItems.SPIKED_BASE), 'v', new ItemStack(Items.slime_ball));
         GameRegistry.addRecipe(new ItemStack(ModItems.IRON_SHARPENER), "vvv", "xzx", "vvv", 'z', new ItemStack(Blocks.iron_block), 'x', new ItemStack(Items.diamond), 'v', new ItemStack(Items.flint));
 
         GameRegistry.addRecipe(new ItemStack(ModBlocks.BLOCK_SURVIVALIST_FURNACE_IDLE), "zxz", "zvz", "zcz", 'z', new ItemStack(Blocks.stonebrick), 'x', new ItemStack(Blocks.furnace), 'v', new ItemStack(Blocks.coal_block), 'c', new ItemStack(Items.bucket));

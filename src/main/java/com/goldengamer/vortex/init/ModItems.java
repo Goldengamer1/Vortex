@@ -3,7 +3,7 @@ package com.goldengamer.vortex.init;
 import com.goldengamer.vortex.item.IronSharpener;
 import com.goldengamer.vortex.item.IronSpike;
 import com.goldengamer.vortex.item.SpikedBase;
-import com.goldengamer.vortex.item.equipment.SpikedShoes;
+import com.goldengamer.vortex.item.equipment.SpikedClaws;
 import com.goldengamer.vortex.item.equipment.implant.WarriorImplant;
 import com.goldengamer.vortex.item.equipment.tool.HardToFindiumShovel;
 import com.goldengamer.vortex.item.equipment.tool.HardToFindiumWeapon;
@@ -35,7 +35,7 @@ public class ModItems
 
     //Implants // Equipment
     public static final WarriorImplant WARRIOR_IMPLANT = new WarriorImplant();
-    public static final SpikedShoes SPIKED_SHOES = new SpikedShoes();
+    public static final SpikedClaws SPIKED_CLAWS = new SpikedClaws();
 
     public static void init()
     {
@@ -52,7 +52,7 @@ public class ModItems
 
         //Implants // Equipment
         GameRegistry.registerItem(WARRIOR_IMPLANT, "WarriorImplant");
-        GameRegistry.registerItem(SPIKED_SHOES, "SpikedShoes");
+        GameRegistry.registerItem(SPIKED_CLAWS, "SpikedClaws");
     }
 
 

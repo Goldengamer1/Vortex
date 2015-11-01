@@ -10,9 +10,12 @@
 :apiClasses UP-TO-DATE
 :sourceMainJava
 :compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
-Note: D:\Users\gold\DesktopFolder\2.MC Modding Projects\Vortex 1.7.10\Vortex\build\sources\java\com\goldengamer\vortex\client\gui\ModGuiConfig.java uses unchecked or unsafe operations.
+D:\Users\gold\DesktopFolder\2.MC Modding Projects\Vortex 1.7.10\Vortex\build\sources\java\com\goldengamer\vortex\utility\PlayerHelper.java:14: warning: Log is internal proprietary API and may be removed in a future release
+import sun.rmi.runtime.Log;
+                      ^
+Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
-1 warning
+2 warnings
 
 :processResources
 :classes
@@ -32,4 +35,4 @@ Note: Recompile with -Xlint:unchecked for details.
 
 BUILD SUCCESSFUL
 
-Total time: 1 mins 58.095 secs
+Total time: 51.299 secs

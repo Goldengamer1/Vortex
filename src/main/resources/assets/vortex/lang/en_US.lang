@@ -13,7 +13,8 @@ item.vortex:HARDTOFINDIUM_SHOVEL.name=HardToFindium Shovel
 item.vortex:HARDTOFINDIUM_SWORD.name=HardToFindium Sword
 
 item.vortex:WARRIOR_IMPLANT.name=Warriors Implant
-item.vortex:SPIKED_SHOES.name=Spiked Shoes
+item.vortex:SPIKED_CLAWS.name=Spiked Claws
+
 
 #Block localization
 tile.vortex:BLOCK_TEST.name=Test Block
@@ -36,6 +37,8 @@ keys.vortex.guiButton=Implant GUI
 tooltip.vortex:owner=Bound To:
 tooltip.vortex:desc1=RIGHT CLICK ME!
 tooltip.vortex:desc2=TO UNLOCK MY FULL POWER!
+tooltip.vortex:desc3=Tool Is ON
+tooltip.vortex:desc4=Tool Is OFF
 
 #Button localization
 button.vortex:implant=Implant

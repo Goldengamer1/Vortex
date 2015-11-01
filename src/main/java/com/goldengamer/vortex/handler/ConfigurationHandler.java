@@ -25,6 +25,7 @@ public class ConfigurationHandler
     private static int ClassLevelBarXPos = 2;
     private static int ClassLevelBarYPos = 2;
     private static int ClassLevelText = 1;
+    private static boolean ClassLevelToggle = true;
 
     public static void init(File configFile)
     {
@@ -45,6 +46,7 @@ public class ConfigurationHandler
         ClassLevelBarXPos = configuration.getInt("ClassLevelBarXPos", Configuration.CATEGORY_GENERAL, 0, 0, 1000, "this will move ur Class's level Bar [X]");
         ClassLevelBarYPos = configuration.getInt("ClassLevelBarYPos", Configuration.CATEGORY_GENERAL, 0, 0, 1000, "this will move ur Class's level Bar [Y]");
         ClassLevelText = configuration.getInt("ClassLevelText", Configuration.CATEGORY_GENERAL, 1, 1, 4, "this will move ur level Text[1-Top, 2-left, 3-right, 4-bottom]");
+        ClassLevelToggle = configuration.getBoolean("ClassLevelToggle", Configuration.CATEGORY_GENERAL, true, "Toggles Level bar ON/OFF");
 
         if(configuration.hasChanged())
         {
@@ -90,5 +92,10 @@ public class ConfigurationHandler
     public static int ClassLevelText()
     {
         return ClassLevelText;
+    }
+
+    public static boolean ClassLevelToggle()
+    {
+        return ClassLevelToggle;
     }
 }

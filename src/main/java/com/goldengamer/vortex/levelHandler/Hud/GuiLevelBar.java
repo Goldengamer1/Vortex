@@ -28,7 +28,7 @@ public class GuiLevelBar extends Event
     @SideOnly(Side.CLIENT)
     public void RenderLevelBar(RenderGameOverlayEvent event)
     {
-        if (!event.isCancelable() && event.type == RenderGameOverlayEvent.ElementType.EXPERIENCE)
+        if (!event.isCancelable() && event.type == RenderGameOverlayEvent.ElementType.EXPERIENCE && ConfigurationHandler.ClassLevelToggle() == true)
         {
             Minecraft mc = Minecraft.getMinecraft();
             ExtendedPlayer props = ExtendedPlayer.get(mc.thePlayer);
