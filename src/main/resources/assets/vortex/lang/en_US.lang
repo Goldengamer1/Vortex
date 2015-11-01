@@ -3,20 +3,24 @@ itemGroup.vortex= Vortexcraft
 
 #Item localization
 item.vortex:TEST_ITEM.name=Test Item
-item.vortex:IRON_HAMMER.name=Iron Hammer
+item.vortex:IRON_SPIKE.name=Iron Spike
+item.vortex:SPIKED_BASE.name=Spiked Base
+
+item.vortex:IRON_SHARPENER.name=Iron Sharpener
 item.vortex:HARDTOFINDIUM_PICKAXE.name=HardToFindium Pickaxe
 item.vortex:HARDTOFINDIUM_AXE.name=HardToFindium Axe
 item.vortex:HARDTOFINDIUM_SHOVEL.name=HardToFindium Shovel
 item.vortex:HARDTOFINDIUM_SWORD.name=HardToFindium Sword
 
 item.vortex:WARRIOR_IMPLANT.name=Warriors Implant
+item.vortex:SPIKED_SHOES.name=Spiked Shoes
 
 #Block localization
 tile.vortex:BLOCK_TEST.name=Test Block
 tile.vortex:BLOCK_BD.name=Bd Test Block! (a.k.a 3d renderer test)
 tile.vortex:BLOCK_SURVIVALIST_FURNACE.name=Survivalist Furnace
 tile.vortex:BLOCK_SURVIVALIST_FURNACE_ACTIVE.name=Survivalist Furnace(ACTIVE)
-tile.vortex:BLOCK_ABILITY_CHANGER.name=Ability Changer
+tile.vortex:BLOCK_ABILITY_CHANGER.name=Ability Changer [WIP]
 
 #Key localization
 keys.vortex.category=Vortexcraft

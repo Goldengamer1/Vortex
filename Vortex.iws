@@ -1,18 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/init/Events.java" description="&#10;" line="28" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/init/Events.java" description="&#10;" line="27" />
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/TestItem.java" line="31" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4abbc845-3602-4a52-bb3e-143d89999f44" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/network/AbstractMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelHandler/ClassEventHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelHandler/ExtendedPlayer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelHandler/GuiLevelBar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelHandler/GuiRageBar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/network/client/SyncPlayerPropsMessage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/block/BlockAbilityChanger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/client/gui/inventory/GuiAbilityChanger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelHandler/Hud/GuiRageBar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/utility/interfaces/implantClasses/IWarrior.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/IronSpike.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/SpikedBase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/equipment/SpikedShoes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/tileentity/TileEntityAbilityChanger.java" />
+      <change type="DELETED" beforePath="D:\Users\gold\DesktopFolder\2.MC Modding Projects\Vortex 1.7.10\Vortex\src\main\java\com\goldengamer\vortex\levelHandler\GuiRageBar.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/block/BlockSurvivalistFurnace.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/block/BlockSurvivalistFurnace.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/proxy/ClientProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/proxy/ClientProxy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/proxy/CommonProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/proxy/CommonProxy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/handler/CraftingHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/handler/CraftingHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/init/Events.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/init/Events.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/equipment/tool/HardToFindiumWeapon.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/equipment/tool/HardToFindiumWeapon.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/client/handler/KeyInputEventHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/client/handler/KeyInputEventHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/reference/Material.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/reference/Material.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/init/ModBlocks.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/init/ModBlocks.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/init/ModItems.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/init/ModItems.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/init/Recipes.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/init/Recipes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/reference/Reference.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/reference/Reference.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/reference/Textures.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/reference/Textures.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/init/TileEntities.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/init/TileEntities.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/tileentity/TileEntitySurvivalistFurnace.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/tileentity/TileEntitySurvivalistFurnace.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vortex.iws" afterPath="$PROJECT_DIR$/Vortex.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/equipment/implant/WarriorImplant.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/equipment/implant/WarriorImplant.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/vortex/lang/en_US.lang" afterPath="$PROJECT_DIR$/src/main/resources/assets/vortex/lang/en_US.lang" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-3.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-3.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-junk-earlystartup.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-junk-earlystartup.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-server-latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-server-latest.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/latest.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/server.properties" afterPath="$PROJECT_DIR$/eclipse/server.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/config/splash.properties" afterPath="$PROJECT_DIR$/eclipse/config/splash.properties" />
+      <change type="MOVED" beforePath="D:\Users\gold\DesktopFolder\2.MC Modding Projects\Vortex 1.7.10\Vortex\src\main\java\com\goldengamer\vortex\events\HUDEvents.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelHandler/Hud/HUDAbilitybar.java" />
+      <change type="MOVED" beforePath="D:\Users\gold\DesktopFolder\2.MC Modding Projects\Vortex 1.7.10\Vortex\src\main\java\com\goldengamer\vortex\item\IronHammer.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/IronSharpener.java" />
+      <change type="MOVED" beforePath="D:\Users\gold\DesktopFolder\2.MC Modding Projects\Vortex 1.7.10\Vortex\src\main\java\com\goldengamer\vortex\levelHandler\GuiLevelBar.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelHandler/Hud/GuiLevelBar.java" />
     </list>
     <ignored path="Vortex.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,81 +107,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ExtendedPlayer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelHandler/ExtendedPlayer.java">
+      <file leaf-file-name="SpikedShoes.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/equipment/SpikedShoes.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="206" column="10" selection-start-line="206" selection-start-column="10" selection-end-line="206" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlockAbilityChanger.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/block/BlockAbilityChanger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="18" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1268#1269#0" expanded="true" />
-                <element signature="e#1321#1322#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TileEntityAbilityChanger.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/tileentity/TileEntityAbilityChanger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+              <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GuiAbilityChanger.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/client/gui/inventory/GuiAbilityChanger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39932886">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#301#302#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientProxy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/proxy/ClientProxy.java">
+      <file leaf-file-name="IronSpike.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/IronSpike.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommonProxy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/proxy/CommonProxy.java">
+      <file leaf-file-name="SpikedBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/SpikedBase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Reference.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Reference.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/reference/Reference.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3137584">
+              <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModBlocks.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/init/ModBlocks.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+              <caret line="30" column="56" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -182,57 +184,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/network/MessageWarriorSync.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/network/bidirectional/ISyncable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/network/bidirectional/UpdateEntityPacket.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelhander/ClassPlayer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/network/client/UpdateEntityPacket.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/network/client/RequestEntityUpdatePacket.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelhander/WarriorExtendedProperties.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/events/HUDEvents.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/events/XPHUDEvent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/client/handler/KeyInputEventHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelhander/ClassProperties.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelhander/EntityExtendedPropertiesEvent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/utility/PlayerHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/container/base/InventoryImplants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/utility/interfaces/IImplant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/network/bidirectional/MessageImplantSlotsSync.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelhander/IClassProperties.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/vortex/lang/goldengamer10.levelback" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelhander/OLD/ClassProperties.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelhander/PlayerClassLevelChangeEvent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelhander/IClassExtendedProperties.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/events/EventHandlerEntityImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelhander/WarriorProperties.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelhander/EventHandlerPlayerLevel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelhander/ClassHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/network/bidirectional/MessagePlayerLevelSync.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelhander/ClassLevel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/handler/EventNetworkHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/Vortex.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/network/AbstractMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/network/client/SyncPlayerPropsMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/reference/Reference.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/network/PacketHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelHandler/ClassEventHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/TestItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/IronHammer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/init/Events.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/client/gui/inventory/GuiSurvivalistFurnace.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/handler/ConfigurationHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelHandler/GuiLevelBar.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelHandler/GuiRageBar.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/base/ItemWeaponVortex.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/equipment/tool/HardToFindiumWeapon.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/init/ModBlocks.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/vortex/lang/en_US.lang" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelHandler/ExtendedPlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/tileentity/TileEntitySurvivalistFurnace.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/container/ContainerImplantInv.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/proxy/CommonProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/block/BlockAbilityChanger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/utility/interfaces/implantClasses/IWarrior.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/container/ContainerAbilityChanger.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/tileentity/TileEntityAbilityChanger.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/client/gui/inventory/GuiAbilityChanger.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/block/BlockAbilityChanger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelHandler/ExtendedPlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelHandler/damage/AoeDamage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/client/handler/KeyInputEventHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelHandler/ability/RisingCut.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/equipment/tool/HardToFindiumWeapon.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelHandler/GuiLevelBar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelHandler/GuiRageBar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/events/HUDAbilitybar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelHandler/HUDAbilitybar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelHandler/Hud/HUDAbilitybar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/equipment/implant/WarriorImplant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/IronSharpener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/IronSpike.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/handler/CraftingHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/SpikedBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/init/ModItems.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelHandler/Ability.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/network/client/SyncSpikedShoe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/network/PacketHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/equipment/SpikedShoes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/client/renderer/model/Tardis-tile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/init/Recipes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/client/renderer/item/ModelTardisTile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/client/renderer/model/ModelTardisTile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/tileentity/TileEntityBd.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/reference/Textures.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/block/BlockBd.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/block/BlockSurvivalistFurnace.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/tileentity/TileEntityTardisTile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/block/BlockTardisTile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/client/renderer/tileentity/TileEntityTardisTileRenderer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/init/ModBlocks.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/proxy/ClientProxy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/proxy/CommonProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/init/TileEntities.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/vortex/lang/en_US.lang" />
+        <option value="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/reference/Reference.java" />
       </list>
     </option>
   </component>
@@ -307,9 +309,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches">
-        <subPane />
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -321,39 +320,8 @@
         </subPane>
         <subPane subId="Tests" />
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vortex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vortex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vortex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vortex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vortex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+      <pane id="Scratches">
+        <subPane />
       </pane>
       <pane id="PackagesPane">
         <subPane>
@@ -442,6 +410,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="interfaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vortex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vortex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goldengamer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vortex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utility" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="interfaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="implantClasses" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -657,6 +659,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="levelHandler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vortex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vortex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goldengamer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vortex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="item" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
@@ -688,10 +720,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="equipment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tool" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -726,36 +754,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="implant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vortex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vortex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goldengamer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vortex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="item" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1012,6 +1010,44 @@
               <option name="myItemId" value="renderer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vortex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vortex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goldengamer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vortex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="renderer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="item" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1129,6 +1165,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="element" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vortex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vortex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goldengamer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vortex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="block" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
@@ -1169,8 +1239,64 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vortex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vortex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vortex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="lang" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vortex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vortex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vortex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vortex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vortex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1193,7 +1319,7 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="zombie&#9;PSI&#9;JAVA://net.minecraft.entity.monster.EntityZombie&#10;soundb&#9;PSI&#9;JAVA://javax.sound.midi.SoundbankResource&#10;sound&#9;PSI&#9;JAVA://javax.sound.midi.Soundbank&#10;NetHandlerPlayClient&#9;PSI&#9;JAVA://net.minecraft.client.network.NetHandlerPlayClient&#10;EntityPlayer&#9;PSI&#9;JAVA://net.minecraft.entity.player.EntityPlayerMP&#10;impl&#9;FILE&#9;file://D:/Users/gold/DesktopFolder/2.MC Modding Projects/Vortex 1.7.10/Vortex/src/main/java/com/goldengamer/vortex/reference/ImplantType.java&#10;imp&#9;FILE&#9;file://D:/Users/gold/DesktopFolder/2.MC Modding Projects/Vortex 1.7.10/Vortex/src/main/java/com/goldengamer/vortex/container/ContainerImplantInv.java&#10;experience&#9;PSI&#9;JAVA://net.minecraft.network.play.server.S1FPacketSetExperience&#10;IBindable&#9;PSI&#9;JAVA://com.goldengamer.vortex.events.ItemBindableEvent&#10;ability5&#9;PSI&#9;JAVA://com.goldengamer.vortex.reference.Key#ABILITY5&#10;Potion&#9;PSI&#9;JAVA://net.minecraft.inventory.ContainerBrewingStand.Potion&#10;TileEntity&#9;FILE&#9;jar://C:/Users/golde/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraft/tileentity/TileEntityFurnace.java&#10;Furnace&#9;FILE&#9;jar://C:/Users/golde/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraft/block/BlockFurnace.java&#10;TileEntityF&#9;FILE&#9;jar://C:/Users/golde/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraft/tileentity/TileEntityFurnace.java&#10;furnace&#9;FILE&#9;jar://C:/Users/golde/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraft/block/BlockFurnace.java&#10;BaseModItem&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="ladder &#9;PSI&#9;JAVA://net.minecraft.block.BlockLadder&#10;spider&#9;PSI&#9;JAVA://net.minecraft.entity.monster.EntitySpider&#10;creeper&#9;PSI&#9;JAVA://net.minecraft.entity.monster.EntityCreeper&#10;explosion&#9;PSI&#9;JAVA://net.minecraft.world.Explosion&#10;WorldO&#9;PSI&#9;JAVA://com.goldengamer.vortex.container.ContainerAbilityChanger#worldObj&#10;Arrow &#9;PSI&#9;JAVA://net.minecraft.client.renderer.entity.RenderArrow&#10;arrowlo&#9;PSI&#9;JAVA://net.minecraftforge.event.entity.player.ArrowLooseEvent&#10;dispenser&#9;FILE&#9;jar://C:/Users/golde/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraft/block/BlockDispenser.java&#10;implant&#9;PSI&#9;JAVA://com.goldengamer.vortex.client.gui.GuiImplantInv&#10;GuiBea&#9;PSI&#9;JAVA://net.minecraft.client.gui.inventory.GuiBeacon&#10;TileEntityBeacon&#9;PSI&#9;JAVA://net.minecraft.tileentity.TileEntityBeacon&#10;beacon&#9;PSI&#9;JAVA://net.minecraft.inventory.ContainerBeacon.BeaconSlot&#10;zombie&#9;PSI&#9;JAVA://net.minecraft.entity.monster.EntityZombie&#10;soundb&#9;PSI&#9;JAVA://javax.sound.midi.SoundbankResource&#10;sound&#9;PSI&#9;JAVA://javax.sound.midi.Soundbank&#10;NetHandlerPlayClient&#9;PSI&#9;JAVA://net.minecraft.client.network.NetHandlerPlayClient&#10;EntityPlayer&#9;PSI&#9;JAVA://net.minecraft.entity.player.EntityPlayerMP&#10;impl&#9;FILE&#9;file://D:/Users/gold/DesktopFolder/2.MC Modding Projects/Vortex 1.7.10/Vortex/src/main/java/com/goldengamer/vortex/reference/ImplantType.java&#10;imp&#9;FILE&#9;file://D:/Users/gold/DesktopFolder/2.MC Modding Projects/Vortex 1.7.10/Vortex/src/main/java/com/goldengamer/vortex/container/ContainerImplantInv.java&#10;experience&#9;PSI&#9;JAVA://net.minecraft.network.play.server.S1FPacketSetExperience&#10;IBindable&#9;PSI&#9;JAVA://com.goldengamer.vortex.events.ItemBindableEvent&#10;ability5&#9;PSI&#9;JAVA://com.goldengamer.vortex.reference.Key#ABILITY5&#10;Potion&#9;PSI&#9;JAVA://net.minecraft.inventory.ContainerBrewingStand.Potion&#10;TileEntity&#9;FILE&#9;jar://C:/Users/golde/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraft/tileentity/TileEntityFurnace.java&#10;Furnace&#9;FILE&#9;jar://C:/Users/golde/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraft/block/BlockFurnace.java&#10;TileEntityF&#9;FILE&#9;jar://C:/Users/golde/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraft/tileentity/TileEntityFurnace.java&#10;furnace&#9;FILE&#9;jar://C:/Users/golde/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraft/block/BlockFurnace.java&#10;BaseModItem&#9;null&#9;null" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -1207,18 +1333,18 @@
       <recent name="D:\Users\gold\DesktopFolder\2.MC Modding Projects\Vortex 1.7.10\Vortex\src\main\resources\assets\vortex\textures\items" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\gold\DesktopFolder\2.MC Modding Projects\Vortex 1.7.10\Vortex\src\main\java\com\goldengamer\vortex\client\renderer\model" />
       <recent name="D:\Users\gold\DesktopFolder\2.MC Modding Projects\Vortex 1.7.10\Vortex\src\main\resources\assets\vortex\lang" />
       <recent name="D:\Users\gold\DesktopFolder\2.MC Modding Projects\Vortex 1.7.10\Vortex\src\main\resources\assets\vortex\models" />
       <recent name="D:\Users\gold\DesktopFolder\2.MC Modding Projects\Vortex 1.7.10\Vortex\src\main\resources\assets\vortex\textures\models" />
       <recent name="D:\Users\gold\DesktopFolder\2.MC Modding Projects\Vortex 1.7.10\Vortex\src\main\resources\assets\vortex\textures\blocks" />
-      <recent name="D:\Users\gold\DesktopFolder\2.MC Modding Projects\Vortex 1.7.10\Vortex\src\main" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.goldengamer.vortex.client.gui" />
       <recent name="com.goldengamer.vortex.handler" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Minecraft Client">
+  <component name="RunManager" selected="Application.Minecraft Client 2">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -1691,7 +1817,13 @@
       <option name="project" value="LOCAL" />
       <updated>1445457054397</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="V0.33&#10;-Leveling system WORKS!&#10;-Adding Warrior Class!&#10;-Rage System WORKS!!&#10;-todo rage system need a decay&#10;-Cleaned up some code&#10;-redone the Packet system&#10;-fixed a few bugs with the implants&#10;-redone sword item code to weapon (weapons do no left click damage)&#10;-weapons are WIP to use abilitys&#10;&#10;&#10;-WIP working on abilitys and a ability changer&#10;-WIP add level up sound &#10;&#10;&#10;(REUPLOAD FORGOT TO ADD NEW CLASSES FIRST TIME)">
+      <created>1445457196084</created>
+      <option name="number" value="00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1445457196084</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1715,10 +1847,11 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.4935065" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34989202" sideWeight="0.48668796" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34557235" sideWeight="0.48668796" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.49402985" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23482428" sideWeight="0.85910654" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3261339" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.4935065" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1731,7 +1864,6 @@
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.5064935" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32721382" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1746,7 +1878,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="V0.19.5&#10;-Cleanup" />
     <MESSAGE value="V0.19.5&#10;-3D Items (Models using .obj)" />
     <MESSAGE value="V0.20&#10;-3D Items (Models using .obj)" />
     <MESSAGE value="V0.20.5&#10;-Furnace wip" />
@@ -1771,7 +1902,8 @@
     <MESSAGE value="V0.32&#10;-Implant work&#10;-clean up" />
     <MESSAGE value="V0.33&#10;-Leveling system WORKS!&#10;-Adding Warrior Class!&#10;-Rage System WORKS!!&#10;-todo rage system need a decay&#10;-Cleaned up some code&#10;-redone the Packet system&#10;-fixed a few bugs with the implants&#10;-redone sword item code to weapon (weapons do no left click damage)&#10;-weapons are WIP to use abilitys&#10;&#10;&#10;-WIP working on abilitys and a ability changer&#10;-WIP add level up sound &#10;" />
     <MESSAGE value="V0.33&#10;-Leveling system WORKS!&#10;-Adding Warrior Class!&#10;-Rage System WORKS!!&#10;-todo rage system need a decay&#10;-Cleaned up some code&#10;-redone the Packet system&#10;-fixed a few bugs with the implants&#10;-redone sword item code to weapon (weapons do no left click damage)&#10;-weapons are WIP to use abilitys&#10;&#10;&#10;-WIP working on abilitys and a ability changer&#10;-WIP add level up sound &#10;&#10;&#10;(REUPLOAD FORGOT TO ADD NEW CLASSES FIRST TIME)" />
-    <option name="LAST_COMMIT_MESSAGE" value="V0.33&#10;-Leveling system WORKS!&#10;-Adding Warrior Class!&#10;-Rage System WORKS!!&#10;-todo rage system need a decay&#10;-Cleaned up some code&#10;-redone the Packet system&#10;-fixed a few bugs with the implants&#10;-redone sword item code to weapon (weapons do no left click damage)&#10;-weapons are WIP to use abilitys&#10;&#10;&#10;-WIP working on abilitys and a ability changer&#10;-WIP add level up sound &#10;&#10;&#10;(REUPLOAD FORGOT TO ADD NEW CLASSES FIRST TIME)" />
+    <MESSAGE value="V0.34&#10;-Some code clean up&#10;-ADDED Spiked shoes&#10;-ADDED some crafting&#10;&#10;-fixed a few bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="V0.34&#10;-Some code clean up&#10;-ADDED Spiked shoes&#10;-ADDED some crafting&#10;&#10;-fixed a few bugs" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1784,7 +1916,7 @@
           <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="39" />
+      <option name="time" value="40" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1793,424 +1925,398 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/network/bidirectional/MessageImplantSlotsSync.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraftforge/event/entity/player/ArrowLooseEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8488889">
-          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.4965157">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/utility/PlayerHelper.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraft/client/renderer/entity/RenderArrow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.192307">
-          <caret line="97" column="30" selection-start-line="97" selection-start-column="23" selection-end-line="97" selection-end-column="40" />
+        <state vertical-scroll-proportion="-0.4738676">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/container/base/InventoryImplants.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/client/settings/Keybindings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.9485126">
-          <caret line="286" column="26" selection-start-line="286" selection-start-column="16" selection-end-line="286" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/container/ContainerImplantInv.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.099542335">
-          <caret line="36" column="19" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/events/GuiEvents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64444447">
-          <caret line="50" column="96" selection-start-line="50" selection-start-column="87" selection-end-line="50" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/handler/EventNetworkHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20659722">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/reference/Textures.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/network/PacketHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="65" column="116" selection-start-line="65" selection-start-column="116" selection-end-line="65" selection-end-column="116" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="docComment;class#PacketHandler#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraft/item/ItemStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33272728">
-          <caret line="368" column="19" selection-start-line="368" selection-start-column="16" selection-end-line="368" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/client/gui/GuiImplantInv.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.029513888">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/IronHammer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.20731707">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraft/client/network/NetHandlerPlayClient.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraft/entity/monster/EntityCreeper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.19791667">
-          <caret line="744" column="0" selection-start-line="744" selection-start-column="0" selection-end-line="744" selection-end-column="0" />
+        <state vertical-scroll-proportion="1.8375913">
+          <caret line="287" column="95" selection-start-line="287" selection-start-column="95" selection-end-line="287" selection-end-column="95" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/events/HUDEvents.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraft/world/Explosion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45333335">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="70" />
+        <state vertical-scroll-proportion="-7.6538463">
+          <caret line="144" column="65" selection-start-line="144" selection-start-column="65" selection-end-line="144" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/utility/interfaces/implantClasses/IWarrior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.095398426">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/init/Events.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelHandler/Hud/GuiLevelBar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/handler/ConfigurationHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="31" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/events/EventHandlerEntityImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4392361">
-          <caret line="151" column="68" selection-start-line="151" selection-start-column="68" selection-end-line="151" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/TestItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/base/ItemWeaponVortex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.060763888">
-          <caret line="29" column="58" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.6219512">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/equipment/tool/HardToFindiumWeapon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35416666">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.20731707">
+          <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/base/ItemVortex.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelHandler/Hud/GuiRageBar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20659722">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.2195122">
+          <caret line="33" column="62" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/client/renderer/tileentity/TileEntityBdRenderer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelHandler/Hud/HUDAbilitybar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.3871528">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/block/BlockBd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#574#575#0" expanded="false" />
-            <element signature="e#599#600#0" expanded="false" />
-            <element signature="e#699#700#0" expanded="false" />
-            <element signature="e#727#728#0" expanded="false" />
-            <element signature="e#824#825#0" expanded="false" />
-            <element signature="e#852#853#0" expanded="false" />
-            <element signature="e#931#932#0" expanded="false" />
-            <element signature="e#972#973#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraft/block/BlockContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/init/ModBlocks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.265625">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/block/BlockTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38368055">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/block/base/BlockTileEntityVortex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6493056">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/vortex/lang/en_US.lang">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraft/client/audio/SoundCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6822917">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/javax/sound/midi/Soundbank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0069444">
-          <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/javax/sound/midi/SoundbankResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2465277">
-          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraft/world/IWorldAccess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraftforge/event/entity/PlaySoundAtEntityEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6163194">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraft/world/World.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="1393" column="60" selection-start-line="1393" selection-start-column="60" selection-end-line="1393" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraft/entity/monster/EntityZombie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.023636363">
-          <caret line="359" column="16" selection-start-line="359" selection-start-column="16" selection-end-line="359" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/tileentity/TileEntityBd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20659722">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/tileentity/TileEntitySurvivalistFurnace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="123" selection-start-line="60" selection-start-column="123" selection-end-line="60" selection-end-column="123" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/client/gui/inventory/GuiSurvivalistFurnace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/Vortex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2326389">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/block/BlockSurvivalistFurnace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4982639">
-          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="99" selection-end-column="5" />
-          <folding>
-            <element signature="e#3196#3197#0" expanded="true" />
-            <element signature="e#3253#3254#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/tileentity/TileEntityAbilityChanger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/block/BlockAbilityChanger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1268#1269#0" expanded="true" />
-            <element signature="e#1321#1322#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/proxy/ClientProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/proxy/CommonProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/reference/Reference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelHandler/ClassEventHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6006711">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelHandler/GuiLevelBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelHandler/GuiRageBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45805368">
-          <caret line="48" column="49" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelHandler/ExtendedPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="206" column="10" selection-start-line="206" selection-start-column="10" selection-end-line="206" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/network/client/SyncPlayerPropsMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45302013">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/network/AbstractMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45805368">
-          <caret line="95" column="33" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.8292683">
+          <caret line="38" column="63" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/client/gui/inventory/GuiAbilityChanger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39932886">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.31881532">
+          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/tileentity/TileEntityAbilityChanger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.533101">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraft/entity/monster/EntitySpider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.967684">
+          <caret line="154" column="24" selection-start-line="154" selection-start-column="24" selection-end-line="154" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraft/block/BlockLadder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.79588336">
+          <caret line="191" column="27" selection-start-line="191" selection-start-column="19" selection-end-line="191" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/TestItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13222222">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/equipment/implant/WarriorImplant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="21" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/IronSharpener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13222222">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/handler/CraftingHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61551726">
+          <caret line="25" column="75" selection-start-line="25" selection-start-column="75" selection-end-line="25" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/utility/PlayerHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.029310346">
+          <caret line="97" column="23" selection-start-line="97" selection-start-column="23" selection-end-line="97" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/base/ItemImplantVortex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17931035">
+          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/network/bidirectional/MessageImplantSlotsSync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11724138">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/network/client/SyncPlayerPropsMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/network/PacketHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="56" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelHandler/ExtendedPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33212996">
+          <caret line="68" column="27" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelHandler/ClassEventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.14310345">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/utility/NBTHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.85">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/events/EventHandlerEntityImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8603448">
+          <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/client/handler/KeyInputEventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33103448">
+          <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/init/ModItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5862069">
+          <caret line="43" column="58" selection-start-line="43" selection-start-column="58" selection-end-line="43" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/init/Recipes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49827588">
+          <caret line="23" column="145" selection-start-line="23" selection-start-column="145" selection-end-line="23" selection-end-column="145" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/container/ContainerAbilityChanger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61551726">
+          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/client/renderer/model/ModelHardtofindiumSword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2637931">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/reference/Textures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61551726">
+          <caret line="22" column="130" selection-start-line="22" selection-start-column="113" selection-end-line="22" selection-end-column="130" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/tileentity/TileEntityBd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/client/renderer/model/ModelBlockBd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="168" column="57" selection-start-line="168" selection-start-column="51" selection-end-line="168" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/block/BlockBd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43965518">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/block/base/BlockTileEntityVortex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3104693">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1492-1.7.10/forgeSrc-1.7.10-10.13.4.1492-1.7.10-sources.jar!/net/minecraft/block/BlockContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33212996">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/client/renderer/tileentity/TileEntityBdRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2822222">
+          <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/block/BlockSurvivalistFurnace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60444444">
+          <caret line="56" column="26" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/vortex/lang/en_US.lang">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3588889">
+          <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/init/TileEntities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3224138">
+          <caret line="14" column="76" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/proxy/ClientProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55517244">
+          <caret line="39" column="101" selection-start-line="39" selection-start-column="101" selection-end-line="39" selection-end-column="101" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/init/ModBlocks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="56" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/equipment/SpikedShoes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/IronSpike.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/SpikedBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/reference/Reference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3137584">
+          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,5 +1,6 @@
 package com.goldengamer.vortex.init;
 
+import com.goldengamer.vortex.tileentity.TileEntityAbilityChanger;
 import com.goldengamer.vortex.tileentity.TileEntityBd;
 import com.goldengamer.vortex.tileentity.TileEntitySurvivalistFurnace;
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -13,5 +14,6 @@ public class TileEntities
     {
         GameRegistry.registerTileEntity(TileEntityBd.class, "tileEntityBd");
         GameRegistry.registerTileEntity(TileEntitySurvivalistFurnace.class, "survivalistFurnace");
+        GameRegistry.registerTileEntity(TileEntityAbilityChanger.class, "tileEntityAbilityChanger");
     }
 }

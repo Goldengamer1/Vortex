@@ -41,9 +41,7 @@ public class TileEntitySurvivalistFurnace extends TileEntity implements ISidedIn
 
     public String getInventoryName()
     {
-        //TODO MOVE "container.survivalistFurnace" to lang
         return this.hasCustomInventoryName() ? this.localizedName : "container.survivalistFurnace";
-
     }
 
     public boolean hasCustomInventoryName()

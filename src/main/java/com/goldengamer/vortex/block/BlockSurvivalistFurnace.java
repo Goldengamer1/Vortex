@@ -52,7 +52,7 @@ public class BlockSurvivalistFurnace extends BlockContainer {
         return Item.getItemFromBlock(ModBlocks.BLOCK_SURVIVALIST_FURNACE_IDLE);
     }
 
-    public  void onBlockAdded(World world, int x, int y, int z)
+    public void onBlockAdded(World world, int x, int y, int z)
     {
         super.onBlockAdded(world, x, y, z);
         this.setDefaultDirection(world, x, y, z);

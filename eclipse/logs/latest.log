@@ -1,36 +1,34 @@
-[17:03:53] [main/INFO]: Logging in with username & password
-[17:03:58] [main/INFO]: Setting user: goldengamer10
-[17:03:59] [Client thread/INFO]: LWJGL Version: 2.9.1
-[17:04:01] [Twitch authenticator/ERROR]: Given twitch access token is invalid
-[17:04:08] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Vortexcraft
-[17:04:09] [Sound Library Loader/INFO]: Sound engine started
-[17:04:11] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[17:04:11] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[17:04:11] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Vortexcraft
-[17:04:11] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[17:04:11] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[17:04:12] [Sound Library Loader/INFO]: Sound engine started
-[17:04:22] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[17:04:22] [Server thread/INFO]: Generating keypair
-[17:04:22] [Server thread/INFO]: Preparing start region for level 0
-[17:04:23] [Server thread/INFO]: Preparing spawn area: 89%
-[17:04:23] [Server thread/INFO]: Changing view distance to 12, from 10
-[17:04:24] [Server thread/INFO]: goldengamer10[local:E:9b77d344] logged in with entity id 325 at (132.12844206615617, 79.0, 248.60858587083388)
-[17:04:24] [Server thread/INFO]: goldengamer10 joined the game
-[17:04:24] [Server thread/INFO]: Saving and pausing game...
-[17:04:24] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[17:04:24] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[17:04:24] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[17:09:10] [Client thread/INFO]: [CHAT] You are now playing creative+
-[17:09:11] [Client thread/INFO]: [CHAT] You are now playing adventure
-[17:09:18] [Server thread/INFO]: Saving and pausing game...
-[17:09:18] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[17:09:18] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[17:09:18] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[17:09:19] [Server thread/INFO]: Stopping server
-[17:09:19] [Server thread/INFO]: Saving players
-[17:09:19] [Server thread/INFO]: Saving worlds
-[17:09:19] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[17:09:19] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[17:09:19] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[17:09:33] [Client thread/INFO]: Stopping!
+[00:22:44] [main/INFO]: Setting user: Player726
+[00:22:45] [Client thread/INFO]: LWJGL Version: 2.9.1
+[00:22:53] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Vortexcraft
+[00:22:54] [Sound Library Loader/INFO]: Sound engine started
+[00:22:55] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[00:22:55] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[00:22:56] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Vortexcraft
+[00:22:56] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[00:22:56] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[00:22:57] [Sound Library Loader/INFO]: Sound engine started
+[00:23:09] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[00:23:09] [Server thread/INFO]: Generating keypair
+[00:23:16] [Server thread/INFO]: Preparing start region for level 0
+[00:23:16] [Server thread/WARN]: Skipping BlockEntity with id tileEntityTardisTile
+[00:23:17] [Server thread/INFO]: Changing view distance to 12, from 10
+[00:23:17] [Server thread/INFO]: Player726[local:E:6afccd53] logged in with entity id 208 at (860.1842751930421, 4.0, 798.6999999880791)
+[00:23:17] [Server thread/INFO]: Player726 joined the game
+[00:23:20] [Server thread/INFO]: Saving and pausing game...
+[00:23:20] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[00:23:20] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[00:23:20] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[00:23:23] [Server thread/INFO]: Player726 has just earned the achievement [Taking Inventory]
+[00:23:23] [Client thread/INFO]: [CHAT] Player726 has just earned the achievement [Taking Inventory]
+[00:23:56] [Server thread/INFO]: Saving and pausing game...
+[00:23:56] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[00:23:56] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[00:23:56] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[00:23:56] [Server thread/INFO]: Stopping server
+[00:23:56] [Server thread/INFO]: Saving players
+[00:23:56] [Server thread/INFO]: Saving worlds
+[00:23:56] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[00:23:56] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[00:23:56] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[00:23:57] [Client thread/INFO]: Stopping!

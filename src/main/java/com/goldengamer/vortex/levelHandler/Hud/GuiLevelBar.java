@@ -1,6 +1,7 @@
-package com.goldengamer.vortex.levelHandler;
+package com.goldengamer.vortex.levelHandler.Hud;
 
 import com.goldengamer.vortex.handler.ConfigurationHandler;
+import com.goldengamer.vortex.levelHandler.ExtendedPlayer;
 import com.goldengamer.vortex.reference.Textures;
 import cpw.mods.fml.common.eventhandler.Event;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;

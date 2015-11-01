@@ -4,20 +4,31 @@ import com.goldengamer.vortex.client.settings.Keybindings;
 import com.goldengamer.vortex.network.bidirectional.MessageOpenImplantGui;
 import com.goldengamer.vortex.network.PacketHandler;
 import com.goldengamer.vortex.reference.Key;
+import com.goldengamer.vortex.utility.LogHelper;
 import cpw.mods.fml.client.FMLClientHandler;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.gameevent.InputEvent;
 import cpw.mods.fml.common.gameevent.TickEvent;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.potion.Potion;
+import net.minecraft.potion.PotionEffect;
+import net.minecraft.util.DamageSource;
+import net.minecraft.util.MovingObjectPosition;
+import net.minecraft.world.Explosion;
+import net.minecraft.world.World;
 
 /**
  * Created by golde on 15/09/2015.
  */
 public class KeyInputEventHandler
 {
+    World worldObj;
 
     @SubscribeEvent
     private static Key onKeyPress()
@@ -48,6 +59,27 @@ public class KeyInputEventHandler
             if (Keybindings.guiButton.getIsKeyPressed() && FMLClientHandler.instance().getClient().inGameHasFocus)
             {
                 PacketHandler.INSTANCE.sendToServer(new MessageOpenImplantGui(Minecraft.getMinecraft().thePlayer, 1));
+            }
+            else if (Keybindings.ability1.getIsKeyPressed())
+            {
+                LogHelper.info("ability1");
+
+            }
+            else if (Keybindings.ability2.getIsKeyPressed())
+            {
+                LogHelper.info("ability2");
+            }
+            else if (Keybindings.ability3.getIsKeyPressed())
+            {
+                LogHelper.info("ability3");
+            }
+            else if (Keybindings.ability4.getIsKeyPressed())
+            {
+                LogHelper.info("ability4");
+            }
+            else if (Keybindings.ability5.getIsKeyPressed())
+            {
+                LogHelper.info("ability5");
             }
         }
     }

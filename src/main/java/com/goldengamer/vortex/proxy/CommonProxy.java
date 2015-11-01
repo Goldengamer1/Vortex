@@ -1,5 +1,6 @@
 package com.goldengamer.vortex.proxy;
 
+import com.goldengamer.vortex.container.ContainerAbilityChanger;
 import com.goldengamer.vortex.container.ContainerImplantInv;
 import com.goldengamer.vortex.container.ContainerSurvivalistFurnace;
 import com.goldengamer.vortex.tileentity.TileEntityAbilityChanger;
@@ -35,7 +36,7 @@ public class CommonProxy implements IGuiHandler
             case 1:
                 return new ContainerImplantInv(player.inventory, !world.isRemote, player);
             case 2:
-               // return new ContainerAbilityChanger(player.inventory, (TileEntityAbilityChanger) world.getTileEntity(x, y, z));
+                return new ContainerAbilityChanger(player.inventory, world,(TileEntityAbilityChanger) world.getTileEntity(x, y, z), player);
         }
         return null;
     }

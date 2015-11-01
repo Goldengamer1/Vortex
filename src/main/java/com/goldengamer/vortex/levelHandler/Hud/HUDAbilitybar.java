@@ -1,4 +1,4 @@
-package com.goldengamer.vortex.events;
+package com.goldengamer.vortex.levelHandler.Hud;
 
 import com.goldengamer.vortex.reference.Textures;
 import com.goldengamer.vortex.utility.interfaces.IHudOverlay;
@@ -16,7 +16,7 @@ import net.minecraftforge.client.event.RenderGameOverlayEvent;
 /**
  * Created by golde on 02/10/2015.
  */
-public class HUDEvents extends Event
+public class HUDAbilitybar extends Event
 {
 
     @SubscribeEvent

@@ -21,9 +21,9 @@ public class CraftingHandler
             if(event.craftMatrix.getStackInSlot(i) != null)
             {
                 ItemStack item0 = event.craftMatrix.getStackInSlot(i);
-                    if(item0 != null && item0.getItem() == ModItems.IRON_HAMMER)
+                    if(item0 != null && item0.getItem() == ModItems.IRON_SHARPENER)
                     {
-                        ItemStack k = new ItemStack(ModItems.IRON_HAMMER, 2, (item0.getItemDamage() + 1));
+                        ItemStack k = new ItemStack(ModItems.IRON_SHARPENER, 2, (item0.getItemDamage() + 1));
 
                         if(k.getItemDamage() >= k.getMaxDamage())
                         {

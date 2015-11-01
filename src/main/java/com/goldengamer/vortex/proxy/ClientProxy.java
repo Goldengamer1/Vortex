@@ -52,7 +52,7 @@ public class ClientProxy extends CommonProxy
             case 1:
                 return new GuiImplantInv(player);
             case 2:
-                //return new GuiAbilityChanger(player.inventory, (TileEntityAbilityChanger) world.getTileEntity(x, y, z));
+                return new GuiAbilityChanger(player.inventory, world,(TileEntityAbilityChanger) world.getTileEntity(x, y, z), player);
         }
         return null;
     }

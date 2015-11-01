@@ -4,13 +4,14 @@ import com.goldengamer.vortex.item.base.ItemImplantVortex;
 import com.goldengamer.vortex.reference.ImplantType;
 import com.goldengamer.vortex.utility.LogHelper;
 import com.goldengamer.vortex.utility.interfaces.IImplant;
+import com.goldengamer.vortex.utility.interfaces.implantClasses.IWarrior;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.item.ItemStack;
 
 /**
  * Created by golde on 08/10/2015.
  */
-public class WarriorImplant extends ItemImplantVortex
+public class WarriorImplant extends ItemImplantVortex implements IWarrior
 {
     public boolean WarriorEquipped = false;
 
