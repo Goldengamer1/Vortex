@@ -6,45 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4abbc845-3602-4a52-bb3e-143d89999f44" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/block/BlockAbilityChanger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/client/gui/inventory/GuiAbilityChanger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelHandler/Hud/GuiRageBar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/utility/interfaces/implantClasses/IWarrior.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/IronSpike.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/SpikedBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/equipment/SpikedShoes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/tileentity/TileEntityAbilityChanger.java" />
-      <change type="DELETED" beforePath="D:\Users\gold\DesktopFolder\2.MC Modding Projects\Vortex 1.7.10\Vortex\src\main\java\com\goldengamer\vortex\levelHandler\GuiRageBar.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/block/BlockSurvivalistFurnace.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/block/BlockSurvivalistFurnace.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/proxy/ClientProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/proxy/ClientProxy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/proxy/CommonProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/proxy/CommonProxy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/handler/CraftingHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/handler/CraftingHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/init/Events.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/init/Events.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/equipment/tool/HardToFindiumWeapon.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/equipment/tool/HardToFindiumWeapon.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/client/handler/KeyInputEventHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/client/handler/KeyInputEventHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/reference/Material.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/reference/Material.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/init/ModBlocks.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/init/ModBlocks.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/init/ModItems.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/init/ModItems.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/init/Recipes.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/init/Recipes.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/reference/Reference.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/reference/Reference.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/reference/Textures.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/reference/Textures.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/init/TileEntities.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/init/TileEntities.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/tileentity/TileEntitySurvivalistFurnace.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/tileentity/TileEntitySurvivalistFurnace.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vortex.iws" afterPath="$PROJECT_DIR$/Vortex.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/equipment/implant/WarriorImplant.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/equipment/implant/WarriorImplant.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/vortex/lang/en_US.lang" afterPath="$PROJECT_DIR$/src/main/resources/assets/vortex/lang/en_US.lang" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-3.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-3.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-junk-earlystartup.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-junk-earlystartup.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-server-latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-server-latest.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/latest.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/server.properties" afterPath="$PROJECT_DIR$/eclipse/server.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/config/splash.properties" afterPath="$PROJECT_DIR$/eclipse/config/splash.properties" />
-      <change type="MOVED" beforePath="D:\Users\gold\DesktopFolder\2.MC Modding Projects\Vortex 1.7.10\Vortex\src\main\java\com\goldengamer\vortex\events\HUDEvents.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelHandler/Hud/HUDAbilitybar.java" />
-      <change type="MOVED" beforePath="D:\Users\gold\DesktopFolder\2.MC Modding Projects\Vortex 1.7.10\Vortex\src\main\java\com\goldengamer\vortex\item\IronHammer.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/item/IronSharpener.java" />
-      <change type="MOVED" beforePath="D:\Users\gold\DesktopFolder\2.MC Modding Projects\Vortex 1.7.10\Vortex\src\main\java\com\goldengamer\vortex\levelHandler\GuiLevelBar.java" afterPath="$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/levelHandler/Hud/GuiLevelBar.java" />
     </list>
     <ignored path="Vortex.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -141,7 +104,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/reference/Reference.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.3137584">
-              <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+              <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -1823,7 +1786,13 @@
       <option name="project" value="LOCAL" />
       <updated>1445457196084</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="V0.34&#10;                 -Some code clean up&#10;                 -ADDED Spiked shoes&#10;                 -ADDED some crafting&#10;                 &#10;                 -fixed a few bugs">
+      <created>1446337613464</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1446337613464</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1837,7 +1806,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32721382" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1878,7 +1847,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="V0.19.5&#10;-3D Items (Models using .obj)" />
     <MESSAGE value="V0.20&#10;-3D Items (Models using .obj)" />
     <MESSAGE value="V0.20.5&#10;-Furnace wip" />
     <MESSAGE value="V0.20.6&#10;-Furnace wip&#10;" />
@@ -1903,7 +1871,8 @@
     <MESSAGE value="V0.33&#10;-Leveling system WORKS!&#10;-Adding Warrior Class!&#10;-Rage System WORKS!!&#10;-todo rage system need a decay&#10;-Cleaned up some code&#10;-redone the Packet system&#10;-fixed a few bugs with the implants&#10;-redone sword item code to weapon (weapons do no left click damage)&#10;-weapons are WIP to use abilitys&#10;&#10;&#10;-WIP working on abilitys and a ability changer&#10;-WIP add level up sound &#10;" />
     <MESSAGE value="V0.33&#10;-Leveling system WORKS!&#10;-Adding Warrior Class!&#10;-Rage System WORKS!!&#10;-todo rage system need a decay&#10;-Cleaned up some code&#10;-redone the Packet system&#10;-fixed a few bugs with the implants&#10;-redone sword item code to weapon (weapons do no left click damage)&#10;-weapons are WIP to use abilitys&#10;&#10;&#10;-WIP working on abilitys and a ability changer&#10;-WIP add level up sound &#10;&#10;&#10;(REUPLOAD FORGOT TO ADD NEW CLASSES FIRST TIME)" />
     <MESSAGE value="V0.34&#10;-Some code clean up&#10;-ADDED Spiked shoes&#10;-ADDED some crafting&#10;&#10;-fixed a few bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="V0.34&#10;-Some code clean up&#10;-ADDED Spiked shoes&#10;-ADDED some crafting&#10;&#10;-fixed a few bugs" />
+    <MESSAGE value="V0.34&#10;                 -Some code clean up&#10;                 -ADDED Spiked shoes&#10;                 -ADDED some crafting&#10;                 &#10;                 -fixed a few bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="V0.34&#10;                 -Some code clean up&#10;                 -ADDED Spiked shoes&#10;                 -ADDED some crafting&#10;                 &#10;                 -fixed a few bugs" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2315,7 +2284,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/goldengamer/vortex/reference/Reference.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3137584">
-          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
           <folding />
         </state>
       </provider>
