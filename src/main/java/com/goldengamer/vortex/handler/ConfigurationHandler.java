@@ -27,6 +27,8 @@ public class ConfigurationHandler
     private static int ClassLevelText = 1;
     private static boolean ClassLevelToggle = true;
 
+    private static int WarriorDataWatcher = 20;
+
     public static void init(File configFile)
     {
         // Create the configuration object from the given configuration file
@@ -47,6 +49,7 @@ public class ConfigurationHandler
         ClassLevelBarYPos = configuration.getInt("ClassLevelBarYPos", Configuration.CATEGORY_GENERAL, 0, 0, 1000, "this will move ur Class's level Bar [Y]");
         ClassLevelText = configuration.getInt("ClassLevelText", Configuration.CATEGORY_GENERAL, 1, 1, 4, "this will move ur level Text[1-Top, 2-left, 3-right, 4-bottom]");
         ClassLevelToggle = configuration.getBoolean("ClassLevelToggle", Configuration.CATEGORY_GENERAL, true, "Toggles Level bar ON/OFF");
+        WarriorDataWatcher = configuration.getInt("WarriorDataWatcher", Configuration.CATEGORY_GENERAL, 20, 1, 100, "changes datawatcher id");
 
         if(configuration.hasChanged())
         {
@@ -98,4 +101,6 @@ public class ConfigurationHandler
     {
         return ClassLevelToggle;
     }
+
+    public static int WarriorDataWatcher() { return WarriorDataWatcher; }
 }

@@ -1,5 +1,6 @@
 package com.goldengamer.vortex.levelHandler;
 
+import com.goldengamer.vortex.handler.ConfigurationHandler;
 import com.goldengamer.vortex.network.PacketHandler;
 import com.goldengamer.vortex.network.client.SyncPlayerPropsMessage;
 import com.goldengamer.vortex.reference.Reference;
@@ -20,7 +21,7 @@ public class ExtendedPlayer implements IExtendedEntityProperties
     public final static String EXT_PROP_NAME = "ExtendedPlayer";
 
     //This is the Rage int
-    public static final int RAGE_WATCHER = 20;
+    public static final int RAGE_WATCHER = ConfigurationHandler.WarriorDataWatcher();
     //This is the warriors lv and xp
     private int warriorLV;
     private int warriorXP;
@@ -139,7 +140,6 @@ public class ExtendedPlayer implements IExtendedEntityProperties
         {
             warriorXP = 0;
             setWarriorLV(warriorLV + 1);
-
             if (this.entity instanceof EntityPlayer)
             {
                 if (warriorLV <= 5)
@@ -150,7 +150,6 @@ public class ExtendedPlayer implements IExtendedEntityProperties
                 {
                     LogHelper.info("unlock skill 2");
                 }
-
             }
             //TODO LEVEL UP SOUND
             //((EntityPlayer) this.entity).worldObj.playSoundAtEntity(player, "" , 1, 1);
