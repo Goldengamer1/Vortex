@@ -41,15 +41,15 @@ public class ConfigurationHandler
 
     private static void loadConfiguration()
     {
-        SurvivalistFurnaceParticals = configuration.getBoolean("survivalistFurnaceParticals", Configuration.CATEGORY_GENERAL, true, "Survivalist Furnace Particals ON/OFF");
-        splitSurvivalCreative = configuration.getBoolean("splitSurvivalCreative", Configuration.CATEGORY_GENERAL, false, "split Survival Creative Implants ON/OFF");
-        ClassResourceBarXPos = configuration.getInt("ClassResourceBarXPos", Configuration.CATEGORY_GENERAL, 0, 0, 1000, "this will move ur Class's resource Bar [X]");
-        ClassResourceBarYPos = configuration.getInt("ClassResourceBarYPos", Configuration.CATEGORY_GENERAL, 0, 0, 1000, "this will move ur Class's resource Bar [Y]");
-        ClassLevelBarXPos = configuration.getInt("ClassLevelBarXPos", Configuration.CATEGORY_GENERAL, 0, 0, 1000, "this will move ur Class's level Bar [X]");
-        ClassLevelBarYPos = configuration.getInt("ClassLevelBarYPos", Configuration.CATEGORY_GENERAL, 0, 0, 1000, "this will move ur Class's level Bar [Y]");
-        ClassLevelText = configuration.getInt("ClassLevelText", Configuration.CATEGORY_GENERAL, 1, 1, 4, "this will move ur level Text[1-Top, 2-left, 3-right, 4-bottom]");
-        ClassLevelToggle = configuration.getBoolean("ClassLevelToggle", Configuration.CATEGORY_GENERAL, true, "Toggles Level bar ON/OFF");
-        WarriorDataWatcher = configuration.getInt("WarriorDataWatcher", Configuration.CATEGORY_GENERAL, 20, 1, 100, "changes datawatcher id");
+        SurvivalistFurnaceParticals = configuration.getBoolean("survivalistFurnaceParticals", Configuration.CATEGORY_GENERAL, true, "Toggle Survivalist Furnace Particals ON/OFF");
+        splitSurvivalCreative = configuration.getBoolean("splitSurvivalCreative", Configuration.CATEGORY_GENERAL, false, "Toggle split survival creative implants ON/OFF");
+        ClassResourceBarXPos = configuration.getInt("ClassResourceBarXPos", Configuration.CATEGORY_GENERAL, 0, 0, 1000, "Class resource bar [X] Pos");
+        ClassResourceBarYPos = configuration.getInt("ClassResourceBarYPos", Configuration.CATEGORY_GENERAL, 0, 0, 1000, "Class resource bar [Y] Pos");
+        ClassLevelBarXPos = configuration.getInt("ClassLevelBarXPos", Configuration.CATEGORY_GENERAL, 0, 0, 1000, "Class level Bar [X] Pos");
+        ClassLevelBarYPos = configuration.getInt("ClassLevelBarYPos", Configuration.CATEGORY_GENERAL, 0, 0, 1000, "Class level Bar [Y] Pos");
+        ClassLevelText = configuration.getInt("ClassLevelText", Configuration.CATEGORY_GENERAL, 1, 1, 4, "Class level text position[1-Top, 2-left, 3-right, 4-bottom]");
+        ClassLevelToggle = configuration.getBoolean("ClassLevelToggle", Configuration.CATEGORY_GENERAL, true, "Toggle level bar ON/OFF");
+        WarriorDataWatcher = configuration.getInt("WarriorDataWatcher", Configuration.CATEGORY_GENERAL, 20, 1, 100, "Changes datawatcher ID");
 
         if(configuration.hasChanged())
         {
