@@ -1,5 +1,6 @@
 package com.goldengamer.vortex.item.equipment.tool;
 
+        import com.goldengamer.vortex.item.base.ItemBound;
         import com.goldengamer.vortex.item.base.ItemWeaponVortex;
         import com.goldengamer.vortex.utility.LogHelper;
         import com.goldengamer.vortex.utility.Vector3;
@@ -38,6 +39,12 @@ public class HardToFindiumWeapon extends ItemWeaponVortex implements IHudOverlay
     @Override
     public ItemStack onItemRightClick(ItemStack item, World world, EntityPlayer player)
     {
+        super.onItemRightClick(item, world, player);
+        if (!ItemBound.checkAndSetItemOwner(item, player) || player.isSneaking())
+        {
+            item.getTagCompound().setInteger("worldTimeDeley", (int) (world.getWorldTime() - 1) % 100);
+            return item;
+        }
         //int just for debug
         int a = 0;
 
