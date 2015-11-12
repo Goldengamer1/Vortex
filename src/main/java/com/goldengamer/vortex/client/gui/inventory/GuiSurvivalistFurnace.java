@@ -33,7 +33,7 @@ public class GuiSurvivalistFurnace extends GuiContainer
         String name = "Survivalist Furnace";
 
         this.fontRendererObj.drawString(name, this.xSize / 2 - this.fontRendererObj.getStringWidth(name) / 2, 6, 4210752);
-        this.fontRendererObj.drawString(I18n.format("container.container", new Object[0]), 118, this.ySize - 96 + 2, 4210752);
+       // this.fontRendererObj.drawString(I18n.format("container.container", new Object[0]), 118, this.ySize - 96 + 2, 4210752);
     }
 
     @Override

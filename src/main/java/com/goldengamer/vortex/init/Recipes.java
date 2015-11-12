@@ -20,6 +20,7 @@ public class Recipes
         GameRegistry.addRecipe(new ItemStack(ModItems.SPIKED_BASE), "   ", "zzz", "xxx", 'z', new ItemStack(Items.iron_ingot), 'x', new ItemStack(ModItems.IRON_SPIKE));
         GameRegistry.addRecipe(new ItemStack(ModItems.SPIKED_CLAWS), "v v", "z z", "x x", 'z', new ItemStack(Items.iron_ingot), 'x', new ItemStack(ModItems.SPIKED_BASE), 'v', new ItemStack(Items.slime_ball));
         GameRegistry.addRecipe(new ItemStack(ModItems.IRON_SHARPENER), "vvv", "xzx", "vvv", 'z', new ItemStack(Blocks.iron_block), 'x', new ItemStack(Items.diamond), 'v', new ItemStack(Items.flint));
+        GameRegistry.addRecipe(new ItemStack(ModItems.POKING_STICK), "  v", "zx ", "zz ", 'z', new ItemStack(Items.stick), 'x', new ItemStack(Blocks.sticky_piston), 'v', new ItemStack(ModItems.SHARPENED_STICK));
 
         GameRegistry.addRecipe(new ItemStack(ModBlocks.BLOCK_SURVIVALIST_FURNACE_IDLE), "zxz", "zvz", "zcz", 'z', new ItemStack(Blocks.stonebrick), 'x', new ItemStack(Blocks.furnace), 'v', new ItemStack(Blocks.coal_block), 'c', new ItemStack(Items.bucket));
         //Shapeless Recipes
@@ -32,5 +33,6 @@ public class Recipes
         //GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.TEST_ITEM, 4), " s ", "sss", " s ", 's', "stickWood"));
         //Shapless OreDic- Recipes
         GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.IRON_SPIKE), new ItemStack(ModItems.IRON_SHARPENER, 1 , OreDictionary.WILDCARD_VALUE), new ItemStack(Items.iron_ingot), new ItemStack(Items.flint)));
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.SHARPENED_STICK), new ItemStack(ModItems.IRON_SHARPENER, 1 , OreDictionary.WILDCARD_VALUE), new ItemStack(Items.stick)));
     }
 }

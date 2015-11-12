@@ -14,6 +14,7 @@ import net.minecraft.item.ItemSword;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
+import net.minecraft.util.EnumChatFormatting;
 import net.minecraft.util.StatCollector;
 import net.minecraft.world.World;
 
@@ -91,7 +92,7 @@ public class ItemWeaponVortex extends Item implements IBindable
         {
             if (!par1ItemStack.getTagCompound().getString("ownerName").equals(""))
             {
-                par3List.add(StatCollector.translateToLocal("tooltip.vortex:owner") + " " + par1ItemStack.getTagCompound().getString("ownerName"));
+                par3List.add(EnumChatFormatting.GOLD + StatCollector.translateToLocal("tooltip.vortex:owner") + EnumChatFormatting.GRAY +  " " + par1ItemStack.getTagCompound().getString("ownerName"));
             }else{
                 par3List.add(StatCollector.translateToLocal("tooltip.vortex:desc1"));
                 par3List.add(StatCollector.translateToLocal("tooltip.vortex:desc2"));

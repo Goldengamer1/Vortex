@@ -1,4 +1,4 @@
-package com.goldengamer.vortex.item;
+package com.goldengamer.vortex.item.equipment.tool;
 
 import com.goldengamer.vortex.item.base.ItemVortex;
 
@@ -15,5 +15,4 @@ public class IronSharpener extends ItemVortex
         this.setMaxDamage(64);
         this.setNoRepair();
     }
-
 }

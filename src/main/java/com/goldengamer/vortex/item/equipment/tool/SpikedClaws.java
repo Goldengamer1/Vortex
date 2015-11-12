@@ -1,4 +1,4 @@
-package com.goldengamer.vortex.item.equipment;
+package com.goldengamer.vortex.item.equipment.tool;
 
 import com.goldengamer.vortex.item.base.ItemBound;
 import com.goldengamer.vortex.item.base.ItemImplantVortex;
@@ -8,6 +8,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.EnumChatFormatting;
 import net.minecraft.util.StatCollector;
 import net.minecraft.world.World;
 
@@ -20,6 +21,7 @@ public class SpikedClaws extends ItemBound
 {
     public boolean isActive;
     public int cooldown = 0;
+    public int fallingBuffer = 0;
 
     public SpikedClaws()
     {
@@ -37,11 +39,21 @@ public class SpikedClaws extends ItemBound
         {
             cooldown--;
         }
+        if (entity instanceof EntityPlayer && fallingBuffer > 0)
+        {
+            fallingBuffer--;
+        }
+        if (entity instanceof EntityPlayer && fallingBuffer > 0)
+        {
+            entity.fallDistance = 0.0F;
+        }
+
         if (entity instanceof EntityPlayer && isActive == true) {
 
             if (entity.isCollidedHorizontally)
             {
-                entity.fallDistance = 0.0F;
+                //entity.fallDistance = 0.0F;
+                fallingBuffer = 50;
                 if (entity.isSneaking()) {
                     entity.motionY = 0.0D;
                 } else {
@@ -56,7 +68,8 @@ public class SpikedClaws extends ItemBound
                 if (motionY > 0.0D && (motionX == 0D || motionZ == 0D))
                 {
                     //most likely climbing.
-                    entity.fallDistance = 0.0F;
+                    //entity.fallDistance = 0.0F;
+                    fallingBuffer = 50;
                 }
             }
         }
@@ -88,13 +101,13 @@ public class SpikedClaws extends ItemBound
         {
             if (!par1ItemStack.getTagCompound().getString("ownerName").equals(""))
             {
-                par3List.add(StatCollector.translateToLocal("tooltip.vortex:owner") + " " + par1ItemStack.getTagCompound().getString("ownerName"));
+                par3List.add(EnumChatFormatting.GOLD + StatCollector.translateToLocal("tooltip.vortex:owner") + EnumChatFormatting.GRAY + " " + par1ItemStack.getTagCompound().getString("ownerName"));
                 if (isActive == true)
                 {
-                    par3List.add(StatCollector.translateToLocal("tooltip.vortex:desc3"));
+                    par3List.add(EnumChatFormatting.GREEN + StatCollector.translateToLocal("tooltip.vortex:desc3"));
                 }
                 else{
-                    par3List.add(StatCollector.translateToLocal("tooltip.vortex:desc4"));
+                    par3List.add(EnumChatFormatting.RED + StatCollector.translateToLocal("tooltip.vortex:desc4"));
                 }
             }else{
                 par3List.add(StatCollector.translateToLocal("tooltip.vortex:desc1"));

@@ -18,6 +18,6 @@ public class Keybindings
     public static KeyBinding ability5 = new KeyBinding(Names.Keys.ABILITY5, Keyboard.KEY_B, Names.Keys.CATEGORY);
 
     //GUI
-    public static KeyBinding guiButton = new KeyBinding(Names.Keys.GUIBUTTON, Keyboard.KEY_GRAVE, Names.Keys.CATEGORY);
+    public static KeyBinding guiButton = new KeyBinding(Names.Keys.GUIBUTTON, Keyboard.KEY_I, Names.Keys.CATEGORY);
 
 }

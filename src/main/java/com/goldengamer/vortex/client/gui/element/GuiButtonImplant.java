@@ -5,6 +5,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.renderer.OpenGlHelper;
+import net.minecraft.util.ResourceLocation;
 import org.lwjgl.opengl.GL11;
 
 /**
@@ -14,6 +15,8 @@ import org.lwjgl.opengl.GL11;
 //This Class renders the Button after activated by the GuiEvent class
 public class GuiButtonImplant extends GuiButton
 {
+    private static final ResourceLocation texture = new ResourceLocation("vortex:textures/gui/container/implantinventory.png");
+
     public GuiButtonImplant(int buttonId, int x, int y, int width, int height, String buttonText)
     {
         super(buttonId, x, y, width, height, buttonText);
@@ -26,7 +29,7 @@ public class GuiButtonImplant extends GuiButton
             FontRenderer fontRenderer = mc.fontRenderer;
 
             //Binds texture for the button
-            mc.getTextureManager().bindTexture(Textures.Gui.IMPLANT_GUI);
+            mc.getTextureManager().bindTexture(texture);
             GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
             this.field_146123_n = xx >= this.xPosition && yy >= this.yPosition && xx < this.xPosition + this.width && yy < this.yPosition + this.height;
             int k = this.getHoverState(this.field_146123_n);

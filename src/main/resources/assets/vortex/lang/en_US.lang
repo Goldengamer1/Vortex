@@ -5,6 +5,7 @@ itemGroup.vortex= Vortexcraft
 item.vortex:TEST_ITEM.name=Test Item
 item.vortex:IRON_SPIKE.name=Iron Spike
 item.vortex:SPIKED_BASE.name=Spiked Base
+item.vortex:SHARPENED_STICK.name=Sharpened Stick
 
 item.vortex:IRON_SHARPENER.name=Iron Sharpener
 item.vortex:HARDTOFINDIUM_PICKAXE.name=HardToFindium Pickaxe
@@ -14,6 +15,7 @@ item.vortex:HARDTOFINDIUM_SWORD.name=HardToFindium Sword
 
 item.vortex:WARRIOR_IMPLANT.name=Warriors Implant
 item.vortex:SPIKED_CLAWS.name=Spiked Claws
+item.vortex:POKING_STICK.name=Player Poking Stick [WIP]
 
 
 #Block localization
@@ -39,6 +41,9 @@ tooltip.vortex:desc1=RIGHT CLICK ME!
 tooltip.vortex:desc2=TO UNLOCK MY FULL POWER!
 tooltip.vortex:desc3=Tool Is ON
 tooltip.vortex:desc4=Tool Is OFF
+tooltip.vortex:desc5=Item OFF Cooldown!
+tooltip.vortex:desc6=Item ON Cooldown
+tooltip.vortex:desc7=Has a 60 second cooldown
 
 #Button localization
 button.vortex:implant=Implant

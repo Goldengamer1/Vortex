@@ -69,6 +69,7 @@ public class Vortex
         Recipes.init();
         proxy.registerRenderThings();
         TileEntities.init();
+        Entity.init();
 
         GameRegistry.registerFuelHandler(new FuelHandler());
         LogHelper.info(("Init Complete!"));

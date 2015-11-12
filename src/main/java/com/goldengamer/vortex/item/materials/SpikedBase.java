@@ -1,4 +1,4 @@
-package com.goldengamer.vortex.item;
+package com.goldengamer.vortex.item.materials;
 
 import com.goldengamer.vortex.item.base.ItemVortex;
 

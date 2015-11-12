@@ -13,6 +13,7 @@ import net.minecraft.client.renderer.RenderHelper;
 import net.minecraft.client.renderer.entity.RenderManager;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.util.ResourceLocation;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL12;
 
@@ -23,7 +24,7 @@ public class GuiImplantInv extends GuiContainer
 {
     private float xSizeFloat;
     private float ySizeFloat;
-
+    private static final ResourceLocation texture = new ResourceLocation("vortex:textures/gui/container/implantinventory.png");
 
     public GuiImplantInv(EntityPlayer player)
     {
@@ -42,7 +43,7 @@ public class GuiImplantInv extends GuiContainer
     protected void drawGuiContainerBackgroundLayer(float f, int i, int j)
     {
         GL11.glColor3f(1F, 1F, 1F);
-        this.mc.getTextureManager().bindTexture(Textures.Gui.IMPLANT_GUI);
+        this.mc.getTextureManager().bindTexture(texture);
         int k = this.guiLeft;
         int l = this.guiTop;
         this.drawTexturedModalRect(k, l, 0, 0, this.xSize, this.ySize);
